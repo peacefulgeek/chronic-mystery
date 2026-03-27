@@ -16,7 +16,19 @@ async function startServer() {
       ? path.resolve(__dirname, "public")
       : path.resolve(__dirname, "..", "dist", "public");
 
-  app.use(express.static(staticPath));
+  // AI opt-out headers on all responses
+  app.use((_req, res, next) => {
+    res.setHeader("X-Robots-Tag", "noai, noimageai");
+    next();
+  });
+
+  // Static files with caching
+  app.use(
+    express.static(staticPath, {
+      maxAge: "1d",
+      etag: true,
+    })
+  );
 
   // Handle client-side routing - serve index.html for all routes
   app.get("*", (_req, res) => {
