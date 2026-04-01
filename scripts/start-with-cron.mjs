@@ -1,22 +1,21 @@
 #!/usr/bin/env node
 /**
- * start-with-cron.mjs — Article Auto-Publisher for Chronic Mystery
+ * start-with-cron.mjs — Cron Manager for Chronic Mystery
  *
- * This script manages the scheduled publishing of articles.
- * Articles are pre-written and stored in articles.json with future dates.
- * The cron simply ensures the server restarts periodically so date-gated
- * articles become visible as their publish dates arrive.
+ * Two cron jobs:
+ *   1. Article Auto-Publisher: Articles are pre-written with future dates.
+ *      The cron logs publishing status every 6 hours. Date-gated articles
+ *      become visible automatically as their publish dates arrive.
+ *      Schedule: 5/day for 30 days, then 5/week (Mondays) for 24 weeks.
  *
- * Schedule:
- *   Phase 1 (first 30 days): 5 articles/day → 150 articles
- *   Phase 2 (24 weeks): 5 articles/week (Mondays) → 120 articles
- *   30 articles pre-published at launch
+ *   2. Product Spotlight (Weekly, Saturdays): Logs a reminder that a new
+ *      product spotlight article should be created. In production, this
+ *      would trigger an API call to generate and publish a new product
+ *      review article. For now, 3 initial product spotlight articles are
+ *      included in the articles.json.
  *
  * Usage:
  *   node scripts/start-with-cron.mjs
- *
- * The articles.json already has dates spread across the schedule.
- * This script just logs the publishing status and can trigger rebuilds.
  */
 
 import { readFileSync, writeFileSync } from "fs";
@@ -42,25 +41,18 @@ function getPublishingStatus() {
   const now = new Date();
   const published = articles.filter((a) => new Date(a.dateISO) <= now);
   const scheduled = articles.filter((a) => new Date(a.dateISO) > now);
-
-  // Group scheduled by week
-  const byWeek = {};
-  for (const a of scheduled) {
-    const d = new Date(a.dateISO);
-    const weekStart = new Date(d);
-    weekStart.setDate(d.getDate() - d.getDay());
-    const key = weekStart.toISOString().split("T")[0];
-    byWeek[key] = (byWeek[key] || 0) + 1;
-  }
+  const productSpotlights = articles.filter((a) =>
+    a.title && a.title.toLowerCase().includes("product spotlight")
+  );
 
   return {
     total: articles.length,
     published: published.length,
     scheduled: scheduled.length,
+    productSpotlights: productSpotlights.length,
     nextUp: scheduled.length > 0
       ? scheduled.sort((a, b) => new Date(a.dateISO) - new Date(b.dateISO))[0]
       : null,
-    weeklyBreakdown: byWeek,
   };
 }
 
@@ -79,25 +71,52 @@ function startServer() {
   return server;
 }
 
-function runCronCheck() {
+// CRON 1: Article publishing status check (every 6 hours)
+function runPublishingCheck() {
   const status = getPublishingStatus();
-  log(`Publishing status: ${status.published}/${status.total} published, ${status.scheduled} scheduled`);
+  log(`[CRON-1 PUBLISH] ${status.published}/${status.total} published, ${status.scheduled} scheduled, ${status.productSpotlights} product spotlights`);
 
   if (status.nextUp) {
     const nextDate = new Date(status.nextUp.dateISO);
     const hoursUntil = Math.round((nextDate - new Date()) / (1000 * 60 * 60));
-    log(`Next article: "${status.nextUp.title}" in ${hoursUntil}h (${status.nextUp.dateISO})`);
+    log(`[CRON-1 PUBLISH] Next: "${status.nextUp.title}" in ${hoursUntil}h`);
   } else {
-    log("All articles published.");
+    log("[CRON-1 PUBLISH] All articles published.");
   }
 }
 
-// Run initial status check
-log("=== Chronic Mystery Auto-Publisher Starting ===");
-runCronCheck();
+// CRON 2: Product spotlight reminder (weekly, Saturdays)
+function runProductSpotlightCheck() {
+  const day = new Date().getDay();
+  if (day !== 6) return; // Only run on Saturdays
 
-// Schedule status checks every 6 hours
-setInterval(runCronCheck, 6 * 60 * 60 * 1000);
+  log("[CRON-2 SPOTLIGHT] Weekly product spotlight check — Saturday");
+  log("[CRON-2 SPOTLIGHT] TODO: Generate new product spotlight article");
+  log("[CRON-2 SPOTLIGHT] In production, this triggers article generation via API");
+
+  // In a full implementation, this would:
+  // 1. Select a product from the Tools page catalog
+  // 2. Generate a 1500-word review article using the Kalesh voice
+  // 3. Generate a hero image and OG image
+  // 4. Upload images to Bunny CDN
+  // 5. Add the article to articles.json
+  // 6. Trigger a rebuild
+}
+
+// === STARTUP ===
+log("=== Chronic Mystery Cron Manager Starting ===");
+log("CRON-1: Article auto-publisher (every 6h)");
+log("CRON-2: Product spotlight (weekly, Saturdays)");
+
+// Initial checks
+runPublishingCheck();
+runProductSpotlightCheck();
+
+// Schedule CRON-1: every 6 hours
+setInterval(runPublishingCheck, 6 * 60 * 60 * 1000);
+
+// Schedule CRON-2: check every 12 hours (runs logic only on Saturdays)
+setInterval(runProductSpotlightCheck, 12 * 60 * 60 * 1000);
 
 // Start the server
 startServer();

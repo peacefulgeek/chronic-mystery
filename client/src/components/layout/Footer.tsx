@@ -79,6 +79,30 @@ export default function Footer() {
                   All Articles
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/tools"
+                  className="text-sm hover:text-white transition-colors"
+                >
+                  Tools We Recommend
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/quizzes"
+                  className="text-sm hover:text-white transition-colors"
+                >
+                  Quizzes
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/assessments"
+                  className="text-sm hover:text-white transition-colors"
+                >
+                  Assessments
+                </Link>
+              </li>
             </ul>
             <h4 className="font-sans text-xs font-semibold uppercase tracking-wider text-white/40 mb-3 mt-6">
               Legal
@@ -111,8 +135,15 @@ export default function Footer() {
           </p>
         </div>
 
+        {/* Amazon Associate Disclosure */}
+        <div className="mt-4">
+          <p className="text-xs text-white/30">
+            As an Amazon Associate I earn from qualifying purchases.
+          </p>
+        </div>
+
         {/* Copyright */}
-        <div className="mt-4 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2">
+        <div className="mt-2 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2">
           <p className="text-xs text-white/30">
             &copy; {year} {SITE_CONFIG.editorialName}. All rights reserved.
           </p>

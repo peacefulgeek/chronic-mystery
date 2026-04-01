@@ -13,6 +13,9 @@ import StartHerePage from "./pages/StartHerePage";
 import EnergyAuditPage from "./pages/EnergyAuditPage";
 import PrivacyPage from "./pages/PrivacyPage";
 import TermsPage from "./pages/TermsPage";
+import QuizzesPage from "./pages/QuizzesPage";
+import AssessmentsPage from "./pages/AssessmentsPage";
+import ToolsPage from "./pages/ToolsPage";
 import NotFound from "./pages/NotFound";
 
 function Router() {
@@ -25,6 +28,9 @@ function Router() {
       <Route path="/about" component={AboutPage} />
       <Route path="/start-here" component={StartHerePage} />
       <Route path="/energy-audit" component={EnergyAuditPage} />
+      <Route path="/quizzes" component={QuizzesPage} />
+      <Route path="/assessments" component={AssessmentsPage} />
+      <Route path="/tools" component={ToolsPage} />
       <Route path="/privacy" component={PrivacyPage} />
       <Route path="/terms" component={TermsPage} />
       <Route path="/404" component={NotFound} />

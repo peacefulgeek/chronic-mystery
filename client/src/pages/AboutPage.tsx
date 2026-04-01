@@ -3,6 +3,8 @@ import { SITE_CONFIG } from "@/data/types";
 import SeoHead from "@/components/seo/SeoHead";
 import JsonLd from "@/components/seo/JsonLd";
 
+const AUTHOR_IMAGE = "https://chronic-mystery.b-cdn.net/images/author/kalesh.webp";
+
 export default function AboutPage() {
   return (
     <>
@@ -60,31 +62,56 @@ export default function AboutPage() {
               symptoms — you're dealing with a life that changed.
             </p>
 
-            <h2>Spiritual Advisor</h2>
+            <h2>About Kalesh</h2>
 
-            <p>
-              <strong>{SITE_CONFIG.authorName}</strong> is a consciousness teacher
-              and writer whose work explores the intersection of ancient
-              contemplative traditions and modern neuroscience. With decades of
-              practice in meditation, breathwork, and somatic inquiry, he guides
-              others toward embodied awareness — the kind that doesn't bypass
-              difficulty but moves through it with presence.
-            </p>
+            {/* Author bio card with image */}
+            <div className="flex flex-col sm:flex-row gap-6 my-8 p-6 bg-muted/30 border border-border rounded-sm">
+              <div className="flex-shrink-0">
+                <img
+                  src={AUTHOR_IMAGE}
+                  alt={SITE_CONFIG.authorName}
+                  width={180}
+                  height={180}
+                  className="w-[180px] h-[180px] rounded-full object-cover mx-auto sm:mx-0"
+                />
+              </div>
+              <div>
+                <h3 className="font-serif text-xl font-bold mb-1">
+                  {SITE_CONFIG.authorName}
+                </h3>
+                <p className="text-sm text-heather font-sans font-medium mb-3">
+                  {SITE_CONFIG.authorTitle}
+                </p>
+                <p className="text-sm leading-relaxed mb-4">
+                  Kalesh is a consciousness teacher and writer whose work explores
+                  the intersection of ancient contemplative traditions and modern
+                  neuroscience. With decades of practice in meditation, breathwork,
+                  and somatic inquiry, he guides others toward embodied awareness —
+                  the kind that doesn't bypass difficulty but moves through it with
+                  presence.
+                </p>
+                <div className="flex flex-wrap gap-3">
+                  <a
+                    href={SITE_CONFIG.authorLink}
+                    className="inline-block px-5 py-2 bg-heather text-white text-sm font-sans font-medium rounded-sm hover:bg-heather/90 transition-colors"
+                  >
+                    Book a Session
+                  </a>
+                  <a
+                    href={SITE_CONFIG.authorLink}
+                    className="inline-block px-5 py-2 border border-heather text-heather text-sm font-sans font-medium rounded-sm hover:bg-heather/10 transition-colors"
+                  >
+                    Visit kalesh.love &rarr;
+                  </a>
+                </div>
+              </div>
+            </div>
 
             <p>
               His perspective informs the deeper threads running through this site:
               that illness can be a teacher, that rest is not failure, and that the
               body's wisdom often exceeds what the mind can explain. Kalesh doesn't
               offer easy answers. He asks better questions.
-            </p>
-
-            <p>
-              <a
-                href={SITE_CONFIG.authorLink}
-                className="text-heather hover:underline font-medium"
-              >
-                Visit {SITE_CONFIG.authorName} &rarr;
-              </a>
             </p>
 
             <h2>What This Site Is Not</h2>

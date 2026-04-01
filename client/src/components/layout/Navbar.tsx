@@ -160,9 +160,35 @@ export default function Navbar() {
                   >
                     All Articles
                   </Link>
+                  <Link
+                    href="/quizzes"
+                    className="block px-4 py-2 text-sm font-sans hover:bg-muted transition-colors"
+                  >
+                    Quizzes
+                  </Link>
+                  <Link
+                    href="/assessments"
+                    className="block px-4 py-2 text-sm font-sans hover:bg-muted transition-colors"
+                  >
+                    Assessments
+                  </Link>
+                  <Link
+                    href="/energy-audit"
+                    className="block px-4 py-2 text-sm font-sans hover:bg-muted transition-colors"
+                  >
+                    Energy Audit
+                  </Link>
                 </div>
               )}
             </div>
+
+            {/* Tools */}
+            <Link
+              href="/tools"
+              className="hidden md:block text-sm font-sans font-medium hover:text-heather transition-colors px-2 py-1"
+            >
+              Tools
+            </Link>
 
             {/* About */}
             <Link
@@ -225,6 +251,24 @@ export default function Navbar() {
                 className="block py-3 px-3 text-sm font-sans font-medium hover:bg-muted rounded-sm"
               >
                 Energy Audit
+              </Link>
+              <Link
+                href="/tools"
+                className="block py-3 px-3 text-sm font-sans font-medium hover:bg-muted rounded-sm"
+              >
+                Tools We Recommend
+              </Link>
+              <Link
+                href="/quizzes"
+                className="block py-3 px-3 text-sm font-sans font-medium hover:bg-muted rounded-sm"
+              >
+                Quizzes
+              </Link>
+              <Link
+                href="/assessments"
+                className="block py-3 px-3 text-sm font-sans font-medium hover:bg-muted rounded-sm"
+              >
+                Assessments
               </Link>
             </div>
           </div>

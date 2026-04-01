@@ -65,6 +65,18 @@ export default function PrivacyPage() {
             {SITE_CONFIG.disclaimer}
           </p>
 
+          <h2>Affiliate Disclosure</h2>
+          <p>
+            As an Amazon Associate I earn from qualifying purchases.
+          </p>
+          <p>
+            This site is a participant in the Amazon Services LLC Associates
+            Program, an affiliate advertising program designed to provide a means
+            for sites to earn advertising fees by advertising and linking to
+            Amazon.com. Some links on this site are affiliate links, meaning we
+            may earn a small commission at no additional cost to you.
+          </p>
+
           <h2>Changes to This Policy</h2>
           <p>
             We may update this privacy policy from time to time. Changes will be

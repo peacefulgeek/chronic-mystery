@@ -14,6 +14,12 @@ import ShareButtons from "@/components/article/ShareButtons";
 import SeoHead from "@/components/seo/SeoHead";
 import JsonLd from "@/components/seo/JsonLd";
 
+const AUTHOR_IMAGE = "https://chronic-mystery.b-cdn.net/images/author/kalesh.webp";
+
+function hasAmazonLinks(body: string): boolean {
+  return /amazon\.com\/dp\//i.test(body);
+}
+
 export default function ArticlePage() {
   const params = useParams<{ slug: string }>();
   const article = getArticleBySlug(params.slug || "");
@@ -97,6 +103,7 @@ export default function ArticlePage() {
     [article.id, ...related.map((r) => r.id), ...crossCategory.map((c) => c.id)],
     5
   );
+  const showAffiliateDisclosure = hasAmazonLinks(article.body);
 
   const breadcrumbs = [
     { name: "Home", url: SITE_CONFIG.url },
@@ -183,6 +190,16 @@ export default function ArticlePage() {
               className="w-full aspect-video object-cover mb-6"
             />
 
+            {/* Affiliate Disclosure (only on articles with Amazon links) */}
+            {showAffiliateDisclosure && (
+              <div className="mb-4 px-4 py-3 bg-amber-50 border border-amber-200 rounded-sm">
+                <p className="text-xs text-amber-800 leading-relaxed">
+                  This article contains affiliate links. We may earn a small commission
+                  if you make a purchase — at no extra cost to you.
+                </p>
+              </div>
+            )}
+
             {/* Category + Date + Reading time */}
             <div className="flex flex-wrap items-center gap-3 mb-3">
               <Link
@@ -207,6 +224,28 @@ export default function ArticlePage() {
             <h1 className="font-serif text-3xl md:text-4xl font-bold leading-tight mb-4">
               {article.title}
             </h1>
+
+            {/* Author byline */}
+            <div className="flex items-center gap-3 mb-4">
+              <img
+                src={AUTHOR_IMAGE}
+                alt={SITE_CONFIG.authorName}
+                width={36}
+                height={36}
+                className="w-9 h-9 rounded-full object-cover"
+              />
+              <div>
+                <a
+                  href={SITE_CONFIG.authorLink}
+                  className="text-sm font-sans font-medium hover:text-heather transition-colors"
+                >
+                  {SITE_CONFIG.authorName}
+                </a>
+                <p className="text-xs text-muted-foreground">
+                  {SITE_CONFIG.authorTitle}
+                </p>
+              </div>
+            </div>
 
             {/* Share buttons */}
             <div className="mb-6">
@@ -260,16 +299,32 @@ export default function ArticlePage() {
               </section>
             )}
 
-            {/* Disclaimer */}
-            <div className="mt-8 p-4 bg-muted/50 border border-border rounded-sm">
-              <p className="text-xs text-muted-foreground italic leading-relaxed">
-                {SITE_CONFIG.disclaimer}
+            {/* Health Disclaimer Card */}
+            <div className="mt-8 p-5 bg-gradient-to-br from-sage/10 to-sage/5 border border-sage/30 rounded-sm">
+              <h3 className="font-serif text-sm font-bold text-sage mb-2">
+                Health Information Disclaimer
+              </h3>
+              <p className="text-sm text-foreground/80 leading-relaxed">
+                The content on this site is provided for educational and informational purposes only and is not intended as a substitute for professional medical advice, diagnosis, or treatment. Chronic fatigue conditions such as ME/CFS are complex medical issues that require individualized care from qualified healthcare providers. Always consult your physician or other qualified health professional before making any changes to your treatment plan or health practices. Never disregard professional medical advice or delay seeking it because of something you have read on this website.
               </p>
             </div>
 
             {/* Share buttons bottom */}
             <div className="mt-6">
               <ShareButtons title={article.title} slug={article.slug} />
+            </div>
+
+            {/* Tools Recommendation */}
+            <div className="mt-6 p-4 bg-muted/50 border border-border rounded-sm text-center">
+              <p className="text-sm text-muted-foreground mb-2">
+                Looking for resources that actually help?
+              </p>
+              <Link
+                href="/tools"
+                className="text-sm font-sans font-medium text-heather hover:underline"
+              >
+                See our recommended tools &rarr;
+              </Link>
             </div>
 
             {/* Related Coverage */}
@@ -290,25 +345,36 @@ export default function ArticlePage() {
           {/* Right: Sidebar */}
           <aside className="hidden lg:block">
             <div className="sticky top-20 space-y-8">
-              {/* Kalesh Bio Card */}
-              <div className="border border-border p-4 rounded-sm">
-                <p className="text-xs font-sans font-semibold uppercase tracking-wider text-muted-foreground mb-2">
+              {/* Kalesh Bio Card with Image */}
+              <div className="border border-border p-4 rounded-sm text-center">
+                <img
+                  src={AUTHOR_IMAGE}
+                  alt={SITE_CONFIG.authorName}
+                  width={120}
+                  height={120}
+                  className="w-[120px] h-[120px] rounded-full object-cover mx-auto mb-3"
+                />
+                <p className="text-xs font-sans font-semibold uppercase tracking-wider text-muted-foreground mb-1">
                   Spiritual Advisor
                 </p>
                 <h3 className="font-serif text-lg font-bold mb-1">
                   {SITE_CONFIG.authorName}
                 </h3>
-                <p className="text-xs text-muted-foreground mb-1">
-                  {SITE_CONFIG.authorTitle}
-                </p>
                 <p className="text-sm text-muted-foreground leading-relaxed mb-3">
-                  {SITE_CONFIG.authorBio}
+                  Kalesh is a mystic and spiritual advisor who brings ancient wisdom and depth to life's biggest decisions.
                 </p>
                 <a
                   href={SITE_CONFIG.authorLink}
-                  className="inline-block text-sm font-sans font-medium text-heather hover:underline"
+                  className="inline-block px-4 py-2 bg-heather text-white text-sm font-sans font-medium rounded-sm hover:bg-heather/90 transition-colors mb-2"
                 >
-                  {SITE_CONFIG.authorLinkText}
+                  Book a Session
+                </a>
+                <br />
+                <a
+                  href={SITE_CONFIG.authorLink}
+                  className="text-xs font-sans text-heather hover:underline"
+                >
+                  Visit Kalesh's Website &rarr;
                 </a>
               </div>
 
