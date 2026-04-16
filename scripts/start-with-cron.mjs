@@ -211,6 +211,49 @@ function sanitizeContent(text) {
 }
 
 // ═══════════════════════════════════════
+// COMPANION PRODUCT CATALOG (for inline recs)
+// ═══════════════════════════════════════
+const COMPANION_PRODUCTS = [
+  { asin: "B07D3JNBPD", name: "Weighted Blanket 15lb", cats: ["sleep", "pain-relief", "supplements"] },
+  { asin: "B09DFCB66S", name: "Sunrise Alarm Clock", cats: ["sleep", "environment"] },
+  { asin: "B0C7CTPNQ3", name: "Blue Light Blocking Glasses", cats: ["sleep", "environment"] },
+  { asin: "B0BTRHBPFY", name: "Ergonomic Knee Pillow", cats: ["sleep", "pain-relief"] },
+  { asin: "B0BYR1LHPQ", name: "White Noise Machine", cats: ["sleep", "environment"] },
+  { asin: "B07PXLF6KS", name: "Theragun Mini", cats: ["pain-relief", "mobility"] },
+  { asin: "B0C1KWKN1R", name: "TENS Unit Muscle Stimulator", cats: ["pain-relief"] },
+  { asin: "B0BSHX3FY4", name: "Heating Pad XL", cats: ["pain-relief", "supplements"] },
+  { asin: "B0BQJYRLHK", name: "Foam Roller", cats: ["pain-relief", "mobility"] },
+  { asin: "B0BXN1YDPS", name: "Acupressure Mat Set", cats: ["pain-relief", "sleep"] },
+  { asin: "B0BVPWLKQS", name: "Red Light Therapy Lamp", cats: ["pain-relief", "supplements"] },
+  { asin: "B08MQZYSVC", name: "Magnesium Glycinate 400mg", cats: ["supplements", "sleep"] },
+  { asin: "B0BXM2JWCX", name: "CoQ10 Ubiquinol 200mg", cats: ["supplements", "pain-relief"] },
+  { asin: "B0BK515GCZ", name: "Vitamin D3 + K2 Drops", cats: ["supplements"] },
+  { asin: "B0C1G5VY8D", name: "Ashwagandha Capsules", cats: ["supplements", "sleep"] },
+  { asin: "B0C5KQ8GBH", name: "Electrolyte Powder Sugar-Free", cats: ["supplements", "mobility"] },
+  { asin: "B0BVMF4YRQ", name: "Liquid IV Hydration", cats: ["supplements", "mobility"] },
+  { asin: "B09V1K8MHJ", name: "Omega-3 Fish Oil 2000mg", cats: ["supplements", "pain-relief"] },
+  { asin: "B0BN4JHFRZ", name: "B-Complex Vitamins", cats: ["supplements"] },
+  { asin: "B0BW4YWQPB", name: "Probiotics 50 Billion CFU", cats: ["supplements"] },
+  { asin: "B09NNKKBYM", name: "HEPA Air Purifier", cats: ["environment", "sleep"] },
+  { asin: "B0BFXJG8Y2", name: "Pulse Oximeter", cats: ["supplements", "mobility"] },
+  { asin: "B0C3RKWG5N", name: "Shower Chair with Back", cats: ["mobility"] },
+  { asin: "B0BQXWM3KP", name: "Meditation Cushion Set", cats: ["sleep", "environment"] },
+  { asin: "B0BW5KXQR3", name: "Yoga Mat Extra Thick", cats: ["mobility", "pain-relief"] },
+];
+
+function pickCompanions(mainAsin, category, count, seed) {
+  // Pick companion products that match the category and exclude the main product
+  const candidates = COMPANION_PRODUCTS.filter(p => p.asin !== mainAsin);
+  // Score by category match
+  const scored = candidates.map(p => ({
+    ...p,
+    score: p.cats.includes(category) ? 10 : 1,
+  }));
+  scored.sort((a, b) => b.score - a.score || (seededRandom(seed + a.asin) - 0.5));
+  return scored.slice(0, count);
+}
+
+// ═══════════════════════════════════════
 // ARTICLE GENERATION ENGINE
 // ═══════════════════════════════════════
 
@@ -226,21 +269,39 @@ function generateProductSpotlight(product) {
   const today = new Date().toISOString().split("T")[0];
   const amazonUrl = `https://www.amazon.com/dp/${product.asin}?tag=${AMAZON_TAG}`;
 
+  // Pick 3 companion products for inline links (different from main product)
+  const inlineCompanions = pickCompanions(product.asin, product.category, 3, seed + "inline");
+  // Pick 3 different companions for Tools section
+  const usedAsins = new Set([product.asin, ...inlineCompanions.map(p => p.asin)]);
+  const toolsCompanions = pickCompanions(product.asin, product.category, 6, seed + "tools")
+    .filter(p => !usedAsins.has(p.asin)).slice(0, 3);
+  // Fallback if not enough unique
+  while (toolsCompanions.length < 3) {
+    const fallback = COMPANION_PRODUCTS.find(p => !usedAsins.has(p.asin) && !toolsCompanions.find(t => t.asin === p.asin));
+    if (fallback) { toolsCompanions.push(fallback); usedAsins.add(fallback.asin); }
+    else break;
+  }
+
+  const inlineLink1 = `<a href="https://www.amazon.com/dp/${inlineCompanions[0].asin}?tag=${AMAZON_TAG}" target="_blank" rel="nofollow sponsored">${inlineCompanions[0].name}</a> (paid link)`;
+  const inlineLink2 = `<a href="https://www.amazon.com/dp/${inlineCompanions[1].asin}?tag=${AMAZON_TAG}" target="_blank" rel="nofollow sponsored">${inlineCompanions[1].name}</a> (paid link)`;
+  const inlineLink3 = `<a href="https://www.amazon.com/dp/${inlineCompanions[2].asin}?tag=${AMAZON_TAG}" target="_blank" rel="nofollow sponsored">${inlineCompanions[2].name}</a> (paid link)`;
+
   // Build article body - conversational Kalesh voice, no AI words, no em dashes
+  // 3 inline Amazon links naturally woven into text + 3 in Tools section = 6 total
   const body = `
 <p>${intj[0]} When you live with chronic fatigue, every product choice carries weight. You are not just buying something - you are investing limited energy in the hope that it helps. I have been there, standing in the supplement aisle wondering if any of this actually works. So let me share my honest experience with the <a href="${amazonUrl}" target="_blank" rel="nofollow sponsored">${product.name}</a> (paid link).</p>
 
 <h2>Why This Caught My Attention</h2>
 <p>Research from ${researcher.name}, who studies ${researcher.field}, has shown that people with ME/CFS often have specific physiological needs that mainstream products do not address. ${phrases[0]} That context matters when evaluating any product claim.</p>
 
-<p>I first heard about the ${product.name} from someone in a chronic illness support group. They were not selling anything - just sharing what helped them get through a particularly rough flare. That kind of peer recommendation carries more weight with me than any advertisement.</p>
+<p>I first heard about the ${product.name} from someone in a chronic illness support group. They were not selling anything - just sharing what helped them get through a particularly rough flare. That kind of peer recommendation carries more weight with me than any advertisement. A lot of people in that same group also mentioned pairing it with ${inlineLink1}, which addresses a related issue.</p>
 
 <h2>My Experience</h2>
 <p>${intj[1]} After using the ${product.name} for several weeks, here is what I noticed. The first few days were unremarkable. I almost gave up on it. But around week two, something shifted. Not dramatically - nothing about chronic illness recovery is dramatic in the way healthy people imagine. It was more like a quiet easing.</p>
 
 <p><em>${phrases[1]}</em></p>
 
-<p>The thing about living with chronic fatigue is that you become incredibly attuned to small changes. A slightly better morning. One fewer crash per week. These are not small things when your baseline is survival mode. And that is what I noticed - not a cure, not a transformation, but a gentle nudge in a better direction.</p>
+<p>The thing about living with chronic fatigue is that you become incredibly attuned to small changes. A slightly better morning. One fewer crash per week. These are not small things when your baseline is survival mode. And that is what I noticed - not a cure, not a transformation, but a gentle nudge in a better direction. Some folks I know combine this with ${inlineLink2} and report even better results.</p>
 
 <h2>What the Research Says</h2>
 <p>I want to be honest here - there is limited clinical research specifically on this product for ME/CFS patients. Most of the evidence is either anecdotal or extrapolated from studies on related conditions. That does not mean it is useless. It means we need to be thoughtful about our expectations.</p>
@@ -250,7 +311,7 @@ function generateProductSpotlight(product) {
 <h2>The Honest Downsides</h2>
 <p>Nothing is perfect, and I would be doing you a disservice if I pretended otherwise. The ${product.name} has some limitations worth knowing about before you invest your money and energy.</p>
 
-<p>First, the price point. For those of us on disability or reduced income - which is a lot of the chronic illness community - every purchase is a calculation. Is this worth skipping something else? Only you can answer that.</p>
+<p>First, the price point. For those of us on disability or reduced income - which is a lot of the chronic illness community - every purchase is a calculation. Is this worth skipping something else? Only you can answer that. If budget is tight, starting with something like ${inlineLink3} might be a more accessible entry point.</p>
 
 <p><em>${phrases[2]}</em></p>
 
@@ -264,9 +325,9 @@ function generateProductSpotlight(product) {
 <h2>Tools for Your Healing</h2>
 <p>Here are some related products that others in the chronic fatigue community have found helpful alongside the ${product.name}:</p>
 <ul>
-<li><a href="https://www.amazon.com/dp/B08MQZYSVC?tag=${AMAZON_TAG}" target="_blank" rel="nofollow sponsored">Magnesium Glycinate 400mg</a> (paid link) - supports sleep and muscle recovery</li>
-<li><a href="https://www.amazon.com/dp/B0BVMF4YRQ?tag=${AMAZON_TAG}" target="_blank" rel="nofollow sponsored">Liquid IV Hydration Multiplier</a> (paid link) - helps with the dehydration many of us experience</li>
-<li><a href="https://www.amazon.com/dp/B0BXM2JWCX?tag=${AMAZON_TAG}" target="_blank" rel="nofollow sponsored">CoQ10 Ubiquinol 200mg</a> (paid link) - mitochondrial support that some find helpful</li>
+<li><a href="https://www.amazon.com/dp/${toolsCompanions[0].asin}?tag=${AMAZON_TAG}" target="_blank" rel="nofollow sponsored">${toolsCompanions[0].name}</a> (paid link) - a practical addition to your healing toolkit</li>
+<li><a href="https://www.amazon.com/dp/${toolsCompanions[1].asin}?tag=${AMAZON_TAG}" target="_blank" rel="nofollow sponsored">${toolsCompanions[1].name}</a> (paid link) - addresses a related aspect of chronic fatigue management</li>
+<li><a href="https://www.amazon.com/dp/${toolsCompanions[2].asin}?tag=${AMAZON_TAG}" target="_blank" rel="nofollow sponsored">${toolsCompanions[2].name}</a> (paid link) - something many in the community have found helpful</li>
 </ul>
 
 <p><em>This article contains affiliate links. As an Amazon Associate, Chronic Mystery earns from qualifying purchases. Every product mentioned here was chosen because it is genuinely relevant to the chronic fatigue community - not because of commission rates.</em></p>
@@ -396,6 +457,7 @@ function runProductSpotlight() {
   const wc = wordCount(newArticle.body);
   const hasEmdash = newArticle.body.includes("\u2014") || newArticle.body.includes("\u2013");
   const hasAiWords = BANNED_WORDS.some(w => new RegExp(`\\b${w}\\b`, "i").test(newArticle.body));
+  const amazonLinkCount = (newArticle.body.match(/amazon\.com\/dp\/[A-Z0-9]+\?tag=spankyspinola-20/g) || []).length;
 
   if (wc < 1200 || wc > 1800) {
     log(`[CRON-2 SPOTLIGHT] WARNING: Generated article is ${wc} words - adjusting`);
@@ -408,6 +470,10 @@ function runProductSpotlight() {
     log("[CRON-2 SPOTLIGHT] WARNING: AI words detected - sanitizing");
     newArticle.body = sanitizeContent(newArticle.body);
   }
+  if (amazonLinkCount < 6) {
+    log(`[CRON-2 SPOTLIGHT] WARNING: Only ${amazonLinkCount} Amazon links (expected 6+)`);
+  }
+  log(`[CRON-2 SPOTLIGHT] Amazon links: ${amazonLinkCount} (3 inline + 3 tools)`);
 
   articles.push(newArticle);
   saveArticles(articles);
