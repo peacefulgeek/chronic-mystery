@@ -109,7 +109,7 @@ const PRODUCT_CATEGORIES: ProductCategory[] = [
         name: "Bullet Journal Dotted Notebook by Leuchtturm1917",
         description:
           "The gold standard for symptom tracking, pacing logs, and energy envelope journaling. The dot grid gives you structure without rigidity — exactly what pacing requires.",
-        url: amz("B002TSIMW4"),
+        url: amz("B0DJBLX39K"),
         isAmazon: true,
       },
     ],
@@ -121,14 +121,14 @@ const PRODUCT_CATEGORIES: ProductCategory[] = [
         name: "CoQ10 (Ubiquinol) 200mg by Jarrow Formulas",
         description:
           "Mitochondrial support is central to ME/CFS management. Ubiquinol is the active form of CoQ10 and Jarrow's formulation is consistently well-reviewed. As we explored in our coverage of <a href='/article/mitochondrial-dysfunction-in-chronic-fatigue' class='text-heather hover:underline'>mitochondrial dysfunction</a>, this is one of the most studied supplements for fatigue conditions.",
-        url: amz("B0013OQGO2"),
+        url: amz("B0013OXABS"),
         isAmazon: true,
       },
       {
         name: "D-Ribose Powder by BulkSupplements",
         description:
           "D-Ribose supports ATP production — the cellular energy currency that ME/CFS patients are chronically short on. Mix it into water or tea. Start with 5g and see how your body responds.",
-        url: amz("B00EYDJNQ4"),
+        url: amz("B00WAJU464"),
         isAmazon: true,
       },
       {
@@ -142,14 +142,14 @@ const PRODUCT_CATEGORIES: ProductCategory[] = [
         name: "Vitamin D3 + K2 by Sports Research",
         description:
           "Many people with ME/CFS are vitamin D deficient, especially those who are housebound. The K2 addition ensures proper calcium metabolism. Get your levels tested first.",
-        url: amz("B00JGCBGZQ"),
+        url: amz("B0038NF8MG"),
         isAmazon: true,
       },
       {
         name: "B-Complex Plus by Pure Encapsulations",
         description:
           "Methylated B vitamins for those with MTHFR variations — common in the ME/CFS population. Pure Encapsulations is hypoallergenic and free of common fillers.",
-        url: amz("B001QWGYWY"),
+        url: amz("B00JYFN6DU"),
         isAmazon: true,
       },
     ],
@@ -161,14 +161,14 @@ const PRODUCT_CATEGORIES: ProductCategory[] = [
         name: "Muse 2 Brain Sensing Headband",
         description:
           "Real-time neurofeedback for meditation practice. When you cannot tell whether your nervous system is actually settling, the Muse gives you data. Particularly useful for people who dissociate during rest.",
-        url: amz("B07HL2S9GQ"),
+        url: amz("B0FG8KSDRL"),
         isAmazon: true,
       },
       {
         name: "Zafu Meditation Cushion by Florensi",
         description:
           "Buckwheat hull filling, removable cover, proper height for cross-legged sitting. If you are going to sit, sit properly. Your body will thank you.",
-        url: amz("B08DFYHT6V"),
+        url: amz("B093HFSVW5"),
         isAmazon: true,
       },
       {
@@ -182,14 +182,14 @@ const PRODUCT_CATEGORIES: ProductCategory[] = [
         name: "Acupressure Mat and Pillow Set by ProsourceFit",
         description:
           "Thousands of pressure points that stimulate blood flow and trigger endorphin release. Fifteen minutes on this mat can shift your nervous system state when you do not have the energy for anything else.",
-        url: amz("B00BVA7FJC"),
+        url: amz("B0049Q0P9M"),
         isAmazon: true,
       },
       {
         name: "Oura Ring Generation 3",
         description:
           "The most accurate consumer-grade sleep and HRV tracker available. Heart rate variability is one of the best biomarkers for ME/CFS pacing — and the Oura tracks it continuously without requiring any effort from you.",
-        url: amz("B0CS1LXDS8"),
+        url: amz("B0CSRPXCC8"),
         isAmazon: true,
       },
     ],
