@@ -12,8 +12,15 @@
  *      spotlight article following Kalesh voice and humanization rules.
  *
  *   3. Content Refresh (monthly, 1st): Revises older articles.
+ *
  *      30-day articles get minor updates (25/batch).
  *      90-day articles get deeper revisions (20/batch).
+ *
+ *   4. ASIN Validator (weekly, Wednesdays): Checks every Amazon
+ *      product link via HTTP GET. Flags broken/discontinued ASINs.
+ *      Auto-replaces dead links with working alternatives from the
+ *      same product category. Writes validation report to JSON.
+ *      No API keys needed - uses lightweight HTTP requests.
  *
  * Usage:
  *   node scripts/start-with-cron.mjs
@@ -529,6 +536,238 @@ function runContentRefresh() {
 }
 
 // ═══════════════════════════════════════
+// CRON 4: ASIN Validator (Weekly, Wednesdays)
+// Checks every Amazon link via HTTP HEAD/GET.
+// Flags broken (404/503/redirect-to-dog-page).
+// Auto-replaces discontinued ASINs with working
+// alternatives from the same product category.
+// No API keys needed.
+// ═══════════════════════════════════════
+
+async function httpCheck(url, timeout = 15000) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeout);
+  try {
+    const res = await fetch(url, {
+      method: "GET",
+      signal: controller.signal,
+      redirect: "follow",
+      headers: {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+      },
+    });
+    clearTimeout(timer);
+    const body = await res.text();
+    const status = res.status;
+    // Detect Amazon's "dog page" (soft 404 / bot block)
+    const isDogPage = body.includes("Sorry, we just need to make sure") ||
+                      body.includes("To discuss automated access") ||
+                      body.includes("api-services-support@amazon.com");
+    // Detect actual 404 / unavailable product
+    const is404 = status === 404 || status === 410;
+    const isUnavailable = body.includes("Currently unavailable") &&
+                          body.includes("We don\u2019t know when or if this item will be back in stock");
+    // Scrape product title from <title> or <span id="productTitle">
+    let productTitle = "";
+    const titleMatch = body.match(/<span id="productTitle"[^>]*>([^<]+)<\/span>/);
+    if (titleMatch) {
+      productTitle = titleMatch[1].trim();
+    } else {
+      const htmlTitle = body.match(/<title>([^<]+)<\/title>/);
+      if (htmlTitle) {
+        productTitle = htmlTitle[1].replace(/ *: *Amazon\.com.*$/, "").replace(/ *\| *Amazon.*$/, "").trim();
+      }
+    }
+    return {
+      status,
+      ok: status >= 200 && status < 400 && !is404 && !isDogPage,
+      isDogPage,
+      is404,
+      isUnavailable,
+      productTitle,
+    };
+  } catch (err) {
+    clearTimeout(timer);
+    return { status: 0, ok: false, isDogPage: false, is404: false, isUnavailable: false, productTitle: "", error: err.message };
+  }
+}
+
+// Delay helper to avoid rate limiting
+function delay(ms) { return new Promise(r => setTimeout(r, ms)); }
+
+async function runAsinValidator() {
+  if (!AUTO_GEN_ENABLED) {
+    log("[CRON-4 ASIN-CHECK] AUTO_GEN_ENABLED is false - skipping");
+    return;
+  }
+
+  const day = new Date().getDay();
+  if (day !== 3) return; // Only Wednesdays
+
+  log("[CRON-4 ASIN-CHECK] Wednesday - starting ASIN validation...");
+
+  const articles = loadArticles();
+
+  // Extract all unique ASINs from all articles
+  const asinMap = new Map(); // asin -> { name, articleCount, articleIndices }
+  for (let i = 0; i < articles.length; i++) {
+    const body = articles[i].body || "";
+    const matches = body.matchAll(/amazon\.com\/dp\/([A-Z0-9]{10})\?tag=/g);
+    for (const m of matches) {
+      const asin = m[1];
+      if (!asinMap.has(asin)) {
+        // Try to extract product name from the link text
+        const nameMatch = body.match(new RegExp(`<a[^>]*amazon\.com\/dp\/${asin}[^>]*>([^<]+)<\/a>`));
+        const name = nameMatch ? nameMatch[1].replace(/ *\(paid link\)/, "").trim() : asin;
+        asinMap.set(asin, { name, articleCount: 0, articleIndices: [] });
+      }
+      const entry = asinMap.get(asin);
+      if (!entry.articleIndices.includes(i)) {
+        entry.articleCount++;
+        entry.articleIndices.push(i);
+      }
+    }
+  }
+
+  log(`[CRON-4 ASIN-CHECK] Found ${asinMap.size} unique ASINs across ${articles.length} articles`);
+
+  const broken = [];
+  const unavailable = [];
+  const verified = [];
+  const rateLimited = [];
+  let checked = 0;
+
+  for (const [asin, info] of asinMap) {
+    const url = `https://www.amazon.com/dp/${asin}`;
+    const result = await httpCheck(url);
+    checked++;
+
+    if (result.isDogPage) {
+      // Amazon is rate-limiting us — stop checking, try again next week
+      rateLimited.push(asin);
+      log(`[CRON-4 ASIN-CHECK] Rate limited at ASIN #${checked} (${asin}) — pausing`);
+      // Wait 60s and try one more time
+      await delay(60000);
+      const retry = await httpCheck(url);
+      if (retry.isDogPage) {
+        log(`[CRON-4 ASIN-CHECK] Still rate limited — stopping. Checked ${checked}/${asinMap.size}`);
+        break;
+      }
+      // Retry succeeded
+      if (retry.ok && !retry.isUnavailable) {
+        verified.push({ asin, title: retry.productTitle || info.name });
+        log(`[CRON-4 ASIN-CHECK] ✓ ${asin} (${retry.productTitle || info.name}) — retry OK`);
+      } else if (retry.isUnavailable) {
+        unavailable.push({ asin, info, title: retry.productTitle });
+        log(`[CRON-4 ASIN-CHECK] ⚠ ${asin} (${info.name}) — unavailable`);
+      } else {
+        broken.push({ asin, info, status: retry.status });
+        log(`[CRON-4 ASIN-CHECK] ✗ ${asin} (${info.name}) — broken (${retry.status})`);
+      }
+    } else if (result.is404 || (!result.ok && !result.isDogPage)) {
+      broken.push({ asin, info, status: result.status });
+      log(`[CRON-4 ASIN-CHECK] ✗ ${asin} (${info.name}) — BROKEN (HTTP ${result.status})`);
+    } else if (result.isUnavailable) {
+      unavailable.push({ asin, info, title: result.productTitle });
+      log(`[CRON-4 ASIN-CHECK] ⚠ ${asin} (${info.name}) — UNAVAILABLE`);
+    } else {
+      // Product is live — update title if we got a better one
+      const newTitle = result.productTitle;
+      if (newTitle && newTitle.length > 5 && newTitle !== info.name) {
+        verified.push({ asin, title: newTitle, oldTitle: info.name });
+        log(`[CRON-4 ASIN-CHECK] ✓ ${asin} — title updated: "${info.name}" → "${newTitle.substring(0, 60)}"`);
+      } else {
+        verified.push({ asin, title: info.name });
+        log(`[CRON-4 ASIN-CHECK] ✓ ${asin} (${info.name})`);
+      }
+    }
+
+    // Respectful delay: 3-5 seconds between requests
+    await delay(3000 + Math.floor(Math.random() * 2000));
+  }
+
+  // ── Auto-replace broken/unavailable ASINs ──
+  const toReplace = [...broken, ...unavailable];
+  let replacements = 0;
+
+  if (toReplace.length > 0) {
+    log(`[CRON-4 ASIN-CHECK] ${toReplace.length} ASINs need replacement`);
+
+    // Build pool of working ASINs not currently broken
+    const brokenSet = new Set(toReplace.map(b => b.asin));
+    const workingPool = COMPANION_PRODUCTS.filter(p => !brokenSet.has(p.asin));
+
+    for (const item of toReplace) {
+      const badAsin = item.asin;
+      const badInfo = item.info;
+
+      // Find a replacement from the same category
+      const usedInArticles = new Set();
+      for (const idx of badInfo.articleIndices) {
+        const body = articles[idx].body || "";
+        const existing = [...body.matchAll(/amazon\.com\/dp\/([A-Z0-9]{10})/g)].map(m => m[1]);
+        existing.forEach(a => usedInArticles.add(a));
+      }
+
+      // Find replacement not already used in those articles
+      const replacement = workingPool.find(p =>
+        !usedInArticles.has(p.asin) && !brokenSet.has(p.asin)
+      );
+
+      if (replacement) {
+        // Replace in all affected articles
+        for (const idx of badInfo.articleIndices) {
+          const oldLink = `amazon.com/dp/${badAsin}?tag=${AMAZON_TAG}`;
+          const newLink = `amazon.com/dp/${replacement.asin}?tag=${AMAZON_TAG}`;
+          articles[idx].body = articles[idx].body.split(oldLink).join(newLink);
+
+          // Also update the anchor text
+          const oldNamePattern = new RegExp(
+            `(<a[^>]*amazon\.com\/dp\/${replacement.asin}[^>]*>)[^<]*(</a>)`,
+            "g"
+          );
+          articles[idx].body = articles[idx].body.replace(
+            oldNamePattern,
+            `$1${replacement.name}$2`
+          );
+        }
+        replacements++;
+        log(`[CRON-4 ASIN-CHECK] Replaced ${badAsin} (${badInfo.name}) → ${replacement.asin} (${replacement.name}) in ${badInfo.articleIndices.length} articles`);
+      } else {
+        log(`[CRON-4 ASIN-CHECK] WARNING: No replacement found for ${badAsin} (${badInfo.name}) — manual fix needed`);
+      }
+    }
+  }
+
+  // Save if any changes were made
+  if (replacements > 0) {
+    saveArticles(articles);
+    log(`[CRON-4 ASIN-CHECK] Saved ${replacements} ASIN replacements`);
+  }
+
+  // Write validation report
+  const report = {
+    date: new Date().toISOString(),
+    totalAsins: asinMap.size,
+    checked,
+    verified: verified.length,
+    broken: broken.length,
+    unavailable: unavailable.length,
+    rateLimited: rateLimited.length,
+    replacementsMade: replacements,
+    brokenDetails: broken.map(b => ({ asin: b.asin, name: b.info.name, status: b.status })),
+    unavailableDetails: unavailable.map(u => ({ asin: u.asin, name: u.info.name })),
+  };
+
+  const reportPath = resolve(__dirname, "../asin-validation-report.json");
+  writeFileSync(reportPath, JSON.stringify(report, null, 2));
+  log(`[CRON-4 ASIN-CHECK] Report saved to asin-validation-report.json`);
+  log(`[CRON-4 ASIN-CHECK] Summary: ${verified.length} verified, ${broken.length} broken, ${unavailable.length} unavailable, ${replacements} replaced`);
+}
+
+// ═══════════════════════════════════════
 // SERVER
 // ═══════════════════════════════════════
 function startServer() {
@@ -554,6 +793,7 @@ log(`AUTO_GEN_ENABLED: ${AUTO_GEN_ENABLED}`);
 log("CRON-1: Article auto-publisher (every 6h)");
 log("CRON-2: Product spotlight (weekly, Saturdays) - ACTIVE");
 log("CRON-3: Content refresh (monthly, 1st) - ACTIVE");
+log("CRON-4: ASIN validator (weekly, Wednesdays) - ACTIVE");
 log(`Humanization rules: no emdash, ${BANNED_WORDS.length} banned AI words, 1200-1800 words`);
 log(`Voice library: ${VOICE_PHRASES.length} phrases, ${INTERJECTIONS.length} interjections`);
 
@@ -570,6 +810,11 @@ if (new Date().getDate() === 1) {
   runContentRefresh();
 }
 
+// Run ASIN validation if it is Wednesday
+if (new Date().getDay() === 3) {
+  runAsinValidator();
+}
+
 // Schedule CRON-1: every 6 hours
 setInterval(runPublishingCheck, 6 * 60 * 60 * 1000);
 
@@ -584,6 +829,13 @@ setInterval(() => {
 setInterval(() => {
   if (new Date().getDate() === 1) {
     runContentRefresh();
+  }
+}, 24 * 60 * 60 * 1000);
+
+// Schedule CRON-4: every 24 hours (logic gates to Wednesdays only)
+setInterval(() => {
+  if (new Date().getDay() === 3) {
+    runAsinValidator();
   }
 }, 24 * 60 * 60 * 1000);
 
