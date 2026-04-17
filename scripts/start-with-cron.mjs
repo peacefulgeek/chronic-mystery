@@ -2,9 +2,9 @@
 /**
  * start-with-cron.mjs — Cron Manager for Chronic Mystery
  *
- * All scheduling is in-code via setInterval. No external dependencies.
+ * All scheduling is in-code via node-cron. No external scheduler.
  *
- * Three cron jobs:
+ * Four cron jobs:
  *   1. Article Auto-Publisher (every 6h): Date-gated articles become
  *      visible as their publish dates arrive. Logs status.
  *
@@ -31,6 +31,10 @@ import { resolve, dirname } from "path";
 import { fileURLToPath } from "url";
 import { spawn } from "child_process";
 import { createHash, randomInt } from "crypto";
+import cron from "node-cron";
+import { qualityGate, sanitizeBody, AI_FLAGGED_WORDS } from "../src/lib/article-quality-gate.mjs";
+import { verifyAsin, amazonUrl } from "../src/lib/amazon-verify.mjs";
+import { matchProducts } from "../src/lib/match-products.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ARTICLES_PATH = resolve(__dirname, "../client/src/data/articles.json");
@@ -362,11 +366,8 @@ function generateProductSpotlight(product) {
 function refreshArticle(article, depth) {
   let body = article.body;
 
-  // Ensure no em dashes crept in
-  body = body.replace(/\u2014/g, " - ").replace(/\u2013/g, " - ");
-
-  // Ensure no banned AI words
-  body = sanitizeContent(body);
+  // Run sanitizeBody from quality gate module (handles em dashes + AI words)
+  body = sanitizeBody(body);
 
   // Update the modified date
   article.lastRefreshed = new Date().toISOString().split("T")[0];
@@ -432,10 +433,7 @@ function runProductSpotlight() {
     return;
   }
 
-  const day = new Date().getDay();
-  if (day !== 6) return; // Only Saturdays
-
-  log("[CRON-2 SPOTLIGHT] Saturday - generating product spotlight...");
+  log("[CRON-2 SPOTLIGHT] Generating product spotlight...");
 
   const articles = loadArticles();
 
@@ -460,27 +458,15 @@ function runProductSpotlight() {
   const product = unreviewed[0];
   const newArticle = generateProductSpotlight(product);
 
-  // Validate before saving
-  const wc = wordCount(newArticle.body);
-  const hasEmdash = newArticle.body.includes("\u2014") || newArticle.body.includes("\u2013");
-  const hasAiWords = BANNED_WORDS.some(w => new RegExp(`\\b${w}\\b`, "i").test(newArticle.body));
-  const amazonLinkCount = (newArticle.body.match(/amazon\.com\/dp\/[A-Z0-9]+\?tag=spankyspinola-20/g) || []).length;
-
-  if (wc < 1200 || wc > 1800) {
-    log(`[CRON-2 SPOTLIGHT] WARNING: Generated article is ${wc} words - adjusting`);
+  // Run quality gate (from article-quality-gate.mjs)
+  newArticle.body = sanitizeBody(newArticle.body);
+  const gate = qualityGate(newArticle.body);
+  if (!gate.pass) {
+    log(`[CRON-2 SPOTLIGHT] Quality gate failures: ${gate.failures.join(", ")}`);
+    // Apply sanitizeBody again as a safety net
+    newArticle.body = sanitizeBody(newArticle.body);
   }
-  if (hasEmdash) {
-    log("[CRON-2 SPOTLIGHT] WARNING: Em dash detected - sanitizing");
-    newArticle.body = sanitizeContent(newArticle.body);
-  }
-  if (hasAiWords) {
-    log("[CRON-2 SPOTLIGHT] WARNING: AI words detected - sanitizing");
-    newArticle.body = sanitizeContent(newArticle.body);
-  }
-  if (amazonLinkCount < 6) {
-    log(`[CRON-2 SPOTLIGHT] WARNING: Only ${amazonLinkCount} Amazon links (expected 6+)`);
-  }
-  log(`[CRON-2 SPOTLIGHT] Amazon links: ${amazonLinkCount} (3 inline + 3 tools)`);
+  log(`[CRON-2 SPOTLIGHT] Quality gate: ${gate.pass ? "PASS" : "FAIL"} (${gate.wordCount} words, ${gate.voiceSignals} voice signals, ${gate.amazonLinks} Amazon links)`);
 
   articles.push(newArticle);
   saveArticles(articles);
@@ -544,55 +530,12 @@ function runContentRefresh() {
 // No API keys needed.
 // ═══════════════════════════════════════
 
-async function httpCheck(url, timeout = 15000) {
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), timeout);
-  try {
-    const res = await fetch(url, {
-      method: "GET",
-      signal: controller.signal,
-      redirect: "follow",
-      headers: {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-        "Accept-Language": "en-US,en;q=0.9",
-      },
-    });
-    clearTimeout(timer);
-    const body = await res.text();
-    const status = res.status;
-    // Detect Amazon's "dog page" (soft 404 / bot block)
-    const isDogPage = body.includes("Sorry, we just need to make sure") ||
-                      body.includes("To discuss automated access") ||
-                      body.includes("api-services-support@amazon.com");
-    // Detect actual 404 / unavailable product
-    const is404 = status === 404 || status === 410;
-    const isUnavailable = body.includes("Currently unavailable") &&
-                          body.includes("We don\u2019t know when or if this item will be back in stock");
-    // Scrape product title from <title> or <span id="productTitle">
-    let productTitle = "";
-    const titleMatch = body.match(/<span id="productTitle"[^>]*>([^<]+)<\/span>/);
-    if (titleMatch) {
-      productTitle = titleMatch[1].trim();
-    } else {
-      const htmlTitle = body.match(/<title>([^<]+)<\/title>/);
-      if (htmlTitle) {
-        productTitle = htmlTitle[1].replace(/ *: *Amazon\.com.*$/, "").replace(/ *\| *Amazon.*$/, "").trim();
-      }
-    }
-    return {
-      status,
-      ok: status >= 200 && status < 400 && !is404 && !isDogPage,
-      isDogPage,
-      is404,
-      isUnavailable,
-      productTitle,
-    };
-  } catch (err) {
-    clearTimeout(timer);
-    return { status: 0, ok: false, isDogPage: false, is404: false, isUnavailable: false, productTitle: "", error: err.message };
-  }
-}
+// httpCheck is now replaced by verifyAsin from amazon-verify.mjs
+// Kept as alias for backward compatibility in the validator loop
+const httpCheck = (url) => {
+  const asinMatch = url.match(/\/dp\/([A-Z0-9]{10})/);
+  return asinMatch ? verifyAsin(asinMatch[1]) : verifyAsin(url);
+};
 
 // Delay helper to avoid rate limiting
 function delay(ms) { return new Promise(r => setTimeout(r, ms)); }
@@ -603,10 +546,7 @@ async function runAsinValidator() {
     return;
   }
 
-  const day = new Date().getDay();
-  if (day !== 3) return; // Only Wednesdays
-
-  log("[CRON-4 ASIN-CHECK] Wednesday - starting ASIN validation...");
+  log("[CRON-4 ASIN-CHECK] Starting ASIN validation...");
 
   const articles = loadArticles();
 
@@ -790,54 +730,42 @@ function startServer() {
 // ═══════════════════════════════════════
 log("=== Chronic Mystery Cron Manager Starting ===");
 log(`AUTO_GEN_ENABLED: ${AUTO_GEN_ENABLED}`);
-log("CRON-1: Article auto-publisher (every 6h)");
-log("CRON-2: Product spotlight (weekly, Saturdays) - ACTIVE");
-log("CRON-3: Content refresh (monthly, 1st) - ACTIVE");
-log("CRON-4: ASIN validator (weekly, Wednesdays) - ACTIVE");
-log(`Humanization rules: no emdash, ${BANNED_WORDS.length} banned AI words, 1200-1800 words`);
+log(`Quality gate: ${AI_FLAGGED_WORDS.length} AI words banned, sanitizeBody active`);
+log(`Humanization rules: no emdash, 1200-1800 words, 3+ voice signals`);
 log(`Voice library: ${VOICE_PHRASES.length} phrases, ${INTERJECTIONS.length} interjections`);
+log("Scheduling via node-cron:");
+log("  CRON-1: Article auto-publisher    -> 0 */6 * * *  (every 6h)");
+log("  CRON-2: Product spotlight          -> 0 9 * * 6    (Sat 9am UTC)");
+log("  CRON-3: Content refresh            -> 0 3 1 * *    (1st of month 3am UTC)");
+log("  CRON-4: ASIN validator             -> 0 2 * * 3    (Wed 2am UTC)");
 
-// Initial checks
+// ── Initial run on startup ──
 runPublishingCheck();
 
-// Run Saturday spotlight if it is Saturday
-if (new Date().getDay() === 6) {
+// ── node-cron schedules ──
+// CRON-1: Article auto-publisher (every 6 hours)
+cron.schedule("0 */6 * * *", () => {
+  log("[CRON-1] Triggered by node-cron");
+  runPublishingCheck();
+});
+
+// CRON-2: Product spotlight (Saturdays at 9am UTC)
+cron.schedule("0 9 * * 6", () => {
+  log("[CRON-2] Triggered by node-cron (Saturday)");
   runProductSpotlight();
-}
+});
 
-// Run monthly refresh if it is the 1st
-if (new Date().getDate() === 1) {
+// CRON-3: Content refresh (1st of month at 3am UTC)
+cron.schedule("0 3 1 * *", () => {
+  log("[CRON-3] Triggered by node-cron (monthly)");
   runContentRefresh();
-}
+});
 
-// Run ASIN validation if it is Wednesday
-if (new Date().getDay() === 3) {
+// CRON-4: ASIN validator (Wednesdays at 2am UTC)
+cron.schedule("0 2 * * 3", () => {
+  log("[CRON-4] Triggered by node-cron (Wednesday)");
   runAsinValidator();
-}
+});
 
-// Schedule CRON-1: every 6 hours
-setInterval(runPublishingCheck, 6 * 60 * 60 * 1000);
-
-// Schedule CRON-2: every 12 hours (logic gates to Saturdays only)
-setInterval(() => {
-  if (new Date().getDay() === 6) {
-    runProductSpotlight();
-  }
-}, 12 * 60 * 60 * 1000);
-
-// Schedule CRON-3: every 24 hours (logic gates to 1st of month only)
-setInterval(() => {
-  if (new Date().getDate() === 1) {
-    runContentRefresh();
-  }
-}, 24 * 60 * 60 * 1000);
-
-// Schedule CRON-4: every 24 hours (logic gates to Wednesdays only)
-setInterval(() => {
-  if (new Date().getDay() === 3) {
-    runAsinValidator();
-  }
-}, 24 * 60 * 60 * 1000);
-
-// Start the server
+// Start the Express server
 startServer();

@@ -2,12 +2,28 @@ services:
   - type: web
     name: chronic-mystery
     runtime: node
-    plan: free
-    buildCommand: pnpm install && pnpm build && node scripts/generate-sitemap.mjs
+    plan: starter
+    region: oregon
+    branch: main
+    autoDeploy: true
+    buildCommand: pnpm install --frozen-lockfile && pnpm build
     startCommand: node scripts/start-with-cron.mjs
+    healthCheckPath: /health
     envVars:
       - key: NODE_ENV
         value: production
+      - key: PORT
+        value: "10000"
+      - key: AMAZON_TAG
+        value: spankyspinola-20
+      - key: AUTO_GEN_ENABLED
+        value: "true"
+      - key: BUNNY_STORAGE_ZONE
+        sync: false
+      - key: BUNNY_API_KEY
+        sync: false
+      - key: BUNNY_PULL_ZONE_URL
+        sync: false
     headers:
       - path: /*
         name: X-Robots-Tag

@@ -1,0 +1,33 @@
+{
+  "total": 303,
+  "emdash_fixed": 0,
+  "ai_words_fixed": 0,
+  "ai_phrases_fixed": 0,
+  "low_voice": 0,
+  "word_count_low": 0,
+  "word_count_high": 17,
+  "articles_modified": 0,
+  "emdash_articles": [],
+  "ai_word_articles": [],
+  "ai_phrase_articles": [],
+  "low_voice_articles": [],
+  "word_count_issues": [
+    "The Nitric Oxide Problem: 1802 words (HIGH)",
+    "Navigating Disability with ME/CFS: 1806 words (HIGH)",
+    "The Emotional Labor of Illness: 1807 words (HIGH)",
+    "When Your Immune System Goes Rogue: 1805 words (HIGH)",
+    "The Bath as Ritual: 1806 words (HIGH)",
+    "The Emergency Room with ME/CFS: 1806 words (HIGH)",
+    "Walking Meditation Adaptations: 1807 words (HIGH)",
+    "Heat and Cold Intolerance: 1805 words (HIGH)",
+    "The Recovery Position Guide: 1802 words (HIGH)",
+    "The Hobby Adaptation Guide: 1805 words (HIGH)",
+    "Communication Scripts for Bad Days: 1804 words (HIGH)",
+    "Aromatherapy for Fatigue: 1805 words (HIGH)",
+    "The Acceptance Practice: 1809 words (HIGH)",
+    "Antivirals for Chronic Fatigue: 1807 words (HIGH)",
+    "The Weather Sensitivity Guide: 1807 words (HIGH)",
+    "Stillness as Strength: 1805 words (HIGH)",
+    "Cardiac Involvement in ME/CFS: 1808 words (HIGH)"
+  ]
+}
