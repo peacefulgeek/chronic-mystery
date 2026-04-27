@@ -52,6 +52,17 @@ async function startServer() {
       ? path.resolve(__dirname, "public")
       : path.resolve(__dirname, "..", "dist", "public");
 
+  // ── www → non-www 301 redirect (canonical domain for SEO) ──
+  app.use((req, res, next) => {
+    const host = req.hostname || req.headers.host || "";
+    if (host.startsWith("www.")) {
+      const naked = host.replace(/^www\./, "");
+      const protocol = req.headers["x-forwarded-proto"] || req.protocol || "https";
+      return res.redirect(301, `${protocol}://${naked}${req.originalUrl}`);
+    }
+    next();
+  });
+
   // Health check endpoint (Render uses this)
   app.get("/health", (_req, res) => {
     res.status(200).json({
