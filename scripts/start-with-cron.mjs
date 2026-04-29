@@ -4,14 +4,16 @@
  *
  * All scheduling is in-code via node-cron. No external scheduler.
  *
- * Five cron jobs:
- *   1. Article Auto-Publisher (every 6h): Date-gated articles become
- *      visible as their publish dates arrive. Logs status.
+ * Six cron jobs:
+ *   1. Drip-Feed Publisher (daily at 06:00 UTC):
+ *      Publishes articles from the pre-written queue.
+ *      Phase 1 (first 60 published from queue): 5 per day, every day
+ *      Phase 2 (after 60 from queue): 1 per weekday (Mon-Fri)
+ *      Sets dateISO to today and status to "published".
  *
- *   2. DeepSeek Article Generator (smart ramp-up):
- *      Phase 1 (<200 published): 3x/weekday at 08:00, 12:00, 17:00 UTC
- *      Phase 2 (>=200 published): 1x/weekday at 08:00 UTC
- *      Uses DeepSeek V4-Pro via OpenAI-compatible SDK.
+ *   2. DeepSeek Fallback Generator (weekdays at 08:00 UTC):
+ *      Only fires when the queue is empty.
+ *      Generates fresh articles via DeepSeek V4-Pro.
  *
  *   3. Content Refresh (monthly, 1st): Revises older articles.
  *      30-day articles get minor updates (25/batch).
@@ -23,6 +25,14 @@
  *
  *   5. Product Spotlight (Saturdays): Generates a new product
  *      spotlight article using DeepSeek V4-Pro.
+ *
+ *   6. Publishing Status Check (every 6h): Logs current state.
+ *
+ * Queue model:
+ *   Articles with status: "queued" are invisible (dateISO: 2099).
+ *   The drip-feed publisher picks from the queue, sets dateISO to
+ *   today, and changes status to "published".
+ *   When the queue is empty, CRON-2 generates new articles via DeepSeek.
  *
  * Usage:
  *   node scripts/start-with-cron.mjs
@@ -332,33 +342,110 @@ function getPublishedCount() {
   return articles.filter(a => new Date(a.dateISO) <= now).length;
 }
 
+function getQueuedArticles() {
+  const articles = loadArticles();
+  return articles.filter(a => a.status === "queued");
+}
+
+function getQueuePublishedCount() {
+  // Count how many articles have been published FROM the queue
+  // (status: "published" and id > 303, i.e. DeepSeek-generated)
+  const articles = loadArticles();
+  return articles.filter(a => a.status === "published" && a.id > 303).length;
+}
+
 // ═══════════════════════════════════════
-// CRON 1: Article publishing status check
+// CRON 1: Drip-Feed Publisher
+// ═══════════════════════════════════════
+// Phase 1: First 60 from queue -> 5/day every day
+// Phase 2: After 60 from queue -> 1/weekday (Mon-Fri)
+// ═══════════════════════════════════════
+function runDripFeedPublisher() {
+  const articles = loadArticles();
+  const queued = articles.filter(a => a.status === "queued");
+  const queuePublished = articles.filter(a => a.status === "published" && a.id > 303).length;
+
+  if (queued.length === 0) {
+    log(`[CRON-1 DRIP] Queue empty (${queuePublished} published from queue). Skipping.`);
+    return;
+  }
+
+  // Determine how many to publish today
+  let toPublishCount;
+  if (queuePublished < 60) {
+    // Phase 1: 5 per day (every day including weekends)
+    toPublishCount = Math.min(5, queued.length, 60 - queuePublished);
+    log(`[CRON-1 DRIP] Phase 1: ${queuePublished}/60 published from queue. Publishing ${toPublishCount} today.`);
+  } else {
+    // Phase 2: 1 per weekday only
+    const dayOfWeek = new Date().getUTCDay(); // 0=Sun, 6=Sat
+    if (dayOfWeek === 0 || dayOfWeek === 6) {
+      log(`[CRON-1 DRIP] Phase 2: Weekend - skipping. ${queued.length} remain in queue.`);
+      return;
+    }
+    toPublishCount = 1;
+    log(`[CRON-1 DRIP] Phase 2: ${queuePublished} published from queue. Publishing ${toPublishCount} today.`);
+  }
+
+  // Publish from the queue (pick first N by ID order for deterministic ordering)
+  const toPublish = queued
+    .sort((a, b) => a.id - b.id)
+    .slice(0, toPublishCount);
+
+  const today = new Date().toISOString();
+
+  for (const article of toPublish) {
+    // Find the article in the main array and update it
+    const idx = articles.findIndex(a => a.id === article.id);
+    if (idx !== -1) {
+      articles[idx].dateISO = today;
+      articles[idx].status = "published";
+      log(`[CRON-1 DRIP] Published: "${article.title}" (${article.category})`);
+    }
+  }
+
+  saveArticles(articles);
+
+  const remainingQueued = articles.filter(a => a.status === "queued").length;
+  const totalPublished = articles.filter(a => new Date(a.dateISO) <= new Date()).length;
+  log(`[CRON-1 DRIP] Done. ${toPublish.length} published today. ${remainingQueued} remain in queue. ${totalPublished} total visible.`);
+}
+
+// ═══════════════════════════════════════
+// CRON 6: Publishing Status Check (every 6h)
 // ═══════════════════════════════════════
 function runPublishingCheck() {
   const articles = loadArticles();
   const now = new Date();
   const published = articles.filter((a) => new Date(a.dateISO) <= now);
-  const scheduled = articles.filter((a) => new Date(a.dateISO) > now);
+  const queued = articles.filter(a => a.status === "queued");
+  const queuePublished = articles.filter(a => a.status === "published" && a.id > 303).length;
 
-  log(`[CRON-1 PUBLISH] ${published.length}/${articles.length} published, ${scheduled.length} scheduled`);
+  log(`[CRON-6 STATUS] ${published.length}/${articles.length} visible, ${queued.length} queued, ${queuePublished} published from queue`);
 
-  if (scheduled.length > 0) {
-    const nextUp = scheduled.sort((a, b) => new Date(a.dateISO) - new Date(b.dateISO))[0];
-    const nextDate = new Date(nextUp.dateISO);
-    const hoursUntil = Math.round((nextDate - now) / (1000 * 60 * 60));
-    log(`[CRON-1 PUBLISH] Next: "${nextUp.title}" in ${hoursUntil}h`);
+  if (queuePublished < 60) {
+    log(`[CRON-6 STATUS] Drip phase: Phase 1 (5/day, ${60 - queuePublished} until Phase 2)`);
+  } else if (queued.length > 0) {
+    log(`[CRON-6 STATUS] Drip phase: Phase 2 (1/weekday, ~${queued.length} weeks remaining)`);
   } else {
-    log("[CRON-1 PUBLISH] All articles published.");
+    log(`[CRON-6 STATUS] Queue empty. DeepSeek fallback active.`);
   }
 }
 
 // ═══════════════════════════════════════
-// CRON 2: DeepSeek Article Generator (Smart Ramp-Up)
+// CRON 2: DeepSeek Fallback Generator
+// Only fires when the queue is empty.
 // ═══════════════════════════════════════
-async function runDeepSeekGenerator() {
+async function runDeepSeekFallback() {
   if (!AUTO_GEN_ENABLED) {
     log("[CRON-2 DEEPSEEK] AUTO_GEN_ENABLED is false - skipping");
+    return;
+  }
+
+  // Check if queue still has articles
+  const queuedCount = getQueuedArticles().length;
+  if (queuedCount > 0) {
+    log(`[CRON-2 DEEPSEEK] Queue has ${queuedCount} articles remaining - skipping generation`);
     return;
   }
 
@@ -366,6 +453,8 @@ async function runDeepSeekGenerator() {
     log("[CRON-2 DEEPSEEK] DEEPSEEK_API_KEY not set - skipping");
     return;
   }
+
+  log("[CRON-2 DEEPSEEK] Queue empty - generating fresh article via DeepSeek V4-Pro");
 
   const articles = loadArticles();
   const existingSlugs = new Set(articles.map(a => a.slug));
@@ -411,6 +500,9 @@ async function runDeepSeekGenerator() {
     // Remove internal tracking field
     delete article._imageId;
     delete article.gateResult;
+
+    // Mark as published (not queued)
+    article.status = "published";
 
     articles.push(article);
     saveArticles(articles);
@@ -686,58 +778,47 @@ function startServer() {
 log("=== Chronic Mystery Cron Manager Starting ===");
 log(`AUTO_GEN_ENABLED: ${AUTO_GEN_ENABLED}`);
 log(`DEEPSEEK_API_KEY: ${process.env.DEEPSEEK_API_KEY ? "set" : "NOT SET"}`);
-log(`Quality gate: ${AI_FLAGGED_WORDS.length} AI words banned, 1200-2500 word range`);
+log(`Quality gate: ${AI_FLAGGED_WORDS.length} AI words banned, 1200-3000 word range`);
 log(`Image library: 40 images with category-aware matching`);
-log(`Model: deepseek-v4-pro (hardcoded)`);
+log(`Model: deepseek-v4-pro (hardcoded, fallback only)`);
 
+const queuedCount = getQueuedArticles().length;
+const queuePubCount = getQueuePublishedCount();
 const pubCount = getPublishedCount();
-log(`Published articles: ${pubCount}`);
-log(`Ramp-up phase: ${pubCount < 200 ? "Phase 1 (3/weekday)" : "Phase 2 (1/weekday)"}`);
+log(`Published articles: ${pubCount} visible`);
+log(`Queue: ${queuedCount} queued, ${queuePubCount} published from queue`);
+if (queuePubCount < 60) {
+  log(`Drip phase: Phase 1 (5/day, ${60 - queuePubCount} until Phase 2)`);
+} else if (queuedCount > 0) {
+  log(`Drip phase: Phase 2 (1/weekday, ~${queuedCount} weeks remaining)`);
+} else {
+  log(`Queue empty. DeepSeek fallback active.`);
+}
 
 log("Scheduling via node-cron:");
-log("  CRON-1: Article auto-publisher    -> 0 */6 * * *  (every 6h)");
-log("  CRON-2: DeepSeek generator         -> smart ramp-up (see below)");
-log("  CRON-3: Content refresh            -> 0 3 1 * *    (1st of month 3am UTC)");
-log("  CRON-4: ASIN validator             -> 0 2 * * 3    (Wed 2am UTC)");
-log("  CRON-5: Product spotlight          -> 0 9 * * 6    (Sat 9am UTC)");
+log("  CRON-1: Drip-feed publisher   -> 0 6 * * *    (daily 06:00 UTC)");
+log("  CRON-2: DeepSeek fallback     -> 0 8 * * 1-5  (weekdays 08:00 UTC, only when queue empty)");
+log("  CRON-3: Content refresh       -> 0 3 1 * *    (1st of month 3am UTC)");
+log("  CRON-4: ASIN validator        -> 0 2 * * 3    (Wed 2am UTC)");
+log("  CRON-5: Product spotlight     -> 0 9 * * 6    (Sat 9am UTC)");
+log("  CRON-6: Status check          -> 0 */6 * * *  (every 6h)");
 
 // ── Initial run on startup ──
 runPublishingCheck();
 
 // ── node-cron schedules ──
 
-// CRON-1: Article auto-publisher (every 6 hours)
-cron.schedule("0 */6 * * *", () => {
-  log("[CRON-1] Triggered by node-cron");
-  runPublishingCheck();
+// CRON-1: Drip-feed publisher (daily at 06:00 UTC)
+cron.schedule("0 6 * * *", () => {
+  log("[CRON-1] Drip-feed publisher triggered");
+  runDripFeedPublisher();
 });
 
-// CRON-2: DeepSeek Article Generator - Smart Ramp-Up
-// Phase 1 (<200 published): Mon-Fri at 08:00, 12:00, 17:00 UTC
-// Phase 2 (>=200 published): Mon-Fri at 08:00 UTC only
+// CRON-2: DeepSeek fallback generator (weekdays at 08:00 UTC)
+// Only generates when the queue is empty
 cron.schedule("0 8 * * 1-5", () => {
-  log("[CRON-2] 08:00 UTC trigger (always fires)");
-  runDeepSeekGenerator();
-});
-
-cron.schedule("0 12 * * 1-5", () => {
-  const count = getPublishedCount();
-  if (count < 200) {
-    log(`[CRON-2] 12:00 UTC trigger (Phase 1: ${count} published < 200)`);
-    runDeepSeekGenerator();
-  } else {
-    log(`[CRON-2] 12:00 UTC skipped (Phase 2: ${count} published >= 200)`);
-  }
-});
-
-cron.schedule("0 17 * * 1-5", () => {
-  const count = getPublishedCount();
-  if (count < 200) {
-    log(`[CRON-2] 17:00 UTC trigger (Phase 1: ${count} published < 200)`);
-    runDeepSeekGenerator();
-  } else {
-    log(`[CRON-2] 17:00 UTC skipped (Phase 2: ${count} published >= 200)`);
-  }
+  log("[CRON-2] DeepSeek fallback check triggered");
+  runDeepSeekFallback();
 });
 
 // CRON-3: Content refresh (1st of month at 3am UTC)
@@ -756,6 +837,12 @@ cron.schedule("0 2 * * 3", () => {
 cron.schedule("0 9 * * 6", () => {
   log("[CRON-5] Triggered by node-cron (Saturday)");
   runProductSpotlight();
+});
+
+// CRON-6: Publishing status check (every 6 hours)
+cron.schedule("0 */6 * * *", () => {
+  log("[CRON-6] Status check triggered");
+  runPublishingCheck();
 });
 
 // Start the Express server
