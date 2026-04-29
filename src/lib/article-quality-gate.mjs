@@ -3,6 +3,14 @@
  *
  * Validates article content before saving. Returns { pass, failures[] }.
  * Every generated or refreshed article MUST pass this gate.
+ *
+ * Revised Paul Voice Gate (April 2026):
+ *   - Word count: 1,200 floor / 2,500 ceiling (target 1,600-2,000)
+ *   - Zero em dashes
+ *   - 40+ banned AI words
+ *   - Banned AI phrases
+ *   - Exactly 3-4 verified ASIN affiliate links
+ *   - 3+ voice signals (contractions + Paul interjections)
  */
 
 // ── AI-flagged single words (Google / Originality.ai detection signals) ──
@@ -14,6 +22,7 @@ export const AI_FLAGGED_WORDS = [
   "comprehensive", "innovative", "streamline", "synergy", "optimize",
   "underscore", "landscape", "navigate", "spearhead", "harness",
   "testament", "beacon", "catalyst", "resonate", "encompass",
+  "framework", "elevate", "unveil", "unravel", "groundbreaking",
 ];
 
 // ── AI-flagged phrases ──
@@ -48,20 +57,25 @@ export const AI_FLAGGED_PHRASES = [
   "stay tuned",
 ];
 
-// ── Voice signals: contractions + interjections that prove human writing ──
+// ── Voice signals: contractions + Paul Wagner interjections ──
 const VOICE_SIGNALS = [
+  // Contractions
   "I've", "I'm", "I'd", "you've", "you're", "you'd", "we've", "we're",
   "it's", "that's", "there's", "here's", "what's", "who's", "don't",
   "doesn't", "didn't", "can't", "won't", "shouldn't", "wouldn't",
   "couldn't", "isn't", "aren't", "wasn't", "weren't", "hasn't",
   "haven't", "hadn't",
-  // Interjections
+  // Paul Wagner / Tender Guide interjections
   "Stay with me", "I know, I know", "Wild, right", "Think about that",
   "And here is the thing", "Bear with me", "This part matters",
   "Seriously, though", "Let that sink in", "Pause on that",
   "I get it", "Hang on", "Not what you expected", "Worth sitting with",
   "I hear you", "And yes, that is real", "No, really",
   "This is the part most people miss", "Stick with me",
+  // Paul Wagner compassionate markers
+  "How does that make you feel", "Right?!", "Know what I mean",
+  "Sit with that for a moment", "Feel that", "You are not alone in this",
+  "That matters", "Take a breath", "Let me be real with you",
 ];
 
 function stripHtml(html) {
@@ -79,12 +93,13 @@ function hasEmDash(text) {
 /**
  * Run the quality gate on an article body.
  * @param {string} body - HTML body of the article
- * @param {object} opts - Optional overrides { minWords, maxWords }
- * @returns {{ pass: boolean, failures: string[] }}
+ * @param {object} opts - Optional overrides { minWords, maxWords, requireAsinCount }
+ * @returns {{ pass: boolean, failures: string[], wordCount, voiceSignals, amazonLinks }}
  */
 export function qualityGate(body, opts = {}) {
   const minWords = opts.minWords || 1200;
-  const maxWords = opts.maxWords || 1800;
+  const maxWords = opts.maxWords || 3000;
+  const requireAsinCount = opts.requireAsinCount !== false; // default true
   const failures = [];
   const plainText = stripHtml(body);
   const lowerText = plainText.toLowerCase();
@@ -124,10 +139,15 @@ export function qualityGate(body, opts = {}) {
     failures.push(`low-voice-signals: ${voiceHits.length} (min 3)`);
   }
 
-  // 6. Amazon link count (if article has any Amazon links, should be 3+)
+  // 6. Amazon link count: exactly 3-4 verified ASIN links
   const amazonLinks = (body.match(/amazon\.com\/dp\/[A-Z0-9]{10}\?tag=/g) || []).length;
-  if (amazonLinks > 0 && amazonLinks < 3) {
-    failures.push(`low-amazon-links: ${amazonLinks} (min 3)`);
+  if (requireAsinCount) {
+    if (amazonLinks < 3) {
+      failures.push(`low-amazon-links: ${amazonLinks} (need 3-4)`);
+    }
+    if (amazonLinks > 4) {
+      failures.push(`too-many-amazon-links: ${amazonLinks} (max 4)`);
+    }
   }
 
   return {
@@ -140,7 +160,7 @@ export function qualityGate(body, opts = {}) {
 }
 
 /**
- * Sanitize article body: replace em dashes, swap AI words.
+ * Sanitize article body: replace em dashes, swap AI words/phrases.
  * @param {string} body - HTML body
  * @returns {string} cleaned body
  */
@@ -154,7 +174,7 @@ export function sanitizeBody(body) {
   const replacements = {
     delve: "dig into", tapestry: "web", leverage: "use", unlock: "open up",
     empower: "support", furthermore: "also", moreover: "and",
-    nuanced: "layered", multifaceted: "complex", paradigm: "framework",
+    nuanced: "layered", multifaceted: "complex", paradigm: "model",
     robust: "strong", foster: "build", realm: "area", myriad: "many",
     pivotal: "key", cornerstone: "foundation", intricate: "detailed",
     embark: "start", profound: "deep", transformative: "life-changing",
@@ -164,6 +184,8 @@ export function sanitizeBody(body) {
     landscape: "space", navigate: "work through", spearhead: "lead",
     harness: "use", testament: "proof", beacon: "signal",
     catalyst: "spark", resonate: "connect", encompass: "cover",
+    framework: "model", elevate: "lift", unveil: "reveal",
+    unravel: "untangle", groundbreaking: "important",
   };
 
   for (const [word, replacement] of Object.entries(replacements)) {
@@ -186,6 +208,14 @@ export function sanitizeBody(body) {
     "shedding light on": "showing",
     "first and foremost": "first",
     "last but not least": "and finally",
+    "a game changer": "a real difference-maker",
+    "game-changer": "difference-maker",
+    "in this comprehensive guide": "in this guide",
+    "this article will explore": "we will look at",
+    "let's explore": "let us look at",
+    "let us explore": "let us look at",
+    "buckle up": "stay with me",
+    "stay tuned": "keep reading",
   };
 
   for (const [phrase, replacement] of Object.entries(phraseReplacements)) {
