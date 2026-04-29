@@ -77,6 +77,7 @@ WORD_REPLACEMENTS = {
 }
 
 PHRASE_REPLACEMENTS = {
+    "at the end of the day": "when it comes down to it",
     "in conclusion": "to wrap up",
     "it's important to note": "worth knowing",
     "it is important to note": "worth knowing",
