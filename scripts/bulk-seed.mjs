@@ -562,10 +562,13 @@ async function main() {
   console.log(`Target: ${TARGET_COUNT} articles`);
   console.log(`Batch size: ${BATCH_SIZE} concurrent`);
   console.log(`Start offset: ${START_OFFSET}`);
-  console.log(`DEEPSEEK_API_KEY: ${process.env.DEEPSEEK_API_KEY ? "set" : "NOT SET"}`);
+  const apiKey = process.env.OPENAI_API_KEY || process.env.DEEPSEEK_API_KEY;
+  console.log(`API KEY: ${apiKey ? "set" : "NOT SET"}`);
+  console.log(`BASE URL: ${process.env.OPENAI_BASE_URL || "https://api.deepseek.com"}`);
+  console.log(`MODEL: ${process.env.OPENAI_MODEL || "deepseek-v4-pro"}`);
 
-  if (!process.env.DEEPSEEK_API_KEY) {
-    console.error("ERROR: DEEPSEEK_API_KEY is required");
+  if (!apiKey) {
+    console.error("ERROR: OPENAI_API_KEY or DEEPSEEK_API_KEY is required");
     process.exit(1);
   }
 
@@ -626,13 +629,8 @@ async function main() {
       const articleIdx = batchStart + idx;
       const articleId = maxId + articleIdx + 1;
 
-      // Spread dates: past 90 days for first 75%, next 30 days for last 25%
-      const totalDays = 120; // 90 past + 30 future
-      const dayOffset = Math.floor((articleIdx / toGenerate.length) * totalDays) - 90;
-      const articleDate = new Date(now);
-      articleDate.setDate(articleDate.getDate() + dayOffset);
-      // Add some randomness (0-23 hours)
-      articleDate.setHours(Math.floor(Math.random() * 24), Math.floor(Math.random() * 60));
+      // All new articles go into the queue (invisible until drip-feed publishes them)
+      const articleDate = new Date("2099-01-01T00:00:00.000Z");
 
       try {
         const article = await generateArticle({
@@ -657,6 +655,9 @@ async function main() {
         // Clean up internal fields
         delete article._imageId;
         delete article.gateResult;
+
+        // Mark as queued for drip-feed
+        article.status = "queued";
 
         return article;
       } catch (err) {

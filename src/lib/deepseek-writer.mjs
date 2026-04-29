@@ -13,11 +13,11 @@ import { IMAGE_LIBRARY, pickImage } from "./image-library.mjs";
 
 // ── DeepSeek client (OpenAI-compatible) ──
 const client = new OpenAI({
-  apiKey: process.env.DEEPSEEK_API_KEY,
-  baseURL: "https://api.deepseek.com",
+  apiKey: process.env.OPENAI_API_KEY || process.env.DEEPSEEK_API_KEY,
+  baseURL: process.env.OPENAI_BASE_URL || "https://api.deepseek.com",
 });
 
-const MODEL = "deepseek-v4-pro";
+const MODEL = process.env.OPENAI_MODEL || "deepseek-v4-pro";
 
 // ── Affiliate tag ──
 const AMAZON_TAG = process.env.AMAZON_TAG || "spankyspinola-20";
