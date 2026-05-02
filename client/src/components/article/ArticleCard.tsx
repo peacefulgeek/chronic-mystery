@@ -22,7 +22,7 @@ export default function ArticleCard({
           <div className="overflow-hidden mb-4">
             <img
               src={article.heroImage}
-              alt={article.title}
+              alt={article.heroImageAlt || article.title}
               width={1200}
               height={675}
               loading="lazy"
@@ -55,7 +55,7 @@ export default function ArticleCard({
           <div className="w-20 h-20 flex-shrink-0 overflow-hidden">
             <img
               src={article.heroImage}
-              alt={article.title}
+              alt={article.heroImageAlt || article.title}
               width={80}
               height={80}
               loading="lazy"
@@ -101,7 +101,7 @@ export default function ArticleCard({
         <div className="overflow-hidden mb-3">
           <img
             src={article.heroImage}
-            alt={article.title}
+            alt={article.heroImageAlt || article.title}
             width={600}
             height={338}
             loading="lazy"

@@ -184,7 +184,7 @@ export default function ArticlePage() {
             {/* Hero image - NOT lazy loaded */}
             <img
               src={article.heroImage}
-              alt={article.title}
+              alt={article.heroImageAlt || article.title}
               width={1200}
               height={675}
               className="w-full aspect-video object-cover mb-6"

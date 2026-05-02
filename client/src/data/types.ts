@@ -23,6 +23,7 @@ export interface Article {
   finalHeader: string;
   imageDescription: string;
   heroImage: string;
+  heroImageAlt: string;
   ogImage: string;
   body: string;
 }
