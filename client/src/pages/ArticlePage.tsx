@@ -125,6 +125,9 @@ export default function ArticlePage() {
         canonical={`${SITE_CONFIG.url}/article/${article.slug}`}
         ogImage={article.ogImage}
         ogType="article"
+        publishedTime={article.dateISO}
+        articleSection={article.categoryName}
+        articleTags={[article.categoryName]}
       />
       <JsonLd type="article" article={article} />
       <JsonLd type="breadcrumb" breadcrumbs={breadcrumbs} />
