@@ -409,6 +409,69 @@ function runDripFeedPublisher() {
   const remainingQueued = articles.filter(a => a.status === "queued").length;
   const totalPublished = articles.filter(a => new Date(a.dateISO) <= new Date()).length;
   log(`[CRON-1 DRIP] Done. ${toPublish.length} published today. ${remainingQueued} remain in queue. ${totalPublished} total visible.`);
+
+  // Regenerate sitemap after publishing new articles
+  runSitemapRegeneration();
+}
+
+// ═══════════════════════════════════════
+// CRON 7: Sitemap & RSS Regeneration
+// ═══════════════════════════════════════
+function runSitemapRegeneration() {
+  try {
+    const articles = loadArticles();
+    const DOMAIN = "https://chronicmystery.com";
+    const now = new Date();
+    const published = articles.filter(a => new Date(a.dateISO) <= now);
+
+    const categories = [
+      "the-mystery", "the-medical", "the-management", "the-identity", "the-deeper-rest"
+    ];
+    const staticPages = [
+      { loc: "/", priority: "1.0", changefreq: "daily" },
+      { loc: "/articles", priority: "0.8", changefreq: "daily" },
+      { loc: "/about", priority: "0.7", changefreq: "monthly" },
+      { loc: "/start-here", priority: "0.8", changefreq: "weekly" },
+      { loc: "/energy-audit", priority: "0.7", changefreq: "monthly" },
+      { loc: "/privacy", priority: "0.3", changefreq: "yearly" },
+      { loc: "/terms", priority: "0.3", changefreq: "yearly" },
+    ];
+
+    let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"\n        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n`;
+
+    for (const page of staticPages) {
+      xml += `  <url>\n    <loc>${DOMAIN}${page.loc}</loc>\n    <changefreq>${page.changefreq}</changefreq>\n    <priority>${page.priority}</priority>\n  </url>\n`;
+    }
+    for (const cat of categories) {
+      xml += `  <url>\n    <loc>${DOMAIN}/category/${cat}</loc>\n    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n  </url>\n`;
+    }
+    for (const article of published) {
+      const escapedTitle = article.title.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+      const escapedAlt = (article.heroImageAlt || article.title).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+      xml += `  <url>\n    <loc>${DOMAIN}/article/${article.slug}</loc>\n    <lastmod>${article.dateISO.split("T")[0]}</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.9</priority>\n    <image:image>\n      <image:loc>${article.heroImage}</image:loc>\n      <image:title>${escapedTitle}</image:title>\n      <image:caption>${escapedAlt}</image:caption>\n    </image:image>\n    <image:image>\n      <image:loc>${article.ogImage}</image:loc>\n      <image:title>${escapedTitle} - Social Share</image:title>\n    </image:image>\n  </url>\n`;
+    }
+    xml += `</urlset>\n`;
+
+    // Write sitemap
+    const outDir = resolve(__dirname, "../dist/public");
+    mkdirSync(outDir, { recursive: true });
+    writeFileSync(resolve(outDir, "sitemap.xml"), xml);
+
+    // Generate RSS feed (latest 20)
+    const latest = published
+      .sort((a, b) => new Date(b.dateISO).getTime() - new Date(a.dateISO).getTime())
+      .slice(0, 20);
+    let rss = `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">\n  <channel>\n    <title>Chronic Mystery</title>\n    <link>${DOMAIN}</link>\n    <description>When You're Exhausted and Nobody Can Tell You Why</description>\n    <language>en-us</language>\n    <atom:link href="${DOMAIN}/feed.xml" rel="self" type="application/rss+xml" />\n`;
+    for (const article of latest) {
+      rss += `    <item>\n      <title>${article.title.replace(/&/g, "&amp;").replace(/</g, "&lt;")}</title>\n      <link>${DOMAIN}/article/${article.slug}</link>\n      <description>${article.description.replace(/&/g, "&amp;").replace(/</g, "&lt;")}</description>\n      <pubDate>${new Date(article.dateISO).toUTCString()}</pubDate>\n      <guid isPermaLink="true">${DOMAIN}/article/${article.slug}</guid>\n      <category>${article.categoryName}</category>\n    </item>\n`;
+    }
+    rss += `  </channel>\n</rss>\n`;
+    writeFileSync(resolve(outDir, "feed.xml"), rss);
+
+    log(`[CRON-7 SITEMAP] Regenerated: ${published.length} articles in sitemap, ${latest.length} in RSS`);
+  } catch (err) {
+    log(`[CRON-7 SITEMAP] ERROR: ${err.message}`);
+  }
 }
 
 // ═══════════════════════════════════════
@@ -802,6 +865,7 @@ log("  CRON-3: Content refresh       -> 0 3 1 * *    (1st of month 3am UTC)");
 log("  CRON-4: ASIN validator        -> 0 2 * * 3    (Wed 2am UTC)");
 log("  CRON-5: Product spotlight     -> 0 9 * * 6    (Sat 9am UTC)");
 log("  CRON-6: Status check          -> 0 */6 * * *  (every 6h)");
+log("  CRON-7: Sitemap regen         -> 0 7 * * *    (daily 07:00 UTC, after drip-feed)");
 
 // ── Initial run on startup ──
 runPublishingCheck();
@@ -844,6 +908,15 @@ cron.schedule("0 */6 * * *", () => {
   log("[CRON-6] Status check triggered");
   runPublishingCheck();
 });
+
+// CRON-7: Sitemap & RSS regeneration (daily at 07:00 UTC, after drip-feed)
+cron.schedule("0 7 * * *", () => {
+  log("[CRON-7] Sitemap regeneration triggered");
+  runSitemapRegeneration();
+});
+
+// ── Initial sitemap generation on startup ──
+runSitemapRegeneration();
 
 // Start the Express server
 startServer();
