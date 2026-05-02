@@ -63,6 +63,8 @@ for (const cat of categories) {
 
 // Article pages
 for (const article of published) {
+  const escapedTitle = article.title.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  const escapedAlt = (article.heroImageAlt || article.title).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
   xml += `  <url>
     <loc>${DOMAIN}/article/${article.slug}</loc>
     <lastmod>${article.dateISO.split("T")[0]}</lastmod>
@@ -70,7 +72,12 @@ for (const article of published) {
     <priority>0.9</priority>
     <image:image>
       <image:loc>${article.heroImage}</image:loc>
-      <image:title>${article.title.replace(/&/g, "&amp;").replace(/</g, "&lt;")}</image:title>
+      <image:title>${escapedTitle}</image:title>
+      <image:caption>${escapedAlt}</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>${article.ogImage}</image:loc>
+      <image:title>${escapedTitle} - Social Share</image:title>
     </image:image>
   </url>
 `;

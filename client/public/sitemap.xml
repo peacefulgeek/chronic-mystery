@@ -1,0 +1,2810 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://chronicmystery.com/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/articles</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/start-here</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/energy-audit</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/privacy</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/terms</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/category/the-mystery</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/category/the-medical</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/category/the-management</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/category/the-identity</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/category/the-deeper-rest</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/managing-pots-practically</loc>
+    <lastmod>2026-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/managing-pots-practically.webp</image:loc>
+      <image:title>Managing POTS Practically</image:title>
+      <image:caption>POTS management tools — compression stockings, salt tablets, water bottle, tilt training guide — arranged practically. Soft...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/managing-pots-practically.webp</image:loc>
+      <image:title>Managing POTS Practically - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/supplements-that-have-evidence</loc>
+    <lastmod>2026-01-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/supplements-that-have-evidence.webp</image:loc>
+      <image:title>Supplements That Have Evidence</image:title>
+      <image:caption>CoQ10, D-ribose, and magnesium supplement bottles arranged beside published research papers, warm natural light. Gentle...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/supplements-that-have-evidence.webp</image:loc>
+      <image:title>Supplements That Have Evidence - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/chronic-illness-as-initiation</loc>
+    <lastmod>2026-01-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/chronic-illness-as-initiation.webp</image:loc>
+      <image:title>Chronic Illness as Initiation</image:title>
+      <image:caption>A threshold being crossed — the old life on one side, an unknown but deeper life on the other. Warm photorealistic style,...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/chronic-illness-as-initiation.webp</image:loc>
+      <image:title>Chronic Illness as Initiation - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-morning-routine-rewrite</loc>
+    <lastmod>2026-01-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-morning-routine-rewrite.webp</image:loc>
+      <image:title>The Morning Routine Rewrite</image:title>
+      <image:caption>A gentle morning routine chart — no alarms, slow rising, hydration first — beside a peaceful bedside scene. Ethereal...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-morning-routine-rewrite.webp</image:loc>
+      <image:title>The Morning Routine Rewrite - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-witness-consciousness-practice</loc>
+    <lastmod>2026-01-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-witness-consciousness-practice.webp</image:loc>
+      <image:title>The Witness Consciousness Practice</image:title>
+      <image:caption>A person observing their own symptoms from the witness perspective — present but not identified with the pain. Warm...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-witness-consciousness-practice.webp</image:loc>
+      <image:title>The Witness Consciousness Practice - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/gentle-stretching-for-bedridden-days</loc>
+    <lastmod>2026-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/gentle-stretching-for-bedridden-days.webp</image:loc>
+      <image:title>Gentle Stretching for Bedridden Days</image:title>
+      <image:caption>Micro-stretches being done in bed — ankle circles, gentle neck turns, finger movements — minimal but meaningful. Soft...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/gentle-stretching-for-bedridden-days.webp</image:loc>
+      <image:title>Gentle Stretching for Bedridden Days - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/managing-sensory-overload</loc>
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/managing-sensory-overload.webp</image:loc>
+      <image:title>Managing Sensory Overload</image:title>
+      <image:caption>Sensory management tools — blue-light glasses, earplugs, dimmer switch, soft textures — arranged on a tray. Gentle...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/managing-sensory-overload.webp</image:loc>
+      <image:title>Managing Sensory Overload - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/music-as-medicine</loc>
+    <lastmod>2026-01-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/music-as-medicine.webp</image:loc>
+      <image:title>Music as Medicine</image:title>
+      <image:caption>Musical notes depicted as medicine entering through the ears, different frequencies targeting different symptoms. Warm...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/music-as-medicine.webp</image:loc>
+      <image:title>Music as Medicine - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-crash-recovery-protocol</loc>
+    <lastmod>2026-01-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-crash-recovery-protocol.webp</image:loc>
+      <image:title>The Crash Recovery Protocol</image:title>
+      <image:caption>A crash recovery station — dark room, ice pack, electrolytes, phone on silent — organized for emergency rest. Soft oil...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-crash-recovery-protocol.webp</image:loc>
+      <image:title>The Crash Recovery Protocol - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/sound-healing-for-fatigue</loc>
+    <lastmod>2026-01-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/sound-healing-for-fatigue.webp</image:loc>
+      <image:title>Sound Healing for Fatigue</image:title>
+      <image:caption>Sound waves from a singing bowl washing over a resting person, the vibrations depicted as healing ripples. Warm documentary...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/sound-healing-for-fatigue.webp</image:loc>
+      <image:title>Sound Healing for Fatigue - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/finding-your-people</loc>
+    <lastmod>2026-01-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/finding-your-people.webp</image:loc>
+      <image:title>Finding Your People</image:title>
+      <image:caption>An online support group screen showing genuine connection, warm faces, understanding messages. Soft watercolor style, warm...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/finding-your-people.webp</image:loc>
+      <image:title>Finding Your People - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/why-exercise-makes-it-worse</loc>
+    <lastmod>2026-02-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/why-exercise-makes-it-worse.webp</image:loc>
+      <image:title>Why Exercise Makes It Worse</image:title>
+      <image:caption>Running shoes abandoned beside a couch where a person lies exhausted, a fitness tracker showing elevated heart rate on the...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/why-exercise-makes-it-worse.webp</image:loc>
+      <image:title>Why Exercise Makes It Worse - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-hormone-replacement-question</loc>
+    <lastmod>2026-02-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-hormone-replacement-question.webp</image:loc>
+      <image:title>The Hormone Replacement Question</image:title>
+      <image:caption>Bioidentical hormone therapy options — estrogen, progesterone, testosterone, DHEA — beside hormone level charts. Warm...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-hormone-replacement-question.webp</image:loc>
+      <image:title>The Hormone Replacement Question - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-metabolic-trap</loc>
+    <lastmod>2026-02-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-metabolic-trap.webp</image:loc>
+      <image:title>The Metabolic Trap</image:title>
+      <image:caption>A biochemical pathway diagram rendered artistically, with one pathway clearly blocked, creating a bottleneck of molecules....</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-metabolic-trap.webp</image:loc>
+      <image:title>The Metabolic Trap - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-validation-hunger</loc>
+    <lastmod>2026-02-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-validation-hunger.webp</image:loc>
+      <image:title>The Validation Hunger</image:title>
+      <image:caption>A person hearing 'I believe you' for the first time, the relief and emotion visible in their expression. Warm...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-validation-hunger.webp</image:loc>
+      <image:title>The Validation Hunger - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/becoming-whole-with-broken-parts</loc>
+    <lastmod>2026-02-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/becoming-whole-with-broken-parts.webp</image:loc>
+      <image:title>Becoming Whole with Broken Parts</image:title>
+      <image:caption>A kintsugi bowl — broken and repaired with gold — beside a person embracing their own mended wholeness. Soft botanical...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/becoming-whole-with-broken-parts.webp</image:loc>
+      <image:title>Becoming Whole with Broken Parts - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/blood-tests-that-actually-matter</loc>
+    <lastmod>2026-02-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/blood-tests-that-actually-matter.webp</image:loc>
+      <image:title>Blood Tests That Actually Matter</image:title>
+      <image:caption>Multiple blood vials with specific test labels visible, arranged on a lab requisition form in warm light. Gentle...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/blood-tests-that-actually-matter.webp</image:loc>
+      <image:title>Blood Tests That Actually Matter - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-hpa-axis-breakdown</loc>
+    <lastmod>2026-02-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-hpa-axis-breakdown.webp</image:loc>
+      <image:title>The HPA Axis Breakdown</image:title>
+      <image:caption>An anatomical illustration of the brain-adrenal connection with a visible crack or disruption in the pathway. Warm...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-hpa-axis-breakdown.webp</image:loc>
+      <image:title>The HPA Axis Breakdown - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-art-of-receiving</loc>
+    <lastmod>2026-02-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-art-of-receiving.webp</image:loc>
+      <image:title>The Art of Receiving</image:title>
+      <image:caption>Open hands receiving care, food, love — the difficult art of accepting what you cannot reciprocate. Soft oil painting style,...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-art-of-receiving.webp</image:loc>
+      <image:title>The Art of Receiving - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/finding-meaning-without-productivity</loc>
+    <lastmod>2026-02-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/finding-meaning-without-productivity.webp</image:loc>
+      <image:title>Finding Meaning Without Productivity</image:title>
+      <image:caption>A person finding meaning in small moments — watching light change, listening to birds — rather than achieving. Warm...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/finding-meaning-without-productivity.webp</image:loc>
+      <image:title>Finding Meaning Without Productivity - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-nitric-oxide-problem</loc>
+    <lastmod>2026-02-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-nitric-oxide-problem.webp</image:loc>
+      <image:title>The Nitric Oxide Problem</image:title>
+      <image:caption>Blood vessels with restricted flow due to nitric oxide pathway disruption, shown in cross-section. Soft watercolor style,...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-nitric-oxide-problem.webp</image:loc>
+      <image:title>The Nitric Oxide Problem - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/creativity-and-chronic-fatigue</loc>
+    <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/creativity-and-chronic-fatigue.webp</image:loc>
+      <image:title>Creativity and Chronic Fatigue</image:title>
+      <image:caption>Art supplies adapted for bed — a lap desk, colored pencils, a small canvas — showing creativity within limits. Gentle...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/creativity-and-chronic-fatigue.webp</image:loc>
+      <image:title>Creativity and Chronic Fatigue - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-shame-of-needing-help</loc>
+    <lastmod>2026-03-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-shame-of-needing-help.webp</image:loc>
+      <image:title>The Shame of Needing Help</image:title>
+      <image:caption>A hand reaching out to accept help from another hand, the gesture showing vulnerability and courage. Warm photorealistic...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-shame-of-needing-help.webp</image:loc>
+      <image:title>The Shame of Needing Help - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-radical-rest-experiment</loc>
+    <lastmod>2026-03-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-radical-rest-experiment.webp</image:loc>
+      <image:title>The Radical Rest Experiment</image:title>
+      <image:caption>A person fully surrendered to rest — no guilt, no phone, no agenda — the radical experiment of complete stopping. Ethereal...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-radical-rest-experiment.webp</image:loc>
+      <image:title>The Radical Rest Experiment - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-two-day-exercise-test</loc>
+    <lastmod>2026-03-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-two-day-exercise-test.webp</image:loc>
+      <image:title>The Two-Day Exercise Test</image:title>
+      <image:caption>Two exercise bikes side by side — day one showing moderate effort, day two showing dramatic decline in performance. Warm...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-two-day-exercise-test.webp</image:loc>
+      <image:title>The Two-Day Exercise Test - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-inner-teacher</loc>
+    <lastmod>2026-03-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-inner-teacher.webp</image:loc>
+      <image:title>The Inner Teacher</image:title>
+      <image:caption>A person listening to their body's wisdom, the body depicted as a wise teacher communicating through sensation. Soft...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-inner-teacher.webp</image:loc>
+      <image:title>The Inner Teacher - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-specialist-maze</loc>
+    <lastmod>2026-03-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-specialist-maze.webp</image:loc>
+      <image:title>The Specialist Maze</image:title>
+      <image:caption>A maze diagram with different medical specialty doors — rheumatology, neurology, immunology — a patient navigating through....</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-specialist-maze.webp</image:loc>
+      <image:title>The Specialist Maze - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/viral-triggered-autoimmunity</loc>
+    <lastmod>2026-03-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/viral-triggered-autoimmunity.webp</image:loc>
+      <image:title>Viral-Triggered Autoimmunity</image:title>
+      <image:caption>A virus particle with surface proteins that mirror human tissue proteins, showing molecular mimicry. Warm minimalist...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/viral-triggered-autoimmunity.webp</image:loc>
+      <image:title>Viral-Triggered Autoimmunity - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-microbiome-treatment-frontier</loc>
+    <lastmod>2026-03-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-microbiome-treatment-frontier.webp</image:loc>
+      <image:title>The Microbiome Treatment Frontier</image:title>
+      <image:caption>Probiotic capsules and prebiotic foods arranged beside a gut microbiome diagram, warm natural light. Soft oil painting...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-microbiome-treatment-frontier.webp</image:loc>
+      <image:title>The Microbiome Treatment Frontier - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-caregiver-coordination-guide</loc>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-caregiver-coordination-guide.webp</image:loc>
+      <image:title>The Caregiver Coordination Guide</image:title>
+      <image:caption>A caregiver schedule board showing shared responsibilities between family members and paid help. Warm documentary style,...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-caregiver-coordination-guide.webp</image:loc>
+      <image:title>The Caregiver Coordination Guide - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/nutrition-for-depleted-bodies</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/nutrition-for-depleted-bodies.webp</image:loc>
+      <image:title>Nutrition for Depleted Bodies</image:title>
+      <image:caption>Anti-inflammatory foods arranged on a cutting board — salmon, turmeric, berries, leafy greens — warm kitchen light. Soft...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/nutrition-for-depleted-bodies.webp</image:loc>
+      <image:title>Nutrition for Depleted Bodies - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-transportation-challenge</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-transportation-challenge.webp</image:loc>
+      <image:title>The Transportation Challenge</image:title>
+      <image:caption>Transportation options for limited energy — ride-share app, mobility parking permit, seated waiting area. Gentle painterly...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-transportation-challenge.webp</image:loc>
+      <image:title>The Transportation Challenge - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-activity-diary-method</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-activity-diary-method.webp</image:loc>
+      <image:title>The Activity Diary Method</image:title>
+      <image:caption>An activity diary with color-coded entries showing patterns between activity levels and symptom severity. Warm...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-activity-diary-method.webp</image:loc>
+      <image:title>The Activity Diary Method - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/managing-cognitive-fatigue</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/managing-cognitive-fatigue.webp</image:loc>
+      <image:title>Managing Cognitive Fatigue</image:title>
+      <image:caption>Cognitive rest strategies — eyes closed in a quiet room, no decisions, simple repetitive activity, timer set. Ethereal...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/managing-cognitive-fatigue.webp</image:loc>
+      <image:title>Managing Cognitive Fatigue - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/somatic-experiencing-for-cfs</loc>
+    <lastmod>2026-03-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/somatic-experiencing-for-cfs.webp</image:loc>
+      <image:title>Somatic Experiencing for CFS</image:title>
+      <image:caption>A person's body releasing stored tension in small tremors, the somatic experiencing process depicted gently. Warm...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/somatic-experiencing-for-cfs.webp</image:loc>
+      <image:title>Somatic Experiencing for CFS - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/restorative-yoga-for-fatigue</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/restorative-yoga-for-fatigue.webp</image:loc>
+      <image:title>Restorative Yoga for Fatigue</image:title>
+      <image:caption>A person in a fully supported restorative yoga pose — bolsters, blankets, blocks doing all the work. Soft botanical...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/restorative-yoga-for-fatigue.webp</image:loc>
+      <image:title>Restorative Yoga for Fatigue - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-infection-that-never-left</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-infection-that-never-left.webp</image:loc>
+      <image:title>The Infection That Never Left</image:title>
+      <image:caption>A microscope view showing a virus particle hiding inside a cell, partially concealed, with the cell appearing stressed....</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-infection-that-never-left.webp</image:loc>
+      <image:title>The Infection That Never Left - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-dental-connection</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-dental-connection.webp</image:loc>
+      <image:title>The Dental Connection</image:title>
+      <image:caption>A dental X-ray showing a hidden infection beside a body map showing systemic fatigue effects. Warm minimalist aesthetic,...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-dental-connection.webp</image:loc>
+      <image:title>The Dental Connection - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-new-normal-myth</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-new-normal-myth.webp</image:loc>
+      <image:title>The New Normal Myth</image:title>
+      <image:caption>The phrase 'new normal' being erased, replaced with 'ongoing adaptation,' showing the reality of chronic illness. Soft oil...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-new-normal-myth.webp</image:loc>
+      <image:title>The New Normal Myth - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-meditation-adaptation</loc>
+    <lastmod>2026-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-meditation-adaptation.webp</image:loc>
+      <image:title>The Meditation Adaptation</image:title>
+      <image:caption>A meditation cushion with supportive props — bolster, blankets, timer — adapted for a body that can't sit upright. Warm...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-meditation-adaptation.webp</image:loc>
+      <image:title>The Meditation Adaptation - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/when-allergies-become-systemic</loc>
+    <lastmod>2026-03-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/when-allergies-become-systemic.webp</image:loc>
+      <image:title>When Allergies Become Systemic</image:title>
+      <image:caption>A progression showing a simple flower pollen grain escalating into a full-body inflammatory response. Soft watercolor style,...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/when-allergies-become-systemic.webp</image:loc>
+      <image:title>When Allergies Become Systemic - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/small-fiber-neuropathy-hidden-cause</loc>
+    <lastmod>2026-03-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/small-fiber-neuropathy-hidden-cause.webp</image:loc>
+      <image:title>Small Fiber Neuropathy: The Hidden Cause</image:title>
+      <image:caption>A close-up of skin with tiny nerve fibers visible beneath the surface, some damaged and fraying, under warm clinical light....</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/small-fiber-neuropathy-hidden-cause.webp</image:loc>
+      <image:title>Small Fiber Neuropathy: The Hidden Cause - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-case-for-low-dose-naltrexone</loc>
+    <lastmod>2026-03-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-case-for-low-dose-naltrexone.webp</image:loc>
+      <image:title>The Case for Low-Dose Naltrexone</image:title>
+      <image:caption>A small pill capsule opened to show a tiny dose inside, beside research papers about LDN, warm lighting. Warm photorealistic...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-case-for-low-dose-naltrexone.webp</image:loc>
+      <image:title>The Case for Low-Dose Naltrexone - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-permission-to-rest</loc>
+    <lastmod>2026-03-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-permission-to-rest.webp</image:loc>
+      <image:title>The Permission to Rest</image:title>
+      <image:caption>A permission slip for rest — written, signed, and placed on a pillow — making rest official and valid. Ethereal soft-focus,...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-permission-to-rest.webp</image:loc>
+      <image:title>The Permission to Rest - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/navigating-disability-with-mecfs</loc>
+    <lastmod>2026-03-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/navigating-disability-with-mecfs.webp</image:loc>
+      <image:title>Navigating Disability with ME/CFS</image:title>
+      <image:caption>Disability application forms on a desk beside a person's hand holding a pen, warm but serious atmosphere. Warm...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/navigating-disability-with-mecfs.webp</image:loc>
+      <image:title>Navigating Disability with ME/CFS - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/oxygen-therapy-considerations</loc>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/oxygen-therapy-considerations.webp</image:loc>
+      <image:title>Oxygen Therapy Considerations</image:title>
+      <image:caption>A hyperbaric oxygen chamber beside supplemental oxygen equipment, warm medical setting. Soft botanical illustration style,...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/oxygen-therapy-considerations.webp</image:loc>
+      <image:title>Oxygen Therapy Considerations - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-dark-night-of-the-body</loc>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-dark-night-of-the-body.webp</image:loc>
+      <image:title>The Dark Night of the Body</image:title>
+      <image:caption>A person in the darkest moment of illness, a faint light beginning to emerge — not false hope, but genuine dawn. Gentle...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-dark-night-of-the-body.webp</image:loc>
+      <image:title>The Dark Night of the Body - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/managing-screen-time-with-cfs</loc>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/managing-screen-time-with-cfs.webp</image:loc>
+      <image:title>Managing Screen Time with CFS</image:title>
+      <image:caption>Screen management tools — blue light filter, timer app, e-reader with warm display, screen-free alternatives. Warm...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/managing-screen-time-with-cfs.webp</image:loc>
+      <image:title>Managing Screen Time with CFS - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-iron-paradox</loc>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-iron-paradox.webp</image:loc>
+      <image:title>The Iron Paradox</image:title>
+      <image:caption>Iron molecules locked inside storage proteins while cells nearby appear starved, showing the paradox of normal labs. Soft...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-iron-paradox.webp</image:loc>
+      <image:title>The Iron Paradox - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-community-of-rest</loc>
+    <lastmod>2026-03-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-community-of-rest.webp</image:loc>
+      <image:title>The Community of Rest</image:title>
+      <image:caption>A group of people resting together — online and in person — creating community around shared stillness. Warm documentary...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-community-of-rest.webp</image:loc>
+      <image:title>The Community of Rest - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/hydration-and-electrolytes</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/hydration-and-electrolytes.webp</image:loc>
+      <image:title>Hydration and Electrolytes</image:title>
+      <image:caption>Electrolyte drinks, salt tablets, and a water bottle with measurement marks, beside a POTS management guide. Soft watercolor...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/hydration-and-electrolytes.webp</image:loc>
+      <image:title>Hydration and Electrolytes - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/building-a-support-network</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/building-a-support-network.webp</image:loc>
+      <image:title>Building a Support Network</image:title>
+      <image:caption>A network diagram showing support connections — online community, local group, medical team, close friends. Gentle painterly...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/building-a-support-network.webp</image:loc>
+      <image:title>Building a Support Network - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-final-rest</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-final-rest.webp</image:loc>
+      <image:title>The Final Rest</image:title>
+      <image:caption>A peaceful scene of ultimate rest — not death, but the deepest possible letting go — warm, luminous, accepting. Warm...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-final-rest.webp</image:loc>
+      <image:title>The Final Rest - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-antihistamine-protocol</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-antihistamine-protocol.webp</image:loc>
+      <image:title>The Antihistamine Protocol</image:title>
+      <image:caption>H1 and H2 blocker medications arranged in a systematic protocol chart, warm organized setting. Ethereal soft-focus, morning...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-antihistamine-protocol.webp</image:loc>
+      <image:title>The Antihistamine Protocol - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-emergency-plan</loc>
+    <lastmod>2026-04-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-emergency-plan.webp</image:loc>
+      <image:title>The Emergency Plan</image:title>
+      <image:caption>An emergency information binder — medical summary, medication list, emergency contacts, care instructions. Warm...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-emergency-plan.webp</image:loc>
+      <image:title>The Emergency Plan - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/second-opinions-and-when-to-seek-them</loc>
+    <lastmod>2026-04-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/second-opinions-and-when-to-seek-them.webp</image:loc>
+      <image:title>Second Opinions and When to Seek Them</image:title>
+      <image:caption>Two different medical opinions on paper side by side, a patient's hand between them, warm thoughtful lighting. Soft...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/second-opinions-and-when-to-seek-them.webp</image:loc>
+      <image:title>Second Opinions and When to Seek Them - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-acceptance-resistance-dance</loc>
+    <lastmod>2026-04-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-acceptance-resistance-dance.webp</image:loc>
+      <image:title>The Acceptance-Resistance Dance</image:title>
+      <image:caption>Two hands — one pushing away, one opening — showing the ongoing dance between resistance and acceptance. Gentle chiaroscuro,...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-acceptance-resistance-dance.webp</image:loc>
+      <image:title>The Acceptance-Resistance Dance - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/when-to-consider-plasmapheresis</loc>
+    <lastmod>2026-04-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/when-to-consider-plasmapheresis.webp</image:loc>
+      <image:title>When to Consider Plasmapheresis</image:title>
+      <image:caption>A plasmapheresis machine beside a diagram showing blood filtering, warm medical setting. Warm minimalist aesthetic, clean...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/when-to-consider-plasmapheresis.webp</image:loc>
+      <image:title>When to Consider Plasmapheresis - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-low-stimulation-environment</loc>
+    <lastmod>2026-04-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-low-stimulation-environment.webp</image:loc>
+      <image:title>The Low-Stimulation Environment</image:title>
+      <image:caption>A room designed for low stimulation — soft lighting, minimal decor, sound-absorbing materials, calm colors. Soft oil...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-low-stimulation-environment.webp</image:loc>
+      <image:title>The Low-Stimulation Environment - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-baseline-reset</loc>
+    <lastmod>2026-04-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-baseline-reset.webp</image:loc>
+      <image:title>The Baseline Reset</image:title>
+      <image:caption>A person lying still in a quiet room, a heart rate monitor showing a calm baseline, minimal stimulation. Warm documentary...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-baseline-reset.webp</image:loc>
+      <image:title>The Baseline Reset - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-emotional-labor-of-illness</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-emotional-labor-of-illness.webp</image:loc>
+      <image:title>The Emotional Labor of Illness</image:title>
+      <image:caption>A person managing others' reactions to their illness while barely managing their own, emotional weight visible. Soft...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-emotional-labor-of-illness.webp</image:loc>
+      <image:title>The Emotional Labor of Illness - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/intracranial-pressure-and-fatigue</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/intracranial-pressure-and-fatigue.webp</image:loc>
+      <image:title>Intracranial Pressure and Fatigue</image:title>
+      <image:caption>A cross-section of the skull showing altered cerebrospinal fluid dynamics, with pressure indicators. Gentle painterly...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/intracranial-pressure-and-fatigue.webp</image:loc>
+      <image:title>Intracranial Pressure and Fatigue - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/motherhood-and-mecfs</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/motherhood-and-mecfs.webp</image:loc>
+      <image:title>Motherhood and ME/CFS</image:title>
+      <image:caption>A mother resting while her child plays nearby, showing the intersection of maternal love and physical limitation. Warm...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/motherhood-and-mecfs.webp</image:loc>
+      <image:title>Motherhood and ME/CFS - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/immune-system-gone-rogue</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/immune-system-gone-rogue.webp</image:loc>
+      <image:title>When Your Immune System Goes Rogue</image:title>
+      <image:caption>White blood cells depicted as confused soldiers attacking healthy tissue, rendered in a soft medical illustration style....</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/immune-system-gone-rogue.webp</image:loc>
+      <image:title>When Your Immune System Goes Rogue - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/orthostatic-intolerance-explained</loc>
+    <lastmod>2026-04-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/orthostatic-intolerance-explained.webp</image:loc>
+      <image:title>Orthostatic Intolerance Explained</image:title>
+      <image:caption>A person standing up from a chair with visible blood pooling in their legs, their face showing dizziness, medical...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/orthostatic-intolerance-explained.webp</image:loc>
+      <image:title>Orthostatic Intolerance Explained - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/gratitude-without-bypassing</loc>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/gratitude-without-bypassing.webp</image:loc>
+      <image:title>Gratitude Without Bypassing</image:title>
+      <image:caption>Genuine gratitude and genuine grief held simultaneously in two hands, neither negating the other. Soft botanical...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/gratitude-without-bypassing.webp</image:loc>
+      <image:title>Gratitude Without Bypassing - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-people-pleaser-collapse</loc>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-people-pleaser-collapse.webp</image:loc>
+      <image:title>The People Pleaser Collapse</image:title>
+      <image:caption>A person who always said yes, now lying down surrounded by all the commitments they can no longer keep. Gentle chiaroscuro,...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-people-pleaser-collapse.webp</image:loc>
+      <image:title>The People Pleaser Collapse - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-sleep-that-doesnt-restore</loc>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-sleep-that-doesnt-restore.webp</image:loc>
+      <image:title>The Sleep That Doesn't Restore</image:title>
+      <image:caption>A person lying in bed with eyes open in pre-dawn darkness, an alarm clock showing 3:47 AM, rumpled sheets suggesting...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-sleep-that-doesnt-restore.webp</image:loc>
+      <image:title>The Sleep That Doesn't Restore - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-ego-death-of-illness</loc>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-ego-death-of-illness.webp</image:loc>
+      <image:title>The Ego Death of Illness</image:title>
+      <image:caption>Layers of identity peeling away like an onion, revealing something essential and luminous at the core. Soft oil painting...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-ego-death-of-illness.webp</image:loc>
+      <image:title>The Ego Death of Illness - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/cervical-instability-and-fatigue</loc>
+    <lastmod>2026-04-04</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/cervical-instability-and-fatigue.webp</image:loc>
+      <image:title>Cervical Instability and Fatigue</image:title>
+      <image:caption>An anatomical view of the craniocervical junction showing subtle instability, with the brainstem visible beneath. Warm...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/cervical-instability-and-fatigue.webp</image:loc>
+      <image:title>Cervical Instability and Fatigue - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-caregiver-identity-shift</loc>
+    <lastmod>2026-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-caregiver-identity-shift.webp</image:loc>
+      <image:title>The Caregiver Identity Shift</image:title>
+      <image:caption>A couple where one partner is now caregiver, showing the relationship transformation with tenderness and strain. Soft...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-caregiver-identity-shift.webp</image:loc>
+      <image:title>The Caregiver Identity Shift - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/managing-work-with-cfs</loc>
+    <lastmod>2026-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/managing-work-with-cfs.webp</image:loc>
+      <image:title>Managing Work with CFS</image:title>
+      <image:caption>A home office setup with ergonomic accommodations — standing desk at sitting height, timer, rest area nearby. Gentle...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/managing-work-with-cfs.webp</image:loc>
+      <image:title>Managing Work with CFS - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-self-compassion-practice</loc>
+    <lastmod>2026-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-self-compassion-practice.webp</image:loc>
+      <image:title>The Self-Compassion Practice</image:title>
+      <image:caption>A person holding themselves with the same tenderness they would offer a dear friend, warm self-embrace. Warm photorealistic...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-self-compassion-practice.webp</image:loc>
+      <image:title>The Self-Compassion Practice - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-sacred-ordinary</loc>
+    <lastmod>2026-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-sacred-ordinary.webp</image:loc>
+      <image:title>The Sacred Ordinary</image:title>
+      <image:caption>An ordinary moment — light on a wall, steam from tea, a breath — depicted as sacred and worthy of full attention. Ethereal...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-sacred-ordinary.webp</image:loc>
+      <image:title>The Sacred Ordinary - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-sacred-pause</loc>
+    <lastmod>2026-04-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-sacred-pause.webp</image:loc>
+      <image:title>The Sacred Pause</image:title>
+      <image:caption>A moment frozen between two activities — the pause itself depicted as sacred, luminous, intentional. Warm impressionistic...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-sacred-pause.webp</image:loc>
+      <image:title>The Sacred Pause - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-cortisol-awakening-response</loc>
+    <lastmod>2026-04-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-cortisol-awakening-response.webp</image:loc>
+      <image:title>The Cortisol Awakening Response</image:title>
+      <image:caption>A graph showing a flat cortisol curve at dawn compared to a healthy rising curve, rendered artistically with morning light....</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-cortisol-awakening-response.webp</image:loc>
+      <image:title>The Cortisol Awakening Response - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-identity-beyond-illness</loc>
+    <lastmod>2026-04-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-identity-beyond-illness.webp</image:loc>
+      <image:title>The Identity Beyond Illness</image:title>
+      <image:caption>A person looking past their diagnosis toward a horizon, illness present but not defining the whole view. Gentle chiaroscuro,...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-identity-beyond-illness.webp</image:loc>
+      <image:title>The Identity Beyond Illness - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-medication-sensitivity-paradox</loc>
+    <lastmod>2026-04-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-medication-sensitivity-paradox.webp</image:loc>
+      <image:title>The Medication Sensitivity Paradox</image:title>
+      <image:caption>A pill being split into quarters beside a nervous system diagram showing heightened sensitivity. Warm minimalist aesthetic,...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-medication-sensitivity-paradox.webp</image:loc>
+      <image:title>The Medication Sensitivity Paradox - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/chronic-illness-in-your-twenties</loc>
+    <lastmod>2026-04-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/chronic-illness-in-your-twenties.webp</image:loc>
+      <image:title>Chronic Illness in Your Twenties</image:title>
+      <image:caption>A young person watching peers graduate and travel while they manage medical appointments, warm but poignant. Soft oil...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/chronic-illness-in-your-twenties.webp</image:loc>
+      <image:title>Chronic Illness in Your Twenties - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/acupuncture-for-chronic-fatigue</loc>
+    <lastmod>2026-04-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/acupuncture-for-chronic-fatigue.webp</image:loc>
+      <image:title>Acupuncture for Chronic Fatigue</image:title>
+      <image:caption>Acupuncture needles placed along meridian points on a calm patient, warm treatment room setting. Warm documentary style,...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/acupuncture-for-chronic-fatigue.webp</image:loc>
+      <image:title>Acupuncture for Chronic Fatigue - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-bath-as-ritual</loc>
+    <lastmod>2026-04-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-bath-as-ritual.webp</image:loc>
+      <image:title>The Bath as Ritual</image:title>
+      <image:caption>A bath prepared as ritual — candles, epsom salts, essential oils, warm light — transforming hygiene into healing. Soft...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-bath-as-ritual.webp</image:loc>
+      <image:title>The Bath as Ritual - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-lymphatic-system-failure</loc>
+    <lastmod>2026-04-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-lymphatic-system-failure.webp</image:loc>
+      <image:title>The Lymphatic System Failure</image:title>
+      <image:caption>The lymphatic system depicted with sluggish flow, toxins accumulating at nodes, rendered in soft medical illustration....</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-lymphatic-system-failure.webp</image:loc>
+      <image:title>The Lymphatic System Failure - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/emergency-room-with-mecfs</loc>
+    <lastmod>2026-04-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/emergency-room-with-mecfs.webp</image:loc>
+      <image:title>The Emergency Room with ME/CFS</image:title>
+      <image:caption>An ER waiting room scene with a person holding a prepared medical summary card, warm but urgent atmosphere. Warm...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/emergency-room-with-mecfs.webp</image:loc>
+      <image:title>The Emergency Room with ME/CFS - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/viral-persistence-theory</loc>
+    <lastmod>2026-04-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/viral-persistence-theory.webp</image:loc>
+      <image:title>The Viral Persistence Theory</image:title>
+      <image:caption>A virus particle embedded deep within tissue, surrounded by immune cells that can't quite reach it. Ethereal soft-focus,...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/viral-persistence-theory.webp</image:loc>
+      <image:title>The Viral Persistence Theory - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-histamine-connection</loc>
+    <lastmod>2026-04-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-histamine-connection.webp</image:loc>
+      <image:title>The Histamine Connection</image:title>
+      <image:caption>Histamine molecules flooding from mast cells alongside foods that trigger the response — wine, aged cheese, fermented foods....</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-histamine-connection.webp</image:loc>
+      <image:title>The Histamine Connection - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-invisible-illness-paradox</loc>
+    <lastmod>2026-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-invisible-illness-paradox.webp</image:loc>
+      <image:title>The Invisible Illness Paradox</image:title>
+      <image:caption>A person standing in front of a mirror — their reflection shows visible exhaustion while their outward appearance looks...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-invisible-illness-paradox.webp</image:loc>
+      <image:title>The Invisible Illness Paradox - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/death-meditation-for-the-living</loc>
+    <lastmod>2026-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/death-meditation-for-the-living.webp</image:loc>
+      <image:title>Death Meditation for the Living</image:title>
+      <image:caption>A person contemplating mortality with peace rather than fear, life and death depicted as a continuous cycle. Gentle...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/death-meditation-for-the-living.webp</image:loc>
+      <image:title>Death Meditation for the Living - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-perfectionism-fatigue-connection</loc>
+    <lastmod>2026-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-perfectionism-fatigue-connection.webp</image:loc>
+      <image:title>The Perfectionism-Fatigue Connection</image:title>
+      <image:caption>A shattered perfectionist's to-do list beside a gentler, more realistic version, warm reflective light. Warm minimalist...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-perfectionism-fatigue-connection.webp</image:loc>
+      <image:title>The Perfectionism-Fatigue Connection - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-digital-sabbath</loc>
+    <lastmod>2026-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-digital-sabbath.webp</image:loc>
+      <image:title>The Digital Sabbath</image:title>
+      <image:caption>All devices turned off and placed in a basket, a person sitting in peaceful device-free presence. Soft oil painting style,...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-digital-sabbath.webp</image:loc>
+      <image:title>The Digital Sabbath - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/chemical-sensitivity-and-fatigue</loc>
+    <lastmod>2026-04-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/chemical-sensitivity-and-fatigue.webp</image:loc>
+      <image:title>Chemical Sensitivity and Fatigue</image:title>
+      <image:caption>A person recoiling from a perfume bottle, with visible wavy lines representing chemical sensitivity emanating from the...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/chemical-sensitivity-and-fatigue.webp</image:loc>
+      <image:title>Chemical Sensitivity and Fatigue - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/when-your-body-attacks-itself</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/when-your-body-attacks-itself.webp</image:loc>
+      <image:title>When Your Body Attacks Itself</image:title>
+      <image:caption>Antibodies depicted as confused arrows pointing inward at healthy tissue, rendered in a soft medical illustration style....</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/when-your-body-attacks-itself.webp</image:loc>
+      <image:title>When Your Body Attacks Itself - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/neurological-symptoms-nobody-mentions</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/neurological-symptoms-nobody-mentions.webp</image:loc>
+      <image:title>Neurological Symptoms Nobody Mentions</image:title>
+      <image:caption>A brain scan image with multiple areas highlighted, showing the widespread neurological impact of ME/CFS. Gentle painterly...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/neurological-symptoms-nobody-mentions.webp</image:loc>
+      <image:title>Neurological Symptoms Nobody Mentions - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-letting-go-practice</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-letting-go-practice.webp</image:loc>
+      <image:title>The Letting Go Practice</image:title>
+      <image:caption>Hands releasing a held object — representing attachment to the former life — with grace rather than defeat. Warm...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-letting-go-practice.webp</image:loc>
+      <image:title>The Letting Go Practice - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-cost-of-chronic-illness</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-cost-of-chronic-illness.webp</image:loc>
+      <image:title>The Cost of Chronic Illness</image:title>
+      <image:caption>Medical bills and insurance denial letters stacked beside medication bottles, warm but sobering light. Ethereal soft-focus,...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-cost-of-chronic-illness.webp</image:loc>
+      <image:title>The Cost of Chronic Illness - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/stem-cell-therapy-reality-check</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/stem-cell-therapy-reality-check.webp</image:loc>
+      <image:title>Stem Cell Therapy Reality Check</image:title>
+      <image:caption>A stem cell under magnification beside a reality-check checklist, showing promises versus evidence. Warm impressionistic...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/stem-cell-therapy-reality-check.webp</image:loc>
+      <image:title>Stem Cell Therapy Reality Check - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/managing-holidays-and-events</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/managing-holidays-and-events.webp</image:loc>
+      <image:title>Managing Holidays and Events</image:title>
+      <image:caption>A holiday gathering with a quiet rest room visible nearby, showing the balance between participation and recovery. Soft...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/managing-holidays-and-events.webp</image:loc>
+      <image:title>Managing Holidays and Events - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/when-normal-labs-lie</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/when-normal-labs-lie.webp</image:loc>
+      <image:title>When Normal Labs Lie</image:title>
+      <image:caption>A person holding up a lab results paper to morning window light, the paper appearing translucent, with a magnifying glass...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/when-normal-labs-lie.webp</image:loc>
+      <image:title>When Normal Labs Lie - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-inner-landscape</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-inner-landscape.webp</image:loc>
+      <image:title>The Inner Landscape</image:title>
+      <image:caption>A rich inner world depicted inside a person's silhouette — mountains, rivers, forests — contrasting their limited outer...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-inner-landscape.webp</image:loc>
+      <image:title>The Inner Landscape - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/mast-cell-activation-and-fatigue</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/mast-cell-activation-and-fatigue.webp</image:loc>
+      <image:title>Mast Cell Activation and Fatigue</image:title>
+      <image:caption>An artistic depiction of mast cells releasing histamine granules in an exaggerated cascade, with inflammation spreading...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/mast-cell-activation-and-fatigue.webp</image:loc>
+      <image:title>Mast Cell Activation and Fatigue - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/walking-meditation-adaptations</loc>
+    <lastmod>2026-04-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/walking-meditation-adaptations.webp</image:loc>
+      <image:title>Walking Meditation Adaptations</image:title>
+      <image:caption>A person taking three slow, deliberate steps in a hallway, each step a complete meditation. Warm documentary style, natural...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/walking-meditation-adaptations.webp</image:loc>
+      <image:title>Walking Meditation Adaptations - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/bathing-and-personal-care-adaptations</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/bathing-and-personal-care-adaptations.webp</image:loc>
+      <image:title>Bathing and Personal Care Adaptations</image:title>
+      <image:caption>Adaptive bathing tools — shower chair, handheld shower head, dry shampoo, long-handled sponge — warm bathroom. Soft...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/bathing-and-personal-care-adaptations.webp</image:loc>
+      <image:title>Bathing and Personal Care Adaptations - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-healing-crisis-concept</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-healing-crisis-concept.webp</image:loc>
+      <image:title>The Healing Crisis Concept</image:title>
+      <image:caption>A graph showing temporary symptom increase during genuine healing, with the overall trajectory improving. Gentle painterly...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-healing-crisis-concept.webp</image:loc>
+      <image:title>The Healing Crisis Concept - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-gratitude-pressure</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-gratitude-pressure.webp</image:loc>
+      <image:title>The Gratitude Pressure</image:title>
+      <image:caption>A person pushing away a 'just be grateful' sign while holding space for their genuine complex emotions. Warm photorealistic...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-gratitude-pressure.webp</image:loc>
+      <image:title>The Gratitude Pressure - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-stress-response-toolkit</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-stress-response-toolkit.webp</image:loc>
+      <image:title>The Stress Response Toolkit</image:title>
+      <image:caption>Vagal toning tools — cold water, humming exercise diagram, breathing pattern guide — arranged for quick access. Ethereal...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-stress-response-toolkit.webp</image:loc>
+      <image:title>The Stress Response Toolkit - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/gentle-movement-that-doesnt-crash</loc>
+    <lastmod>2026-04-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/gentle-movement-that-doesnt-crash.webp</image:loc>
+      <image:title>Gentle Movement That Doesn't Crash</image:title>
+      <image:caption>A person doing very gentle seated stretches by a window, movement so slow it's almost meditation. Warm impressionistic...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/gentle-movement-that-doesnt-crash.webp</image:loc>
+      <image:title>Gentle Movement That Doesn't Crash - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-productivity-identity-crisis</loc>
+    <lastmod>2026-04-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-productivity-identity-crisis.webp</image:loc>
+      <image:title>The Productivity Identity Crisis</image:title>
+      <image:caption>An empty desk that once held awards and projects, now holding only a cup of tea and a journal. Soft botanical illustration...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-productivity-identity-crisis.webp</image:loc>
+      <image:title>The Productivity Identity Crisis - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/forest-bathing-adaptations</loc>
+    <lastmod>2026-04-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/forest-bathing-adaptations.webp</image:loc>
+      <image:title>Forest Bathing Adaptations</image:title>
+      <image:caption>Forest bathing brought indoors — a plant-filled room, nature sounds, green light, earthy scents. Gentle chiaroscuro, warm...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/forest-bathing-adaptations.webp</image:loc>
+      <image:title>Forest Bathing Adaptations - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/seasonal-symptom-management</loc>
+    <lastmod>2026-04-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/seasonal-symptom-management.webp</image:loc>
+      <image:title>Seasonal Symptom Management</image:title>
+      <image:caption>Four seasonal icons with corresponding symptom management strategies, showing year-round adaptation. Warm minimalist...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/seasonal-symptom-management.webp</image:loc>
+      <image:title>Seasonal Symptom Management - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/why-stress-triggers-crashes</loc>
+    <lastmod>2026-04-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/why-stress-triggers-crashes.webp</image:loc>
+      <image:title>Why Stress Triggers Crashes</image:title>
+      <image:caption>A person at a desk with stress lines radiating outward, their body showing visible fatigue spreading from the center. Soft...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/why-stress-triggers-crashes.webp</image:loc>
+      <image:title>Why Stress Triggers Crashes - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-thyroid-medication-debate</loc>
+    <lastmod>2026-04-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-thyroid-medication-debate.webp</image:loc>
+      <image:title>The Thyroid Medication Debate</image:title>
+      <image:caption>T3 and T4 medication bottles beside a thyroid gland diagram, with question marks showing the ongoing debate. Warm...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-thyroid-medication-debate.webp</image:loc>
+      <image:title>The Thyroid Medication Debate - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/telehealth-for-chronic-fatigue</loc>
+    <lastmod>2026-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/telehealth-for-chronic-fatigue.webp</image:loc>
+      <image:title>Telehealth for Chronic Fatigue</image:title>
+      <image:caption>A person in bed having a video call with their doctor on a tablet, warm home setting. Soft watercolor style, warm cream and...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/telehealth-for-chronic-fatigue.webp</image:loc>
+      <image:title>Telehealth for Chronic Fatigue - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-practice-of-not-doing</loc>
+    <lastmod>2026-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-practice-of-not-doing.webp</image:loc>
+      <image:title>The Practice of Not-Doing</image:title>
+      <image:caption>A person sitting with complete stillness, the concept of wu wei depicted as active non-action. Gentle painterly aesthetic,...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-practice-of-not-doing.webp</image:loc>
+      <image:title>The Practice of Not-Doing - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/heat-and-cold-intolerance</loc>
+    <lastmod>2026-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/heat-and-cold-intolerance.webp</image:loc>
+      <image:title>Heat and Cold Intolerance</image:title>
+      <image:caption>A person layered in clothing beside a thermostat, with both a fan and heating pad nearby, showing temperature struggles....</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/heat-and-cold-intolerance.webp</image:loc>
+      <image:title>Heat and Cold Intolerance - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/rebuilding-self-worth</loc>
+    <lastmod>2026-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/rebuilding-self-worth.webp</image:loc>
+      <image:title>Rebuilding Self-Worth</image:title>
+      <image:caption>Building blocks being rearranged — old labels falling away, new foundations being laid, warm constructive light. Ethereal...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/rebuilding-self-worth.webp</image:loc>
+      <image:title>Rebuilding Self-Worth - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/building-your-medical-team</loc>
+    <lastmod>2026-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/building-your-medical-team.webp</image:loc>
+      <image:title>Building Your Medical Team</image:title>
+      <image:caption>A team of diverse healthcare providers — doctor, PT, nutritionist, psychologist — arranged in a collaborative circle. Warm...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/building-your-medical-team.webp</image:loc>
+      <image:title>Building Your Medical Team - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-weekly-planning-system</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-weekly-planning-system.webp</image:loc>
+      <image:title>The Weekly Planning System</image:title>
+      <image:caption>A weekly planner with energy-based scheduling — high energy tasks on good days, rest days clearly marked. Soft botanical...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-weekly-planning-system.webp</image:loc>
+      <image:title>The Weekly Planning System - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/post-viral-fatigue-explained</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/post-viral-fatigue-explained.webp</image:loc>
+      <image:title>Post-Viral Fatigue Explained</image:title>
+      <image:caption>A virus particle dissolving into mist while a person sits wrapped in a blanket behind it, showing the aftermath of...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/post-viral-fatigue-explained.webp</image:loc>
+      <image:title>Post-Viral Fatigue Explained - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-b12-injection-question</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-b12-injection-question.webp</image:loc>
+      <image:title>The B12 Injection Question</image:title>
+      <image:caption>A B12 injection vial and syringe beside methylation pathway diagrams, warm clinical lighting. Warm minimalist aesthetic,...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-b12-injection-question.webp</image:loc>
+      <image:title>The B12 Injection Question - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-elimination-diet-approach</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-elimination-diet-approach.webp</image:loc>
+      <image:title>The Elimination Diet Approach</image:title>
+      <image:caption>A food diary beside eliminated and reintroduced foods, organized on a kitchen counter in warm light. Soft oil painting...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-elimination-diet-approach.webp</image:loc>
+      <image:title>The Elimination Diet Approach - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/compounding-pharmacies-for-cfs</loc>
+    <lastmod>2026-04-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/compounding-pharmacies-for-cfs.webp</image:loc>
+      <image:title>Compounding Pharmacies for CFS</image:title>
+      <image:caption>A compounding pharmacist preparing a custom medication, mortar and pestle visible, warm professional setting. Warm...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/compounding-pharmacies-for-cfs.webp</image:loc>
+      <image:title>Compounding Pharmacies for CFS - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-self-advocacy-toolkit</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-self-advocacy-toolkit.webp</image:loc>
+      <image:title>The Self-Advocacy Toolkit</image:title>
+      <image:caption>Self-advocacy tools — prepared scripts, rights documentation, medical records binder, confident posture guide. Soft...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-self-advocacy-toolkit.webp</image:loc>
+      <image:title>The Self-Advocacy Toolkit - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/cannabis-and-chronic-fatigue</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/cannabis-and-chronic-fatigue.webp</image:loc>
+      <image:title>Cannabis and Chronic Fatigue</image:title>
+      <image:caption>CBD and THC molecules depicted beside the endocannabinoid system diagram, warm scientific illustration. Gentle painterly...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/cannabis-and-chronic-fatigue.webp</image:loc>
+      <image:title>Cannabis and Chronic Fatigue - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/energy-conservation-in-daily-tasks</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/energy-conservation-in-daily-tasks.webp</image:loc>
+      <image:title>Energy Conservation in Daily Tasks</image:title>
+      <image:caption>Daily tasks reimagined — seated dressing, slide-out shelves, reacher tool, wheeled cart — showing energy savings. Warm...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/energy-conservation-in-daily-tasks.webp</image:loc>
+      <image:title>Energy Conservation in Daily Tasks - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/environmental-triggers-of-cfs</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/environmental-triggers-of-cfs.webp</image:loc>
+      <image:title>Environmental Triggers of CFS</image:title>
+      <image:caption>A house cross-section showing hidden mold, chemical fumes, and environmental toxins affecting a person inside. Ethereal...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/environmental-triggers-of-cfs.webp</image:loc>
+      <image:title>Environmental Triggers of CFS - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-ozone-therapy-debate</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-ozone-therapy-debate.webp</image:loc>
+      <image:title>The Ozone Therapy Debate</image:title>
+      <image:caption>Ozone therapy equipment beside debate-style pros and cons, warm medical setting with question marks. Warm impressionistic...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-ozone-therapy-debate.webp</image:loc>
+      <image:title>The Ozone Therapy Debate - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/clinical-trials-for-mecfs</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/clinical-trials-for-mecfs.webp</image:loc>
+      <image:title>Clinical Trials for ME/CFS</image:title>
+      <image:caption>A clinical trial enrollment form beside research vials and a hopeful patient, warm research setting. Soft botanical...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/clinical-trials-for-mecfs.webp</image:loc>
+      <image:title>Clinical Trials for ME/CFS - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-compassion-practice</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-compassion-practice.webp</image:loc>
+      <image:title>The Compassion Practice</image:title>
+      <image:caption>Metta meditation depicted as warm light radiating from a person's heart outward to all beings. Gentle chiaroscuro, warm...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-compassion-practice.webp</image:loc>
+      <image:title>The Compassion Practice - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/anger-as-information</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/anger-as-information.webp</image:loc>
+      <image:title>Anger as Information</image:title>
+      <image:caption>A person's clenched fist slowly opening to reveal a message inside, showing anger transforming into understanding. Warm...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/anger-as-information.webp</image:loc>
+      <image:title>Anger as Information - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/when-the-diagnosis-changes-everything</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/when-the-diagnosis-changes-everything.webp</image:loc>
+      <image:title>When the Diagnosis Changes Everything</image:title>
+      <image:caption>A person holding a medical document with a diagnosis, their expression showing a complex mix of relief and grief. Soft oil...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/when-the-diagnosis-changes-everything.webp</image:loc>
+      <image:title>When the Diagnosis Changes Everything - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/immunoglobulin-therapy-for-cfs</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/immunoglobulin-therapy-for-cfs.webp</image:loc>
+      <image:title>Immunoglobulin Therapy for CFS</image:title>
+      <image:caption>An IV infusion bag with immunoglobulin beside a comfortable treatment chair, warm clinical setting. Warm documentary style,...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/immunoglobulin-therapy-for-cfs.webp</image:loc>
+      <image:title>Immunoglobulin Therapy for CFS - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-nervous-system-reset</loc>
+    <lastmod>2026-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-nervous-system-reset.webp</image:loc>
+      <image:title>The Nervous System Reset</image:title>
+      <image:caption>A nervous system diagram shifting from red (sympathetic) to blue (parasympathetic), showing the reset process. Soft...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-nervous-system-reset.webp</image:loc>
+      <image:title>The Nervous System Reset - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-pain-nobody-believes</loc>
+    <lastmod>2026-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-pain-nobody-believes.webp</image:loc>
+      <image:title>The Pain Nobody Believes</image:title>
+      <image:caption>Hands pressing against an invisible barrier of pain, with subtle red nerve-like patterns visible beneath the skin. Gentle...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-pain-nobody-believes.webp</image:loc>
+      <image:title>The Pain Nobody Believes - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-cortisol-replacement-question</loc>
+    <lastmod>2026-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-cortisol-replacement-question.webp</image:loc>
+      <image:title>The Cortisol Replacement Question</image:title>
+      <image:caption>Low-dose hydrocortisone tablets beside adrenal function test results, warm clinical lighting. Warm photorealistic style,...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-cortisol-replacement-question.webp</image:loc>
+      <image:title>The Cortisol Replacement Question - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/creative-expression-as-healing</loc>
+    <lastmod>2026-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/creative-expression-as-healing.webp</image:loc>
+      <image:title>Creative Expression as Healing</image:title>
+      <image:caption>Art materials arranged for bed-based creation — watercolors, small canvas, voice recorder for poetry. Ethereal soft-focus,...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/creative-expression-as-healing.webp</image:loc>
+      <image:title>Creative Expression as Healing - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/grocery-shopping-strategies</loc>
+    <lastmod>2026-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/grocery-shopping-strategies.webp</image:loc>
+      <image:title>Grocery Shopping Strategies</image:title>
+      <image:caption>A grocery delivery app on a phone beside a simplified shopping list organized by store section. Warm impressionistic style,...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/grocery-shopping-strategies.webp</image:loc>
+      <image:title>Grocery Shopping Strategies - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/stellate-ganglion-block-for-cfs</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/stellate-ganglion-block-for-cfs.webp</image:loc>
+      <image:title>Stellate Ganglion Block for CFS</image:title>
+      <image:caption>An anatomical diagram showing the stellate ganglion location in the neck, with a nerve block needle approach. Soft botanical...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/stellate-ganglion-block-for-cfs.webp</image:loc>
+      <image:title>Stellate Ganglion Block for CFS - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/managing-cognitive-demands</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/managing-cognitive-demands.webp</image:loc>
+      <image:title>Managing Cognitive Demands</image:title>
+      <image:caption>Bills and paperwork organized into a simplified system — color-coded folders, auto-pay setup, minimal decisions. Gentle...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/managing-cognitive-demands.webp</image:loc>
+      <image:title>Managing Cognitive Demands - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-morning-light-practice</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-morning-light-practice.webp</image:loc>
+      <image:title>The Morning Light Practice</image:title>
+      <image:caption>A person sitting in morning sunlight by a window, the light depicted as medicine entering through the eyes. Warm minimalist...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-morning-light-practice.webp</image:loc>
+      <image:title>The Morning Light Practice - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-post-covid-fatigue-connection</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-post-covid-fatigue-connection.webp</image:loc>
+      <image:title>The Post-COVID Fatigue Connection</image:title>
+      <image:caption>A COVID virus particle fading into ME/CFS symptom icons, showing the post-viral connection. Soft oil painting style, golden...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-post-covid-fatigue-connection.webp</image:loc>
+      <image:title>The Post-COVID Fatigue Connection - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-tilt-table-truth</loc>
+    <lastmod>2026-04-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-tilt-table-truth.webp</image:loc>
+      <image:title>The Tilt Table Truth</image:title>
+      <image:caption>A person on a tilt table at 70 degrees, with heart rate and blood pressure monitors showing dramatic changes. Warm...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-tilt-table-truth.webp</image:loc>
+      <image:title>The Tilt Table Truth - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-recovery-position-guide</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-recovery-position-guide.webp</image:loc>
+      <image:title>The Recovery Position Guide</image:title>
+      <image:caption>Multiple recovery positions illustrated — legs elevated, side-lying, supported recline — with breathing cues. Soft...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-recovery-position-guide.webp</image:loc>
+      <image:title>The Recovery Position Guide - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-long-surrender</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-long-surrender.webp</image:loc>
+      <image:title>The Long Surrender</image:title>
+      <image:caption>A long path of daily surrender, each day a small letting go, the cumulative effect depicted as transformation. Gentle...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-long-surrender.webp</image:loc>
+      <image:title>The Long Surrender - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/mast-cell-stabilizers-explained</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/mast-cell-stabilizers-explained.webp</image:loc>
+      <image:title>Mast Cell Stabilizers Explained</image:title>
+      <image:caption>Mast cell stabilizer medication beside a diagram showing mast cells being calmed, warm medical illustration. Warm...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/mast-cell-stabilizers-explained.webp</image:loc>
+      <image:title>Mast Cell Stabilizers Explained - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-hobby-adaptation-guide</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-hobby-adaptation-guide.webp</image:loc>
+      <image:title>The Hobby Adaptation Guide</image:title>
+      <image:caption>Adapted hobbies — audiobooks instead of reading, gentle crafts, bird watching from a window, voice journaling. Ethereal...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-hobby-adaptation-guide.webp</image:loc>
+      <image:title>The Hobby Adaptation Guide - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-boom-bust-cycle</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-boom-bust-cycle.webp</image:loc>
+      <image:title>The Boom-Bust Cycle</image:title>
+      <image:caption>A graph showing the boom-bust pattern — energy spikes followed by crashes — with a steadier line showing pacing. Warm...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-boom-bust-cycle.webp</image:loc>
+      <image:title>The Boom-Bust Cycle - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/mindfulness-for-pain</loc>
+    <lastmod>2026-04-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/mindfulness-for-pain.webp</image:loc>
+      <image:title>Mindfulness for Pain</image:title>
+      <image:caption>A person bringing gentle attention to pain, the quality of attention depicted as soft light transforming the experience....</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/mindfulness-for-pain.webp</image:loc>
+      <image:title>Mindfulness for Pain - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/bedside-nature-therapy</loc>
+    <lastmod>2026-04-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/bedside-nature-therapy.webp</image:loc>
+      <image:title>Bedside Nature Therapy</image:title>
+      <image:caption>A bedside table with a small plant, nature sounds playing, a window showing sky — nature brought to the bedridden. Gentle...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/bedside-nature-therapy.webp</image:loc>
+      <image:title>Bedside Nature Therapy - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-protein-folding-problem</loc>
+    <lastmod>2026-04-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-protein-folding-problem.webp</image:loc>
+      <image:title>The Protein Folding Problem</image:title>
+      <image:caption>Protein molecules in various stages of misfolding, some correctly shaped and others tangled, under warm scientific light....</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-protein-folding-problem.webp</image:loc>
+      <image:title>The Protein Folding Problem - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-ehlers-danlos-connection</loc>
+    <lastmod>2026-04-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-ehlers-danlos-connection.webp</image:loc>
+      <image:title>The Ehlers-Danlos Connection</image:title>
+      <image:caption>Hypermobile joints demonstrated beside a fatigue symptom chart, showing the EDS-ME/CFS connection. Soft oil painting style,...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-ehlers-danlos-connection.webp</image:loc>
+      <image:title>The Ehlers-Danlos Connection - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/professional-identity-reconstruction</loc>
+    <lastmod>2026-04-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/professional-identity-reconstruction.webp</image:loc>
+      <image:title>Professional Identity Reconstruction</image:title>
+      <image:caption>A resume being rewritten with new skills — patience, advocacy, resilience — replacing the old achievements. Warm documentary...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/professional-identity-reconstruction.webp</image:loc>
+      <image:title>Professional Identity Reconstruction - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-friendship-evolution</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-friendship-evolution.webp</image:loc>
+      <image:title>The Friendship Evolution</image:title>
+      <image:caption>A friendship timeline showing which connections deepened and which faded after chronic illness onset. Soft watercolor style,...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-friendship-evolution.webp</image:loc>
+      <image:title>The Friendship Evolution - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-invisible-disability-identity</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-invisible-disability-identity.webp</image:loc>
+      <image:title>The Invisible Disability Identity</image:title>
+      <image:caption>A person wearing an invisible disability badge, standing between the healthy world and the visibly disabled world. Gentle...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-invisible-disability-identity.webp</image:loc>
+      <image:title>The Invisible Disability Identity - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-lyme-disease-overlap</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-lyme-disease-overlap.webp</image:loc>
+      <image:title>The Lyme Disease Overlap</image:title>
+      <image:caption>A Venn diagram showing the overlap between chronic Lyme and ME/CFS symptoms, warm medical illustration. Warm photorealistic...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-lyme-disease-overlap.webp</image:loc>
+      <image:title>The Lyme Disease Overlap - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/why-your-temperature-regulation-fails</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/why-your-temperature-regulation-fails.webp</image:loc>
+      <image:title>Why Your Temperature Regulation Fails</image:title>
+      <image:caption>A person wrapped in a blanket in a warm room, with a thermometer showing normal room temperature, showing thermoregulation...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/why-your-temperature-regulation-fails.webp</image:loc>
+      <image:title>Why Your Temperature Regulation Fails - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-before-and-after-self</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-before-and-after-self.webp</image:loc>
+      <image:title>The Before and After Self</image:title>
+      <image:caption>A split image — one side showing an active past self, the other showing a contemplative present self. Warm impressionistic...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-before-and-after-self.webp</image:loc>
+      <image:title>The Before and After Self - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/finding-a-doctor-who-believes-you</loc>
+    <lastmod>2026-04-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/finding-a-doctor-who-believes-you.webp</image:loc>
+      <image:title>Finding a Doctor Who Believes You</image:title>
+      <image:caption>A patient and doctor sitting face to face in a warm office, the doctor leaning forward with genuine attention. Soft...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/finding-a-doctor-who-believes-you.webp</image:loc>
+      <image:title>Finding a Doctor Who Believes You - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/breathwork-for-the-exhausted</loc>
+    <lastmod>2026-04-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/breathwork-for-the-exhausted.webp</image:loc>
+      <image:title>Breathwork for the Exhausted</image:title>
+      <image:caption>A person doing the gentlest possible breathing exercise — barely visible breath, maximum gentleness. Gentle chiaroscuro,...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/breathwork-for-the-exhausted.webp</image:loc>
+      <image:title>Breathwork for the Exhausted - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/grief-and-chronic-illness</loc>
+    <lastmod>2026-04-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/grief-and-chronic-illness.webp</image:loc>
+      <image:title>Grief and Chronic Illness</image:title>
+      <image:caption>A person sitting with a photo album of their active past life, tears and acceptance both visible. Warm minimalist aesthetic,...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/grief-and-chronic-illness.webp</image:loc>
+      <image:title>Grief and Chronic Illness - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/managing-brain-fog-daily</loc>
+    <lastmod>2026-04-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/managing-brain-fog-daily.webp</image:loc>
+      <image:title>Managing Brain Fog Daily</image:title>
+      <image:caption>Cognitive aids arranged on a desk — sticky notes, timer, simplified to-do list, noise-canceling headphones. Soft oil...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/managing-brain-fog-daily.webp</image:loc>
+      <image:title>Managing Brain Fog Daily - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/adaptive-exercise-progression</loc>
+    <lastmod>2026-04-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/adaptive-exercise-progression.webp</image:loc>
+      <image:title>Adaptive Exercise Progression</image:title>
+      <image:caption>A very gradual exercise progression chart — from bed stretches to seated movement to brief standing — over months. Warm...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/adaptive-exercise-progression.webp</image:loc>
+      <image:title>Adaptive Exercise Progression - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-gut-fatigue-connection</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-gut-fatigue-connection.webp</image:loc>
+      <image:title>The Gut-Fatigue Connection</image:title>
+      <image:caption>An artistic cross-section of the gut with visible microbiome activity, connected by glowing pathways to a tired brain above....</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-gut-fatigue-connection.webp</image:loc>
+      <image:title>The Gut-Fatigue Connection - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/contemplative-reading-practice</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/contemplative-reading-practice.webp</image:loc>
+      <image:title>Contemplative Reading Practice</image:title>
+      <image:caption>A single page of text with one paragraph highlighted, showing the practice of reading slowly and deeply. Gentle painterly...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/contemplative-reading-practice.webp</image:loc>
+      <image:title>Contemplative Reading Practice - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/yoga-nidra-for-chronic-fatigue</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/yoga-nidra-for-chronic-fatigue.webp</image:loc>
+      <image:title>Yoga Nidra for Chronic Fatigue</image:title>
+      <image:caption>A person lying in yoga nidra position with blankets and bolsters, entering the state between waking and sleeping. Warm...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/yoga-nidra-for-chronic-fatigue.webp</image:loc>
+      <image:title>Yoga Nidra for Chronic Fatigue - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/chronic-illness-and-faith</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/chronic-illness-and-faith.webp</image:loc>
+      <image:title>Chronic Illness and Faith</image:title>
+      <image:caption>A person in a place of worship, their relationship with faith visibly transformed by illness experience. Ethereal...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/chronic-illness-and-faith.webp</image:loc>
+      <image:title>Chronic Illness and Faith - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/craniosacral-therapy-evidence</loc>
+    <lastmod>2026-04-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/craniosacral-therapy-evidence.webp</image:loc>
+      <image:title>Craniosacral Therapy Evidence</image:title>
+      <image:caption>Gentle hands performing craniosacral therapy on a patient's head, warm treatment room with soft lighting. Warm...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/craniosacral-therapy-evidence.webp</image:loc>
+      <image:title>Craniosacral Therapy Evidence - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/autonomic-testing-guide</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/autonomic-testing-guide.webp</image:loc>
+      <image:title>Autonomic Testing Guide</image:title>
+      <image:caption>Autonomic testing equipment — tilt table, QSART device, heart rate monitor — in a warm testing room. Soft botanical...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/autonomic-testing-guide.webp</image:loc>
+      <image:title>Autonomic Testing Guide - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/reclaiming-the-body</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/reclaiming-the-body.webp</image:loc>
+      <image:title>Reclaiming the Body</image:title>
+      <image:caption>A person placing both hands on their body with tenderness, reclaiming it from adversary to ally. Gentle chiaroscuro, warm...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/reclaiming-the-body.webp</image:loc>
+      <image:title>Reclaiming the Body - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-social-media-energy-drain</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-social-media-energy-drain.webp</image:loc>
+      <image:title>The Social Media Energy Drain</image:title>
+      <image:caption>A phone showing social media beside an energy meter dropping, with a healthier alternative activity nearby. Warm minimalist...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-social-media-energy-drain.webp</image:loc>
+      <image:title>The Social Media Energy Drain - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/hormonal-chaos-in-chronic-fatigue</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/hormonal-chaos-in-chronic-fatigue.webp</image:loc>
+      <image:title>Hormonal Chaos in Chronic Fatigue</image:title>
+      <image:caption>An artistic rendering of interconnected glands — thyroid, adrenals, pituitary — with disrupted signal lines between them....</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/hormonal-chaos-in-chronic-fatigue.webp</image:loc>
+      <image:title>Hormonal Chaos in Chronic Fatigue - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/rest-as-resistance</loc>
+    <lastmod>2026-04-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/rest-as-resistance.webp</image:loc>
+      <image:title>Rest as Resistance</image:title>
+      <image:caption>A person resting defiantly in a world of productivity demands, their rest depicted as a radical act of power. Warm...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/rest-as-resistance.webp</image:loc>
+      <image:title>Rest as Resistance - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/coagulation-abnormalities-in-fatigue</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/coagulation-abnormalities-in-fatigue.webp</image:loc>
+      <image:title>Coagulation Abnormalities in Fatigue</image:title>
+      <image:caption>Microscopic view of blood showing microclots and fibrin deposits among red blood cells. Soft watercolor style, warm cream...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/coagulation-abnormalities-in-fatigue.webp</image:loc>
+      <image:title>Coagulation Abnormalities in Fatigue - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-rest-schedule</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-rest-schedule.webp</image:loc>
+      <image:title>The Rest Schedule</image:title>
+      <image:caption>A daily schedule with proactive rest periods built in — not reactive rest after crashing, but planned recovery. Gentle...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-rest-schedule.webp</image:loc>
+      <image:title>The Rest Schedule - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-identity-of-rest</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-identity-of-rest.webp</image:loc>
+      <image:title>The Identity of Rest</image:title>
+      <image:caption>A person resting with dignity and intention, rest depicted as a chosen identity rather than a defeat. Warm photorealistic...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-identity-of-rest.webp</image:loc>
+      <image:title>The Identity of Rest - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/managing-multiple-conditions</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/managing-multiple-conditions.webp</image:loc>
+      <image:title>Managing Multiple Conditions</image:title>
+      <image:caption>Overlapping circles showing ME/CFS, POTS, fibromyalgia, and MCAS, with management strategies in the intersections. Ethereal...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/managing-multiple-conditions.webp</image:loc>
+      <image:title>Managing Multiple Conditions - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-grief-ritual</loc>
+    <lastmod>2026-04-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-grief-ritual.webp</image:loc>
+      <image:title>The Grief Ritual</image:title>
+      <image:caption>A person performing a small grief ritual — lighting a candle, writing a letter, releasing a leaf into water. Warm...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-grief-ritual.webp</image:loc>
+      <image:title>The Grief Ritual - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/brain-fog-is-not-in-your-head</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/brain-fog-is-not-in-your-head.webp</image:loc>
+      <image:title>Brain Fog Is Not in Your Head</image:title>
+      <image:caption>A person's profile with a soft cloud of mist surrounding their head, their hand reaching through the fog. Soft botanical...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/brain-fog-is-not-in-your-head.webp</image:loc>
+      <image:title>Brain Fog Is Not in Your Head - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-energy-envelope-explained</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-energy-envelope-explained.webp</image:loc>
+      <image:title>The Energy Envelope Explained</image:title>
+      <image:caption>A visual energy envelope — a soft glowing boundary around a person — showing their daily energy limit. Gentle chiaroscuro,...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-energy-envelope-explained.webp</image:loc>
+      <image:title>The Energy Envelope Explained - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-research-they-dont-fund</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-research-they-dont-fund.webp</image:loc>
+      <image:title>The Research They Don't Fund</image:title>
+      <image:caption>A research lab with empty funding jars beside overflowing ones for other conditions, showing the disparity. Warm minimalist...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-research-they-dont-fund.webp</image:loc>
+      <image:title>The Research They Don't Fund - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/imposter-syndrome-in-chronic-illness</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/imposter-syndrome-in-chronic-illness.webp</image:loc>
+      <image:title>Imposter Syndrome in Chronic Illness</image:title>
+      <image:caption>A person in bed feeling 'not sick enough' while their body clearly shows exhaustion, internal conflict visible. Soft oil...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/imposter-syndrome-in-chronic-illness.webp</image:loc>
+      <image:title>Imposter Syndrome in Chronic Illness - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/the-genetic-vulnerability</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/the-genetic-vulnerability.webp</image:loc>
+      <image:title>The Genetic Vulnerability</image:title>
+      <image:caption>A DNA double helix with certain segments highlighted, alongside a family tree showing patterns of illness. Warm documentary...</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/the-genetic-vulnerability.webp</image:loc>
+      <image:title>The Genetic Vulnerability - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/product-spotlight-oura-ring-fatigue-tracking</loc>
+    <lastmod>2025-03-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/hero-heart-rate-variability-tracking.webp</image:loc>
+      <image:title>Product Spotlight: The Oura Ring and What It Actually Tells You About Fatigue</image:title>
+      <image:caption>Illustration for Product Spotlight: The Oura Ring and What It Actually Tells You About Fatigue</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/og-heart-rate-variability-tracking.webp</image:loc>
+      <image:title>Product Spotlight: The Oura Ring and What It Actually Tells You About Fatigue - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/product-spotlight-d-ribose-atp-support</loc>
+    <lastmod>2025-03-30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/hero-mitochondrial-dysfunction-fatigue.webp</image:loc>
+      <image:title>Product Spotlight: D-Ribose for ATP Support — What the Research Actually Shows</image:title>
+      <image:caption>Illustration for Product Spotlight: D-Ribose for ATP Support — What the Research Actually Shows</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/og-mitochondrial-dysfunction-fatigue.webp</image:loc>
+      <image:title>Product Spotlight: D-Ribose for ATP Support — What the Research Actually Shows - Social Share</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://chronicmystery.com/article/product-spotlight-weighted-blanket-nervous-system</loc>
+    <lastmod>2025-03-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/hero/hero-sleep-architecture-chronic-fatigue.webp</image:loc>
+      <image:title>Product Spotlight: Why a Weighted Blanket Might Be Your Nervous System's Best Friend</image:title>
+      <image:caption>Illustration for Product Spotlight: Why a Weighted Blanket Might Be Your Nervous System's Best Friend</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://chronic-mystery.b-cdn.net/images/og/og-sleep-architecture-chronic-fatigue.webp</image:loc>
+      <image:title>Product Spotlight: Why a Weighted Blanket Might Be Your Nervous System's Best Friend - Social Share</image:title>
+    </image:image>
+  </url>
+</urlset>
