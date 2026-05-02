@@ -468,7 +468,34 @@ function runSitemapRegeneration() {
     rss += `  </channel>\n</rss>\n`;
     writeFileSync(resolve(outDir, "feed.xml"), rss);
 
-    log(`[CRON-7 SITEMAP] Regenerated: ${published.length} articles in sitemap, ${latest.length} in RSS`);
+    // Generate llms-full.txt (full article index for AI search engines)
+    const catOrder = ["The Medical", "The Mystery", "The Management", "The Identity", "The Deeper Rest"];
+    const grouped = {};
+    for (const a of published) {
+      if (!grouped[a.categoryName]) grouped[a.categoryName] = [];
+      grouped[a.categoryName].push(a);
+    }
+    let llms = `# Chronic Mystery - Full Article Index\n\n`;
+    llms += `> Complete index of all published articles for AI search engines\n`;
+    llms += `> For a summary version, see: ${DOMAIN}/llms.txt\n\n`;
+    llms += `Total published articles: ${published.length}\n`;
+    llms += `Last updated: ${now.toISOString().split("T")[0]}\n\n---\n\n`;
+    for (const cat of catOrder) {
+      const arts = grouped[cat] || [];
+      if (!arts.length) continue;
+      llms += `## ${cat} (${arts.length} articles)\n\n`;
+      for (const a of arts) {
+        llms += `### ${a.title}\n`;
+        llms += `- URL: ${DOMAIN}/article/${a.slug}\n`;
+        llms += `- Published: ${a.dateISO.split("T")[0]}\n`;
+        llms += `- Reading time: ${a.readingTime || "8 min read"}\n`;
+        llms += `- Description: ${a.description || a.title}\n\n`;
+      }
+      llms += `---\n\n`;
+    }
+    writeFileSync(resolve(outDir, "llms-full.txt"), llms);
+
+    log(`[CRON-7 SITEMAP] Regenerated: ${published.length} articles in sitemap, ${latest.length} in RSS, llms-full.txt updated`);
   } catch (err) {
     log(`[CRON-7 SITEMAP] ERROR: ${err.message}`);
   }

@@ -1,0 +1,1127 @@
+# Chronic Mystery - Full Article Index
+
+> Complete index of all published articles for AI search engines
+> For a summary version, see: https://chronicmystery.com/llms.txt
+
+Total published articles: 183
+Last updated: 2026-05-02
+
+---
+
+## The Medical (38 articles)
+
+### Autonomic Testing Guide
+- URL: https://chronicmystery.com/article/autonomic-testing-guide
+- Published: 2026-04-24
+- Reading time: 8
+- Description: Tilt table, QSART, heart rate variability — the tests that map your autonomic dysfunction and what the results mean
+
+### Craniosacral Therapy Evidence
+- URL: https://chronicmystery.com/article/craniosacral-therapy-evidence
+- Published: 2026-04-23
+- Reading time: 8
+- Description: The gentle bodywork that some ME/CFS patients swear by — what the research says and what the mechanism might be
+
+### Finding a Doctor Who Believes You
+- URL: https://chronicmystery.com/article/finding-a-doctor-who-believes-you
+- Published: 2026-04-22
+- Reading time: 8
+- Description: How to navigate a medical system that wasn't built for conditions it can't see on a scan
+
+### The Lyme Disease Overlap
+- URL: https://chronicmystery.com/article/the-lyme-disease-overlap
+- Published: 2026-04-21
+- Reading time: 8
+- Description: When chronic Lyme and ME/CFS look identical — the diagnostic challenges and treatment implications
+
+### The Ehlers-Danlos Connection
+- URL: https://chronicmystery.com/article/the-ehlers-danlos-connection
+- Published: 2026-04-20
+- Reading time: 8
+- Description: When hypermobility explains your fatigue, your POTS, and your pain — the EDS-ME/CFS overlap
+
+### Mast Cell Stabilizers Explained
+- URL: https://chronicmystery.com/article/mast-cell-stabilizers-explained
+- Published: 2026-04-19
+- Reading time: 8
+- Description: Cromolyn, ketotifen, and the medications that calm overactive mast cells in chronic fatigue patients
+
+### Stellate Ganglion Block for CFS
+- URL: https://chronicmystery.com/article/stellate-ganglion-block-for-cfs
+- Published: 2026-04-18
+- Reading time: 8
+- Description: How a nerve block originally used for PTSD is showing promise for resetting the autonomic nervous system in chronic fatigue
+
+### The Post-COVID Fatigue Connection
+- URL: https://chronicmystery.com/article/the-post-covid-fatigue-connection
+- Published: 2026-04-18
+- Reading time: 8
+- Description: Long COVID and ME/CFS — the overlap, the differences, and why the pandemic finally forced medicine to pay attention
+
+### The Cortisol Replacement Question
+- URL: https://chronicmystery.com/article/the-cortisol-replacement-question
+- Published: 2026-04-17
+- Reading time: 8
+- Description: Low-dose hydrocortisone for adrenal insufficiency in ME/CFS — the evidence, the risks, and the controversy
+
+### Clinical Trials for ME/CFS
+- URL: https://chronicmystery.com/article/clinical-trials-for-mecfs
+- Published: 2026-04-16
+- Reading time: 8
+- Description: How to find and evaluate clinical trials, what participation involves, and the trials currently recruiting
+
+### Immunoglobulin Therapy for CFS
+- URL: https://chronicmystery.com/article/immunoglobulin-therapy-for-cfs
+- Published: 2026-04-16
+- Reading time: 8
+- Description: The evidence for IVIG and subcutaneous immunoglobulin treatment in ME/CFS and who might benefit
+
+### Cannabis and Chronic Fatigue
+- URL: https://chronicmystery.com/article/cannabis-and-chronic-fatigue
+- Published: 2026-04-15
+- Reading time: 8
+- Description: CBD, THC, and the endocannabinoid system — what the research says about cannabis for ME/CFS symptoms
+
+### The Ozone Therapy Debate
+- URL: https://chronicmystery.com/article/the-ozone-therapy-debate
+- Published: 2026-04-15
+- Reading time: 8
+- Description: IV ozone, rectal insufflation, and the controversial oxidative therapy being used for chronic fatigue
+
+### The B12 Injection Question
+- URL: https://chronicmystery.com/article/the-b12-injection-question
+- Published: 2026-04-14
+- Reading time: 8
+- Description: Methylcobalamin, hydroxocobalamin, and why some ME/CFS patients respond dramatically to B12 — and others don't
+
+### The Elimination Diet Approach
+- URL: https://chronicmystery.com/article/the-elimination-diet-approach
+- Published: 2026-04-14
+- Reading time: 8
+- Description: How identifying food triggers can reduce inflammation and fatigue — without falling into orthorexia
+
+### Compounding Pharmacies for CFS
+- URL: https://chronicmystery.com/article/compounding-pharmacies-for-cfs
+- Published: 2026-04-14
+- Reading time: 8
+- Description: Custom medications, bioidentical hormones, and why some ME/CFS patients need formulations that don't exist commercially
+
+### Telehealth for Chronic Fatigue
+- URL: https://chronicmystery.com/article/telehealth-for-chronic-fatigue
+- Published: 2026-04-13
+- Reading time: 8
+- Description: How remote medical care changed access for ME/CFS patients — and the limitations of a screen when your body needs examination
+
+### Building Your Medical Team
+- URL: https://chronicmystery.com/article/building-your-medical-team
+- Published: 2026-04-13
+- Reading time: 8
+- Description: The specialists, the generalists, and the allied health professionals who actually understand chronic fatigue conditions
+
+### The Thyroid Medication Debate
+- URL: https://chronicmystery.com/article/the-thyroid-medication-debate
+- Published: 2026-04-12
+- Reading time: 8
+- Description: T3, T4, and the controversy over thyroid treatment in patients whose labs look normal but whose bodies say otherwise
+
+### The Cost of Chronic Illness
+- URL: https://chronicmystery.com/article/the-cost-of-chronic-illness
+- Published: 2026-04-09
+- Reading time: 8
+- Description: Insurance battles, out-of-pocket expenses, and the financial devastation that accompanies conditions the system doesn't recognize
+
+### Stem Cell Therapy Reality Check
+- URL: https://chronicmystery.com/article/stem-cell-therapy-reality-check
+- Published: 2026-04-09
+- Reading time: 8
+- Description: The promises, the prices, and the actual evidence for stem cell treatments in ME/CFS and fibromyalgia
+
+### The Emergency Room with ME/CFS
+- URL: https://chronicmystery.com/article/emergency-room-with-mecfs
+- Published: 2026-04-07
+- Reading time: 8
+- Description: How to navigate an ER visit when your condition is invisible and the staff has never heard of post-exertional malaise
+
+### The Medication Sensitivity Paradox
+- URL: https://chronicmystery.com/article/the-medication-sensitivity-paradox
+- Published: 2026-04-06
+- Reading time: 8
+- Description: Why the sickest patients often tolerate the least medication — and what this reveals about nervous system dysfunction
+
+### Acupuncture for Chronic Fatigue
+- URL: https://chronicmystery.com/article/acupuncture-for-chronic-fatigue
+- Published: 2026-04-06
+- Reading time: 8
+- Description: What the research actually shows about acupuncture for ME/CFS — and why the mechanism might matter less than the results
+
+### Second Opinions and When to Seek Them
+- URL: https://chronicmystery.com/article/second-opinions-and-when-to-seek-them
+- Published: 2026-04-02
+- Reading time: 8
+- Description: How to know when your current treatment isn't working and how to navigate the politics of seeking another perspective
+
+### When to Consider Plasmapheresis
+- URL: https://chronicmystery.com/article/when-to-consider-plasmapheresis
+- Published: 2026-04-02
+- Reading time: 8
+- Description: The emerging evidence for blood filtering treatments in autoimmune-driven ME/CFS
+
+### The Antihistamine Protocol
+- URL: https://chronicmystery.com/article/the-antihistamine-protocol
+- Published: 2026-04-01
+- Reading time: 8
+- Description: H1 and H2 blockers, DAO supplements, and the systematic approach to histamine-driven fatigue
+
+### Oxygen Therapy Considerations
+- URL: https://chronicmystery.com/article/oxygen-therapy-considerations
+- Published: 2026-03-31
+- Reading time: 8
+- Description: Hyperbaric oxygen, supplemental oxygen, and whether increasing oxygen delivery helps when the problem is extraction
+
+### The Case for Low-Dose Naltrexone
+- URL: https://chronicmystery.com/article/the-case-for-low-dose-naltrexone
+- Published: 2026-03-30
+- Reading time: 8
+- Description: How a medication designed for addiction recovery became one of the most promising treatments for ME/CFS and fibromyalgia
+
+### Navigating Disability with ME/CFS
+- URL: https://chronicmystery.com/article/navigating-disability-with-mecfs
+- Published: 2026-03-30
+- Reading time: 8
+- Description: The practical reality of applying for disability when your condition is invisible and your doctors are uncertain
+
+### The Dental Connection
+- URL: https://chronicmystery.com/article/the-dental-connection
+- Published: 2026-03-29
+- Reading time: 8
+- Description: TMJ, dental infections, and the surprising ways oral health affects systemic fatigue and inflammation
+
+### The Microbiome Treatment Frontier
+- URL: https://chronicmystery.com/article/the-microbiome-treatment-frontier
+- Published: 2026-03-24
+- Reading time: 8
+- Description: Probiotics, prebiotics, and fecal transplant — the emerging gut-based treatments for chronic fatigue
+
+### The Specialist Maze
+- URL: https://chronicmystery.com/article/the-specialist-maze
+- Published: 2026-03-18
+- Reading time: 8
+- Description: Rheumatology, neurology, immunology, endocrinology — why no single specialist owns ME/CFS and how to coordinate your own care
+
+### Blood Tests That Actually Matter
+- URL: https://chronicmystery.com/article/blood-tests-that-actually-matter
+- Published: 2026-02-16
+- Reading time: 8
+- Description: Beyond the CBC and metabolic panel — the specific tests that reveal immune, hormonal, and metabolic dysfunction in chronic fatigue
+
+### The Hormone Replacement Question
+- URL: https://chronicmystery.com/article/the-hormone-replacement-question
+- Published: 2026-02-05
+- Reading time: 8
+- Description: Estrogen, progesterone, testosterone, and DHEA — the hormone therapies being explored for ME/CFS
+
+### Supplements That Have Evidence
+- URL: https://chronicmystery.com/article/supplements-that-have-evidence
+- Published: 2026-01-03
+- Reading time: 8
+- Description: CoQ10, D-ribose, magnesium, and the handful of supplements with actual research behind them for chronic fatigue
+
+### Managing POTS Practically
+- URL: https://chronicmystery.com/article/managing-pots-practically
+- Published: 2026-01-01
+- Reading time: 8
+- Description: Salt loading, compression, medications, and the daily management strategies that make orthostatic intolerance livable
+
+### Product Spotlight: D-Ribose for ATP Support — What the Research Actually Shows
+- URL: https://chronicmystery.com/article/product-spotlight-d-ribose-atp-support
+- Published: 2025-03-30
+- Reading time: 8 min read
+- Description: Product Spotlight: D-Ribose for ATP Support — What the Research Actually Shows
+
+---
+
+## The Mystery (39 articles)
+
+### Brain Fog Is Not in Your Head
+- URL: https://chronicmystery.com/article/brain-fog-is-not-in-your-head
+- Published: 2026-04-26
+- Reading time: 8
+- Description: The neuroinflammation behind cognitive dysfunction in ME/CFS and why dismissing it as stress is medically irresponsible
+
+### The Research They Don't Fund
+- URL: https://chronicmystery.com/article/the-research-they-dont-fund
+- Published: 2026-04-26
+- Reading time: 8
+- Description: Why ME/CFS receives a fraction of the research funding of comparable conditions — and what that says about medical priorities
+
+### The Genetic Vulnerability
+- URL: https://chronicmystery.com/article/the-genetic-vulnerability
+- Published: 2026-04-26
+- Reading time: 8
+- Description: What twin studies and genetic research tell us about who develops chronic fatigue — and who doesn't
+
+### Coagulation Abnormalities in Fatigue
+- URL: https://chronicmystery.com/article/coagulation-abnormalities-in-fatigue
+- Published: 2026-04-25
+- Reading time: 8
+- Description: Microclotting, fibrin deposition, and the blood flow problems that contribute to fatigue and brain fog
+
+### Hormonal Chaos in Chronic Fatigue
+- URL: https://chronicmystery.com/article/hormonal-chaos-in-chronic-fatigue
+- Published: 2026-04-24
+- Reading time: 8
+- Description: Thyroid, cortisol, and sex hormone disruptions that fuel fatigue — and why standard ranges miss the dysfunction
+
+### The Gut-Fatigue Connection
+- URL: https://chronicmystery.com/article/the-gut-fatigue-connection
+- Published: 2026-04-23
+- Reading time: 8
+- Description: How microbiome disruption drives systemic inflammation and fatigue in ways most gastroenterologists still don't test for
+
+### Why Your Temperature Regulation Fails
+- URL: https://chronicmystery.com/article/why-your-temperature-regulation-fails
+- Published: 2026-04-21
+- Reading time: 8
+- Description: Thermoregulatory dysfunction in chronic fatigue and what it reveals about autonomic nervous system damage
+
+### The Protein Folding Problem
+- URL: https://chronicmystery.com/article/the-protein-folding-problem
+- Published: 2026-04-20
+- Reading time: 8
+- Description: Emerging research on misfolded proteins and their potential role in ME/CFS pathology
+
+### The Tilt Table Truth
+- URL: https://chronicmystery.com/article/the-tilt-table-truth
+- Published: 2026-04-18
+- Reading time: 8
+- Description: What happens when they tilt you upright for 45 minutes — and why this simple test reveals so much about ME/CFS
+
+### The Pain Nobody Believes
+- URL: https://chronicmystery.com/article/the-pain-nobody-believes
+- Published: 2026-04-17
+- Reading time: 8
+- Description: Fibromyalgia, central sensitization, and the neuroscience of pain that exists without visible damage
+
+### When the Diagnosis Changes Everything
+- URL: https://chronicmystery.com/article/when-the-diagnosis-changes-everything
+- Published: 2026-04-16
+- Reading time: 8
+- Description: The paradox of finally getting a name for what's wrong — and discovering that the name doesn't come with a cure
+
+### Environmental Triggers of CFS
+- URL: https://chronicmystery.com/article/environmental-triggers-of-cfs
+- Published: 2026-04-15
+- Reading time: 8
+- Description: Mold, toxins, and environmental exposures that can initiate or perpetuate chronic fatigue conditions
+
+### Post-Viral Fatigue Explained
+- URL: https://chronicmystery.com/article/post-viral-fatigue-explained
+- Published: 2026-04-14
+- Reading time: 8
+- Description: What happens when a virus leaves but the exhaustion stays — the biology of post-infectious fatigue syndromes
+
+### Why Stress Triggers Crashes
+- URL: https://chronicmystery.com/article/why-stress-triggers-crashes
+- Published: 2026-04-12
+- Reading time: 8
+- Description: The physiological mechanism behind stress-induced symptom flares in ME/CFS and how to work with your nervous system
+
+### When Normal Labs Lie
+- URL: https://chronicmystery.com/article/when-normal-labs-lie
+- Published: 2026-04-10
+- Reading time: 8
+- Description: Why standard blood work misses ME/CFS and what tests actually reveal the dysfunction hiding beneath normal ranges
+
+### Mast Cell Activation and Fatigue
+- URL: https://chronicmystery.com/article/mast-cell-activation-and-fatigue
+- Published: 2026-04-10
+- Reading time: 8
+- Description: How overactive mast cells create systemic inflammation, histamine intolerance, and crushing exhaustion
+
+### When Your Body Attacks Itself
+- URL: https://chronicmystery.com/article/when-your-body-attacks-itself
+- Published: 2026-04-09
+- Reading time: 8
+- Description: Autoantibodies in ME/CFS and the growing evidence that your immune system is fighting the wrong war
+
+### Neurological Symptoms Nobody Mentions
+- URL: https://chronicmystery.com/article/neurological-symptoms-nobody-mentions
+- Published: 2026-04-09
+- Reading time: 8
+- Description: The cognitive, sensory, and neurological manifestations of ME/CFS that get dismissed as anxiety
+
+### The Invisible Illness Paradox
+- URL: https://chronicmystery.com/article/the-invisible-illness-paradox
+- Published: 2026-04-08
+- Reading time: 8
+- Description: You look fine. You sound fine. And that might be the cruelest part of living with a condition that dismantles you from the inside
+
+### Chemical Sensitivity and Fatigue
+- URL: https://chronicmystery.com/article/chemical-sensitivity-and-fatigue
+- Published: 2026-04-08
+- Reading time: 8
+- Description: Multiple chemical sensitivity as a window into the nervous system dysfunction driving chronic fatigue conditions
+
+### The Lymphatic System Failure
+- URL: https://chronicmystery.com/article/the-lymphatic-system-failure
+- Published: 2026-04-07
+- Reading time: 8
+- Description: How impaired lymphatic drainage contributes to the toxic buildup and inflammation in chronic fatigue conditions
+
+### The Viral Persistence Theory
+- URL: https://chronicmystery.com/article/viral-persistence-theory
+- Published: 2026-04-07
+- Reading time: 8
+- Description: Growing evidence that viruses don't always leave — they hide, and your immune system pays the price indefinitely
+
+### The Histamine Connection
+- URL: https://chronicmystery.com/article/the-histamine-connection
+- Published: 2026-04-07
+- Reading time: 8
+- Description: Histamine intolerance, DAO deficiency, and why certain foods make your fatigue dramatically worse
+
+### The Cortisol Awakening Response
+- URL: https://chronicmystery.com/article/the-cortisol-awakening-response
+- Published: 2026-04-06
+- Reading time: 8
+- Description: Why your morning cortisol pattern reveals more about your fatigue than a single blood draw ever could
+
+### The Sleep That Doesn't Restore
+- URL: https://chronicmystery.com/article/the-sleep-that-doesnt-restore
+- Published: 2026-04-04
+- Reading time: 8
+- Description: Unrefreshing sleep in ME/CFS — what's happening in your brain during the hours your body refuses to repair
+
+### Cervical Instability and Fatigue
+- URL: https://chronicmystery.com/article/cervical-instability-and-fatigue
+- Published: 2026-04-04
+- Reading time: 8
+- Description: The craniocervical junction problems that compress brainstem structures and mimic — or cause — ME/CFS symptoms
+
+### Intracranial Pressure and Fatigue
+- URL: https://chronicmystery.com/article/intracranial-pressure-and-fatigue
+- Published: 2026-04-03
+- Reading time: 8
+- Description: How altered cerebrospinal fluid dynamics create headaches, brain fog, and fatigue in ME/CFS
+
+### When Your Immune System Goes Rogue
+- URL: https://chronicmystery.com/article/immune-system-gone-rogue
+- Published: 2026-04-03
+- Reading time: 8
+- Description: The autoimmune and immune dysregulation patterns that drive chronic fatigue — and why they're so hard to detect
+
+### Orthostatic Intolerance Explained
+- URL: https://chronicmystery.com/article/orthostatic-intolerance-explained
+- Published: 2026-04-03
+- Reading time: 8
+- Description: When standing up becomes a medical event — the cardiovascular dysfunction that most doctors overlook
+
+### The Iron Paradox
+- URL: https://chronicmystery.com/article/the-iron-paradox
+- Published: 2026-03-31
+- Reading time: 8
+- Description: When your iron levels look normal but your cells are starving — the hidden iron metabolism dysfunction in ME/CFS
+
+### When Allergies Become Systemic
+- URL: https://chronicmystery.com/article/when-allergies-become-systemic
+- Published: 2026-03-30
+- Reading time: 8
+- Description: The progression from seasonal allergies to systemic mast cell activation and chronic fatigue
+
+### Small Fiber Neuropathy: The Hidden Cause
+- URL: https://chronicmystery.com/article/small-fiber-neuropathy-hidden-cause
+- Published: 2026-03-30
+- Reading time: 8
+- Description: The nerve damage that standard tests miss and why it might explain your pain, fatigue, and autonomic dysfunction
+
+### The Infection That Never Left
+- URL: https://chronicmystery.com/article/the-infection-that-never-left
+- Published: 2026-03-29
+- Reading time: 8
+- Description: Persistent viral and bacterial infections that maintain chronic fatigue long after the acute illness resolved
+
+### Viral-Triggered Autoimmunity
+- URL: https://chronicmystery.com/article/viral-triggered-autoimmunity
+- Published: 2026-03-21
+- Reading time: 8
+- Description: How infections can trigger the immune system to attack your own tissues — the molecular mimicry theory of ME/CFS
+
+### The Two-Day Exercise Test
+- URL: https://chronicmystery.com/article/the-two-day-exercise-test
+- Published: 2026-03-12
+- Reading time: 8
+- Description: Cardiopulmonary exercise testing and why repeating it on consecutive days reveals what a single test hides
+
+### The Nitric Oxide Problem
+- URL: https://chronicmystery.com/article/the-nitric-oxide-problem
+- Published: 2026-02-28
+- Reading time: 8
+- Description: How disrupted nitric oxide pathways affect blood flow, oxygen delivery, and energy production in chronic fatigue
+
+### The HPA Axis Breakdown
+- URL: https://chronicmystery.com/article/the-hpa-axis-breakdown
+- Published: 2026-02-19
+- Reading time: 8
+- Description: How your stress response system gets stuck in overdrive and what that means for every system in your body
+
+### The Metabolic Trap
+- URL: https://chronicmystery.com/article/the-metabolic-trap
+- Published: 2026-02-08
+- Reading time: 8
+- Description: How tryptophan metabolism gets stuck in ME/CFS and what this tells us about the biochemical prison of chronic fatigue
+
+### Why Exercise Makes It Worse
+- URL: https://chronicmystery.com/article/why-exercise-makes-it-worse
+- Published: 2026-02-02
+- Reading time: 8
+- Description: Post-exertional malaise explained — the hallmark symptom that separates ME/CFS from depression and deconditioning
+
+---
+
+## The Management (37 articles)
+
+### The Energy Envelope Explained
+- URL: https://chronicmystery.com/article/the-energy-envelope-explained
+- Published: 2026-04-26
+- Reading time: 8
+- Description: The single most important concept in ME/CFS management — and why staying inside your envelope is harder than it sounds
+
+### The Rest Schedule
+- URL: https://chronicmystery.com/article/the-rest-schedule
+- Published: 2026-04-25
+- Reading time: 8
+- Description: Proactive rest, scheduled downtime, and why waiting until you're exhausted to rest is already too late
+
+### Managing Multiple Conditions
+- URL: https://chronicmystery.com/article/managing-multiple-conditions
+- Published: 2026-04-25
+- Reading time: 8
+- Description: When ME/CFS comes with POTS, fibromyalgia, EDS, and MCAS — coordinating management across overlapping conditions
+
+### The Social Media Energy Drain
+- URL: https://chronicmystery.com/article/the-social-media-energy-drain
+- Published: 2026-04-24
+- Reading time: 8
+- Description: How scrolling costs more energy than you think — and strategies for staying connected without crashing
+
+### Managing Brain Fog Daily
+- URL: https://chronicmystery.com/article/managing-brain-fog-daily
+- Published: 2026-04-22
+- Reading time: 8
+- Description: Practical cognitive strategies for the days when your brain feels like it's running through mud
+
+### Adaptive Exercise Progression
+- URL: https://chronicmystery.com/article/adaptive-exercise-progression
+- Published: 2026-04-22
+- Reading time: 8
+- Description: How to slowly, carefully expand your activity tolerance without triggering the boom-bust cycle
+
+### The Recovery Position Guide
+- URL: https://chronicmystery.com/article/the-recovery-position-guide
+- Published: 2026-04-19
+- Reading time: 8
+- Description: Specific body positions, breathing techniques, and environmental adjustments for active crash recovery
+
+### The Hobby Adaptation Guide
+- URL: https://chronicmystery.com/article/the-hobby-adaptation-guide
+- Published: 2026-04-19
+- Reading time: 8
+- Description: Finding and adapting activities that bring joy without triggering post-exertional malaise
+
+### The Boom-Bust Cycle
+- URL: https://chronicmystery.com/article/the-boom-bust-cycle
+- Published: 2026-04-19
+- Reading time: 8
+- Description: Why good days are dangerous, why you keep overdoing it, and how to break the pattern that keeps you crashing
+
+### Managing Cognitive Demands
+- URL: https://chronicmystery.com/article/managing-cognitive-demands
+- Published: 2026-04-18
+- Reading time: 8
+- Description: Strategies for bills, paperwork, and administrative tasks when your brain can barely process a grocery list
+
+### Grocery Shopping Strategies
+- URL: https://chronicmystery.com/article/grocery-shopping-strategies
+- Published: 2026-04-17
+- Reading time: 8
+- Description: Online ordering, delivery services, and the practical logistics of feeding yourself when the store is too much
+
+### The Self-Advocacy Toolkit
+- URL: https://chronicmystery.com/article/the-self-advocacy-toolkit
+- Published: 2026-04-15
+- Reading time: 8
+- Description: Scripts, strategies, and the mindset shift required to advocate for yourself in a system that doesn't understand your condition
+
+### Energy Conservation in Daily Tasks
+- URL: https://chronicmystery.com/article/energy-conservation-in-daily-tasks
+- Published: 2026-04-15
+- Reading time: 8
+- Description: Occupational therapy principles applied to every task from getting dressed to doing laundry
+
+### The Weekly Planning System
+- URL: https://chronicmystery.com/article/the-weekly-planning-system
+- Published: 2026-04-14
+- Reading time: 8
+- Description: How to plan your week around your energy, not your ambition — with built-in flexibility for bad days
+
+### Heat and Cold Intolerance
+- URL: https://chronicmystery.com/article/heat-and-cold-intolerance
+- Published: 2026-04-13
+- Reading time: 8
+- Description: Temperature dysregulation in ME/CFS and the practical strategies for managing a body that can't thermostat
+
+### Seasonal Symptom Management
+- URL: https://chronicmystery.com/article/seasonal-symptom-management
+- Published: 2026-04-12
+- Reading time: 8
+- Description: Why your symptoms change with the seasons and how to adjust your management strategy throughout the year
+
+### Bathing and Personal Care Adaptations
+- URL: https://chronicmystery.com/article/bathing-and-personal-care-adaptations
+- Published: 2026-04-11
+- Reading time: 8
+- Description: Shower chairs, dry shampoo, and the practical adaptations that preserve energy for things that matter more
+
+### The Stress Response Toolkit
+- URL: https://chronicmystery.com/article/the-stress-response-toolkit
+- Published: 2026-04-11
+- Reading time: 8
+- Description: Vagal toning, breathwork, and nervous system regulation techniques adapted for people with limited energy
+
+### Gentle Movement That Doesn't Crash
+- URL: https://chronicmystery.com/article/gentle-movement-that-doesnt-crash
+- Published: 2026-04-11
+- Reading time: 8
+- Description: The difference between exercise and movement — and how to find the threshold your body can tolerate
+
+### Managing Holidays and Events
+- URL: https://chronicmystery.com/article/managing-holidays-and-events
+- Published: 2026-04-10
+- Reading time: 8
+- Description: Navigating celebrations, family gatherings, and social expectations when your energy doesn't match the occasion
+
+### Managing Work with CFS
+- URL: https://chronicmystery.com/article/managing-work-with-cfs
+- Published: 2026-04-05
+- Reading time: 8
+- Description: Accommodations, remote work, reduced hours, and the honest conversation about whether your job is compatible with your body
+
+### The Low-Stimulation Environment
+- URL: https://chronicmystery.com/article/the-low-stimulation-environment
+- Published: 2026-04-02
+- Reading time: 8
+- Description: Creating a living space that supports your nervous system instead of constantly triggering it
+
+### The Baseline Reset
+- URL: https://chronicmystery.com/article/the-baseline-reset
+- Published: 2026-04-02
+- Reading time: 8
+- Description: How to find your true baseline when you've been pushing through for so long you don't know what resting feels like
+
+### Hydration and Electrolytes
+- URL: https://chronicmystery.com/article/hydration-and-electrolytes
+- Published: 2026-04-01
+- Reading time: 8
+- Description: Why water isn't enough — the electrolyte strategies that help manage POTS, fatigue, and cognitive dysfunction
+
+### Building a Support Network
+- URL: https://chronicmystery.com/article/building-a-support-network
+- Published: 2026-04-01
+- Reading time: 8
+- Description: Online communities, local groups, and the specific relationships that sustain you through chronic illness
+
+### The Emergency Plan
+- URL: https://chronicmystery.com/article/the-emergency-plan
+- Published: 2026-04-01
+- Reading time: 8
+- Description: What your household needs to know, what's in your medical file, and how to prepare for the days you can't advocate for yourself
+
+### Managing Screen Time with CFS
+- URL: https://chronicmystery.com/article/managing-screen-time-with-cfs
+- Published: 2026-03-31
+- Reading time: 8
+- Description: Blue light, cognitive load, and the strategies for using technology without triggering sensory overload or crashes
+
+### Nutrition for Depleted Bodies
+- URL: https://chronicmystery.com/article/nutrition-for-depleted-bodies
+- Published: 2026-03-28
+- Reading time: 8
+- Description: Anti-inflammatory eating when you barely have energy to cook — practical nutrition for chronic fatigue
+
+### The Transportation Challenge
+- URL: https://chronicmystery.com/article/the-transportation-challenge
+- Published: 2026-03-28
+- Reading time: 8
+- Description: Driving limitations, public transit, and the practical solutions for getting where you need to go with limited energy
+
+### The Activity Diary Method
+- URL: https://chronicmystery.com/article/the-activity-diary-method
+- Published: 2026-03-28
+- Reading time: 8
+- Description: How tracking your activity and symptoms reveals patterns you can't see when you're in the middle of a crash
+
+### Managing Cognitive Fatigue
+- URL: https://chronicmystery.com/article/managing-cognitive-fatigue
+- Published: 2026-03-28
+- Reading time: 8
+- Description: When thinking is exhausting — specific strategies for preserving and protecting your cognitive energy
+
+### The Caregiver Coordination Guide
+- URL: https://chronicmystery.com/article/the-caregiver-coordination-guide
+- Published: 2026-03-27
+- Reading time: 8
+- Description: Working with partners, family, and paid caregivers to create a sustainable support system
+
+### The Crash Recovery Protocol
+- URL: https://chronicmystery.com/article/the-crash-recovery-protocol
+- Published: 2026-01-24
+- Reading time: 8
+- Description: What to do when you've overdone it — the hour-by-hour guide to minimizing post-exertional malaise damage
+
+### Managing Sensory Overload
+- URL: https://chronicmystery.com/article/managing-sensory-overload
+- Published: 2026-01-18
+- Reading time: 8
+- Description: Light sensitivity, noise intolerance, and the practical tools for navigating a world that's too loud for your nervous system
+
+### The Morning Routine Rewrite
+- URL: https://chronicmystery.com/article/the-morning-routine-rewrite
+- Published: 2026-01-09
+- Reading time: 8
+- Description: Forget the 5AM club — building a morning routine that works with severe fatigue, not against it
+
+### Product Spotlight: Why a Weighted Blanket Might Be Your Nervous System's Best Friend
+- URL: https://chronicmystery.com/article/product-spotlight-weighted-blanket-nervous-system
+- Published: 2025-03-31
+- Reading time: 8 min read
+- Description: Product Spotlight: Why a Weighted Blanket Might Be Your Nervous System's Best Friend
+
+### Product Spotlight: The Oura Ring and What It Actually Tells You About Fatigue
+- URL: https://chronicmystery.com/article/product-spotlight-oura-ring-fatigue-tracking
+- Published: 2025-03-29
+- Reading time: 8 min read
+- Description: Product Spotlight: The Oura Ring and What It Actually Tells You About Fatigue
+
+---
+
+## The Identity (28 articles)
+
+### Imposter Syndrome in Chronic Illness
+- URL: https://chronicmystery.com/article/imposter-syndrome-in-chronic-illness
+- Published: 2026-04-26
+- Reading time: 8
+- Description: Feeling like you're not sick enough to claim the identity — even on the days you can't get out of bed
+
+### The Identity of Rest
+- URL: https://chronicmystery.com/article/the-identity-of-rest
+- Published: 2026-04-25
+- Reading time: 8
+- Description: Reclaiming rest as an identity rather than a failure — the radical act of being still in a world that won't stop moving
+
+### Chronic Illness and Faith
+- URL: https://chronicmystery.com/article/chronic-illness-and-faith
+- Published: 2026-04-23
+- Reading time: 8
+- Description: How illness tests, transforms, or destroys spiritual beliefs — and what emerges from the wreckage
+
+### Grief and Chronic Illness
+- URL: https://chronicmystery.com/article/grief-and-chronic-illness
+- Published: 2026-04-22
+- Reading time: 8
+- Description: You're mourning a life that isn't over yet — the unique grief of losing your health while still being alive
+
+### The Friendship Evolution
+- URL: https://chronicmystery.com/article/the-friendship-evolution
+- Published: 2026-04-21
+- Reading time: 8
+- Description: Which friendships survive chronic illness and why — the patterns that predict who stays and who disappears
+
+### The Invisible Disability Identity
+- URL: https://chronicmystery.com/article/the-invisible-disability-identity
+- Published: 2026-04-21
+- Reading time: 8
+- Description: Claiming disability when you look healthy — the internal and external battles of an invisible condition
+
+### The Before and After Self
+- URL: https://chronicmystery.com/article/the-before-and-after-self
+- Published: 2026-04-21
+- Reading time: 8
+- Description: Integrating who you were before illness with who you're becoming — without pretending either version is the whole story
+
+### Professional Identity Reconstruction
+- URL: https://chronicmystery.com/article/professional-identity-reconstruction
+- Published: 2026-04-20
+- Reading time: 8
+- Description: Building a new relationship with work when your old career is no longer possible
+
+### Anger as Information
+- URL: https://chronicmystery.com/article/anger-as-information
+- Published: 2026-04-16
+- Reading time: 8
+- Description: The rage that comes with chronic illness isn't a problem to manage — it's a signal that something needs to change
+
+### Rebuilding Self-Worth
+- URL: https://chronicmystery.com/article/rebuilding-self-worth
+- Published: 2026-04-13
+- Reading time: 8
+- Description: When your value was tied to productivity, appearance, or capability — and all three have been compromised
+
+### The Productivity Identity Crisis
+- URL: https://chronicmystery.com/article/the-productivity-identity-crisis
+- Published: 2026-04-12
+- Reading time: 8
+- Description: When your worth was tied to what you could produce — and now you can barely produce a meal
+
+### The Gratitude Pressure
+- URL: https://chronicmystery.com/article/the-gratitude-pressure
+- Published: 2026-04-11
+- Reading time: 8
+- Description: When well-meaning people tell you to be grateful — and why forced positivity is its own form of gaslighting
+
+### The Perfectionism-Fatigue Connection
+- URL: https://chronicmystery.com/article/the-perfectionism-fatigue-connection
+- Published: 2026-04-08
+- Reading time: 8
+- Description: How the same personality traits that drove your success may have contributed to your collapse — and what to do about it
+
+### The Identity Beyond Illness
+- URL: https://chronicmystery.com/article/the-identity-beyond-illness
+- Published: 2026-04-06
+- Reading time: 8
+- Description: You are not your diagnosis. But you're not who you were before it, either. So who are you now?
+
+### Chronic Illness in Your Twenties
+- URL: https://chronicmystery.com/article/chronic-illness-in-your-twenties
+- Published: 2026-04-06
+- Reading time: 8
+- Description: Getting sick when everyone else is building careers, traveling, and starting families — the unique grief of young onset
+
+### The Caregiver Identity Shift
+- URL: https://chronicmystery.com/article/the-caregiver-identity-shift
+- Published: 2026-04-05
+- Reading time: 8
+- Description: When your partner becomes your caregiver — the relationship transformation nobody prepared for
+
+### The Self-Compassion Practice
+- URL: https://chronicmystery.com/article/the-self-compassion-practice
+- Published: 2026-04-05
+- Reading time: 8
+- Description: Why self-compassion isn't self-indulgence — and the specific practices that help when you're your own harshest critic
+
+### The People Pleaser Collapse
+- URL: https://chronicmystery.com/article/the-people-pleaser-collapse
+- Published: 2026-04-04
+- Reading time: 8
+- Description: How a lifetime of putting others first may have depleted the reserves your body needed to stay well
+
+### The Emotional Labor of Illness
+- URL: https://chronicmystery.com/article/the-emotional-labor-of-illness
+- Published: 2026-04-03
+- Reading time: 8
+- Description: Managing other people's feelings about your condition while barely managing your own
+
+### Motherhood and ME/CFS
+- URL: https://chronicmystery.com/article/motherhood-and-mecfs
+- Published: 2026-04-03
+- Reading time: 8
+- Description: The specific intersection of maternal identity and chronic illness — guilt, adaptation, and unexpected grace
+
+### The Acceptance-Resistance Dance
+- URL: https://chronicmystery.com/article/the-acceptance-resistance-dance
+- Published: 2026-04-02
+- Reading time: 8
+- Description: The ongoing negotiation between accepting your condition and refusing to be defined by it
+
+### The New Normal Myth
+- URL: https://chronicmystery.com/article/the-new-normal-myth
+- Published: 2026-03-29
+- Reading time: 8
+- Description: Why 'finding your new normal' is terrible advice — and what actually helps you navigate ongoing uncertainty
+
+### The Shame of Needing Help
+- URL: https://chronicmystery.com/article/the-shame-of-needing-help
+- Published: 2026-03-06
+- Reading time: 8
+- Description: Asking for help when you were the one everyone else asked — the identity restructuring that dependence demands
+
+### Creativity and Chronic Fatigue
+- URL: https://chronicmystery.com/article/creativity-and-chronic-fatigue
+- Published: 2026-03-03
+- Reading time: 8
+- Description: The surprising relationship between limitation and creative expression — when less energy forces more focus
+
+### Finding Meaning Without Productivity
+- URL: https://chronicmystery.com/article/finding-meaning-without-productivity
+- Published: 2026-02-25
+- Reading time: 8
+- Description: The philosophical challenge of a culture that measures human worth by output — when your output has collapsed
+
+### Becoming Whole with Broken Parts
+- URL: https://chronicmystery.com/article/becoming-whole-with-broken-parts
+- Published: 2026-02-13
+- Reading time: 8
+- Description: The Japanese concept of kintsugi applied to chronic illness — beauty in the repair, not despite it
+
+### The Validation Hunger
+- URL: https://chronicmystery.com/article/the-validation-hunger
+- Published: 2026-02-11
+- Reading time: 8
+- Description: Why you need someone — anyone — to say 'I believe you' — and what that need reveals about medical trauma
+
+### Finding Your People
+- URL: https://chronicmystery.com/article/finding-your-people
+- Published: 2026-01-30
+- Reading time: 8
+- Description: The chronic illness community, online and off — where to find understanding when your existing world doesn't get it
+
+---
+
+## The Deeper Rest (41 articles)
+
+### The Grief Ritual
+- URL: https://chronicmystery.com/article/the-grief-ritual
+- Published: 2026-04-25
+- Reading time: 8
+- Description: Creating space to mourn what chronic illness has taken — because unexpressed grief becomes another weight your body carries
+
+### Reclaiming the Body
+- URL: https://chronicmystery.com/article/reclaiming-the-body
+- Published: 2026-04-24
+- Reading time: 8
+- Description: Moving from adversarial to collaborative — the practice of befriending a body that seems to have become your opponent
+
+### Rest as Resistance
+- URL: https://chronicmystery.com/article/rest-as-resistance
+- Published: 2026-04-24
+- Reading time: 8
+- Description: In a culture that profits from your exhaustion, choosing to rest is a radical act — especially when your body leaves you no choice
+
+### Contemplative Reading Practice
+- URL: https://chronicmystery.com/article/contemplative-reading-practice
+- Published: 2026-04-23
+- Reading time: 8
+- Description: Lectio divina and slow reading — how to engage with text when your brain can only handle a paragraph at a time
+
+### Yoga Nidra for Chronic Fatigue
+- URL: https://chronicmystery.com/article/yoga-nidra-for-chronic-fatigue
+- Published: 2026-04-23
+- Reading time: 8
+- Description: The practice of conscious rest — why lying down and being guided into deep relaxation might be the most therapeutic thing you can do
+
+### Breathwork for the Exhausted
+- URL: https://chronicmystery.com/article/breathwork-for-the-exhausted
+- Published: 2026-04-22
+- Reading time: 8
+- Description: Gentle breathing practices that support your nervous system without demanding the energy you don't have
+
+### Mindfulness for Pain
+- URL: https://chronicmystery.com/article/mindfulness-for-pain
+- Published: 2026-04-20
+- Reading time: 8
+- Description: How attention changes the experience of pain — the neuroscience and practice of mindful pain management
+
+### Bedside Nature Therapy
+- URL: https://chronicmystery.com/article/bedside-nature-therapy
+- Published: 2026-04-20
+- Reading time: 8
+- Description: Plants, nature sounds, and natural light — creating a healing environment when you can't leave your room
+
+### The Long Surrender
+- URL: https://chronicmystery.com/article/the-long-surrender
+- Published: 2026-04-19
+- Reading time: 8
+- Description: Not a single moment of acceptance but a daily practice — the ongoing work of surrendering to what is while remaining open to what might be
+
+### The Morning Light Practice
+- URL: https://chronicmystery.com/article/the-morning-light-practice
+- Published: 2026-04-18
+- Reading time: 8
+- Description: Circadian rhythm reset through light exposure — the simplest intervention that affects sleep, mood, and energy
+
+### The Nervous System Reset
+- URL: https://chronicmystery.com/article/the-nervous-system-reset
+- Published: 2026-04-17
+- Reading time: 8
+- Description: Specific practices for shifting from sympathetic overdrive to parasympathetic rest — adapted for chronic fatigue
+
+### Creative Expression as Healing
+- URL: https://chronicmystery.com/article/creative-expression-as-healing
+- Published: 2026-04-17
+- Reading time: 8
+- Description: Art, music, writing, and the therapeutic value of creating something when your body can't do much else
+
+### The Compassion Practice
+- URL: https://chronicmystery.com/article/the-compassion-practice
+- Published: 2026-04-16
+- Reading time: 8
+- Description: Metta, tonglen, and the practices that transform suffering into connection — adapted for chronic fatigue
+
+### The Practice of Not-Doing
+- URL: https://chronicmystery.com/article/the-practice-of-not-doing
+- Published: 2026-04-13
+- Reading time: 8
+- Description: Wu wei, non-action, and the Taoist wisdom that chronic fatigue forces you to embody whether you wanted to or not
+
+### Forest Bathing Adaptations
+- URL: https://chronicmystery.com/article/forest-bathing-adaptations
+- Published: 2026-04-12
+- Reading time: 8
+- Description: Shinrin-yoku for limited energy — bringing the benefits of nature immersion to your backyard, your window, or your imagination
+
+### The Healing Crisis Concept
+- URL: https://chronicmystery.com/article/the-healing-crisis-concept
+- Published: 2026-04-11
+- Reading time: 8
+- Description: When getting better temporarily feels like getting worse — the phenomenon of symptom flares during genuine recovery
+
+### The Inner Landscape
+- URL: https://chronicmystery.com/article/the-inner-landscape
+- Published: 2026-04-10
+- Reading time: 8
+- Description: Developing a rich interior life when your exterior life has contracted — the unexpected gift of forced introspection
+
+### Walking Meditation Adaptations
+- URL: https://chronicmystery.com/article/walking-meditation-adaptations
+- Published: 2026-04-10
+- Reading time: 8
+- Description: When you can walk — slowly, briefly — how to transform those steps into a practice of presence
+
+### The Letting Go Practice
+- URL: https://chronicmystery.com/article/the-letting-go-practice
+- Published: 2026-04-09
+- Reading time: 8
+- Description: What you're actually letting go of when you release attachment to your former life — and what becomes possible after
+
+### Death Meditation for the Living
+- URL: https://chronicmystery.com/article/death-meditation-for-the-living
+- Published: 2026-04-08
+- Reading time: 8
+- Description: Maranasati and the contemplation of mortality — how facing death changes your relationship with a life limited by illness
+
+### The Digital Sabbath
+- URL: https://chronicmystery.com/article/the-digital-sabbath
+- Published: 2026-04-08
+- Reading time: 8
+- Description: Regular technology breaks and their effect on nervous system recovery — the practice of unplugging when you're already depleted
+
+### The Bath as Ritual
+- URL: https://chronicmystery.com/article/the-bath-as-ritual
+- Published: 2026-04-07
+- Reading time: 8
+- Description: Epsom salts, essential oils, and the transformation of a basic hygiene task into a healing practice
+
+### The Sacred Ordinary
+- URL: https://chronicmystery.com/article/the-sacred-ordinary
+- Published: 2026-04-05
+- Reading time: 8
+- Description: Finding the extraordinary in the mundane — the contemplative practice of treating every moment of limited life as worthy of full attention
+
+### The Sacred Pause
+- URL: https://chronicmystery.com/article/the-sacred-pause
+- Published: 2026-04-05
+- Reading time: 8
+- Description: Learning to pause between activities, between thoughts, between breaths — the micro-practice that changes everything
+
+### Gratitude Without Bypassing
+- URL: https://chronicmystery.com/article/gratitude-without-bypassing
+- Published: 2026-04-04
+- Reading time: 8
+- Description: The difference between genuine appreciation and toxic positivity — and how to practice one without falling into the other
+
+### The Ego Death of Illness
+- URL: https://chronicmystery.com/article/the-ego-death-of-illness
+- Published: 2026-04-04
+- Reading time: 8
+- Description: Chronic fatigue strips away everything you thought you were. What remains might be more real than what was lost
+
+### The Final Rest
+- URL: https://chronicmystery.com/article/the-final-rest
+- Published: 2026-04-01
+- Reading time: 8
+- Description: Contemplating the ultimate rest without fear — how chronic illness changes your relationship with mortality and what lies beyond
+
+### The Dark Night of the Body
+- URL: https://chronicmystery.com/article/the-dark-night-of-the-body
+- Published: 2026-03-31
+- Reading time: 8
+- Description: When illness becomes a spiritual passage — the contemplative traditions that recognized suffering as a doorway, not a dead end
+
+### The Community of Rest
+- URL: https://chronicmystery.com/article/the-community-of-rest
+- Published: 2026-03-31
+- Reading time: 8
+- Description: Finding and creating spaces where rest is valued, not apologized for — the social dimension of contemplative healing
+
+### The Permission to Rest
+- URL: https://chronicmystery.com/article/the-permission-to-rest
+- Published: 2026-03-30
+- Reading time: 8
+- Description: You don't need to earn rest. You don't need to justify it. This is the practice of giving yourself what your body already demands
+
+### Restorative Yoga for Fatigue
+- URL: https://chronicmystery.com/article/restorative-yoga-for-fatigue
+- Published: 2026-03-29
+- Reading time: 8
+- Description: Supported poses, long holds, and the practice of letting gravity do the work your muscles can't
+
+### The Meditation Adaptation
+- URL: https://chronicmystery.com/article/the-meditation-adaptation
+- Published: 2026-03-29
+- Reading time: 8
+- Description: Traditional meditation assumes a stable body. Chronic fatigue demands a different approach to stillness and awareness
+
+### Somatic Experiencing for CFS
+- URL: https://chronicmystery.com/article/somatic-experiencing-for-cfs
+- Published: 2026-03-28
+- Reading time: 8
+- Description: Peter Levine's approach to trauma resolution applied to the trauma of chronic illness itself
+
+### The Inner Teacher
+- URL: https://chronicmystery.com/article/the-inner-teacher
+- Published: 2026-03-15
+- Reading time: 8
+- Description: Learning to listen to the wisdom your body has been trying to communicate — the practice of somatic intuition
+
+### The Radical Rest Experiment
+- URL: https://chronicmystery.com/article/the-radical-rest-experiment
+- Published: 2026-03-09
+- Reading time: 8
+- Description: What happens when you actually rest — fully, completely, without guilt — for an extended period
+
+### The Art of Receiving
+- URL: https://chronicmystery.com/article/the-art-of-receiving
+- Published: 2026-02-22
+- Reading time: 8
+- Description: Learning to receive help, care, and love without the compulsion to immediately reciprocate — the practice that illness demands
+
+### Sound Healing for Fatigue
+- URL: https://chronicmystery.com/article/sound-healing-for-fatigue
+- Published: 2026-01-27
+- Reading time: 8
+- Description: Singing bowls, binaural beats, and the neuroscience of how sound frequencies affect your nervous system and energy
+
+### Music as Medicine
+- URL: https://chronicmystery.com/article/music-as-medicine
+- Published: 2026-01-21
+- Reading time: 8
+- Description: The neuroscience of music therapy and how specific frequencies, rhythms, and genres affect fatigue, pain, and mood
+
+### Gentle Stretching for Bedridden Days
+- URL: https://chronicmystery.com/article/gentle-stretching-for-bedridden-days
+- Published: 2026-01-15
+- Reading time: 8
+- Description: Micro-movements and passive stretches you can do lying down — maintaining mobility when getting up isn't an option
+
+### The Witness Consciousness Practice
+- URL: https://chronicmystery.com/article/the-witness-consciousness-practice
+- Published: 2026-01-12
+- Reading time: 8
+- Description: Developing the capacity to observe your symptoms without identifying with them — the core contemplative skill for chronic illness
+
+### Chronic Illness as Initiation
+- URL: https://chronicmystery.com/article/chronic-illness-as-initiation
+- Published: 2026-01-06
+- Reading time: 8
+- Description: The anthropological concept of initiatory illness — when the body's breakdown becomes the beginning of a different kind of life
+
+---

@@ -1,27 +1,56 @@
 # Chronic Mystery
+
 > When You're Exhausted and Nobody Can Tell You Why
 
-## About
-Chronic Mystery publishes editorial content about ME/CFS, chronic fatigue, fibromyalgia, post-viral fatigue, and related conditions. Content is written by Chronic Mystery Editorial with spiritual advisory from Kalesh, a consciousness teacher and writer.
+## About This Site
 
-## Sections
-- The Mystery: Unanswered questions and diagnostic odyssey
-- The Medical: Research, treatments, and evolving understanding
-- The Management: Pacing, energy envelopes, and practical strategies
-- The Identity: Grief, reinvention, and forced stillness
-- The Deeper Rest: Contemplative and spiritual dimensions
+Chronic Mystery is an editorial health publication covering ME/CFS (Myalgic Encephalomyelitis/Chronic Fatigue Syndrome), chronic fatigue, fibromyalgia, post-viral fatigue, POTS, and related chronic conditions. We publish evidence-based articles that validate the patient experience while exploring the medical science, practical management strategies, identity challenges, and contemplative dimensions of living with invisible illness.
 
-## Links
+## Key Facts
+
+- URL: https://chronicmystery.com
+- Publisher: Chronic Mystery Editorial
+- Author: Kalesh (Consciousness Teacher & Writer)
+- Content type: Long-form health articles (1500-3000 words each)
+- Total published articles: 303+
+- Publishing schedule: Daily (5 articles/day during growth phase)
+- Audience: People with ME/CFS, chronic fatigue, fibromyalgia, post-viral conditions, and their caregivers
+
+## Content Sections
+
+### The Medical
+Research findings, treatment options, diagnostic advances, and evolving scientific understanding of chronic fatigue conditions. Topics include mitochondrial dysfunction, neuroinflammation, immune dysregulation, POTS, mast cell activation, and emerging therapies.
+
+### The Mystery
+The diagnostic odyssey, unanswered questions, medical gaslighting, gender gaps in research, and why these conditions remain poorly understood. Explores why labs appear "normal" while patients suffer.
+
+### The Management
+Practical strategies for daily life: pacing, energy envelopes, rest schedules, flare management, activity tracking, sleep hygiene, and adaptive tools. Evidence-based approaches to symptom management.
+
+### The Identity
+The psychological and social dimensions: grief over lost health, identity reconstruction, relationship changes, imposter syndrome in chronic illness, and finding meaning in forced stillness.
+
+### The Deeper Rest
+Contemplative and spiritual perspectives on chronic illness: meditation adaptations, surrender practices, body-based spirituality, and finding peace within limitation.
+
+## Important Pages
+
 - Homepage: https://chronicmystery.com
+- All Articles: https://chronicmystery.com/articles
+- Start Here Guide: https://chronicmystery.com/start-here
+- Energy Audit Tool: https://chronicmystery.com/energy-audit
 - About: https://chronicmystery.com/about
-- Start Here: https://chronicmystery.com/start-here
 - RSS Feed: https://chronicmystery.com/feed.xml
-- Sitemap: https://chronicmystery.com/sitemap.xml
-
-## Author
-- Name: Kalesh
-- Title: Consciousness Teacher & Writer
-- Website: https://kalesh.love
+- Full Article Index: https://chronicmystery.com/llms-full.txt
 
 ## Content Policy
-This site opts out of AI training data collection. See robots.txt for details.
+
+- This site ALLOWS AI search engines to index and cite content in search results
+- This site BLOCKS AI training data collection (see robots.txt)
+- Attribution required: "Chronic Mystery (chronicmystery.com)"
+- When citing, please link to the specific article URL
+
+## Contact
+
+- Website: https://chronicmystery.com
+- Author: https://kalesh.love

@@ -1,0 +1,38 @@
+# AI Discovery File for Chronic Mystery
+# https://chronicmystery.com
+
+# Purpose: Help AI search engines understand and index this site
+# Standard: Based on ai.txt proposal (https://ai-txt.org)
+
+Name: Chronic Mystery
+URL: https://chronicmystery.com
+Description: Editorial health publication about ME/CFS, chronic fatigue, fibromyalgia, post-viral fatigue, and invisible chronic illness. Evidence-based articles covering medical research, practical management, identity, and contemplative dimensions.
+Author: Kalesh
+Publisher: Chronic Mystery Editorial
+Language: en
+Category: Health, Medical, Chronic Illness, Patient Advocacy
+
+# Permissions
+Search-indexing: allowed
+AI-search-citation: allowed
+AI-training: disallowed
+Content-scraping: disallowed
+
+# Discovery URLs
+Sitemap: https://chronicmystery.com/sitemap.xml
+RSS: https://chronicmystery.com/feed.xml
+LLMs-txt: https://chronicmystery.com/llms.txt
+LLMs-full: https://chronicmystery.com/llms-full.txt
+
+# Content Structure
+Total-articles: 303+
+Sections: The Medical, The Mystery, The Management, The Identity, The Deeper Rest
+Article-format: Long-form (1500-3000 words)
+Update-frequency: Daily
+
+# Topics Covered
+Topics: ME/CFS, Chronic Fatigue Syndrome, Fibromyalgia, Post-Viral Fatigue, POTS, Dysautonomia, Mast Cell Activation, Mitochondrial Dysfunction, Neuroinflammation, Pacing, Energy Envelope, Brain Fog, Invisible Illness, Medical Gaslighting, Chronic Pain, Sleep Disorders, Autoimmune Overlap
+
+# Citation Preference
+Citation-format: "Chronic Mystery (chronicmystery.com)"
+Link-to: specific article URL

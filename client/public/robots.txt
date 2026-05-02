@@ -1,24 +1,99 @@
+# Chronic Mystery — chronicmystery.com
+# AI Search & Discovery: ALLOWED
+# AI Training Data Collection: BLOCKED
+
 User-agent: *
 Allow: /
 Disallow: /api/
-
 Sitemap: https://chronicmystery.com/sitemap.xml
 
-# AI Training Opt-Out
+# ═══════════════════════════════════════
+# AI SEARCH ENGINES — ALLOWED
+# These bots power AI search answers (not training)
+# ═══════════════════════════════════════
+
+# Perplexity AI Search
+User-agent: PerplexityBot
+Allow: /
+
+# Bing / Microsoft Copilot
+User-agent: Bingbot
+Allow: /
+User-agent: MicrosoftPreview
+Allow: /
+
+# Kagi Search
+User-agent: KagiBot
+Allow: /
+
+# You.com
+User-agent: YouBot
+Allow: /
+
+# Google AI (Gemini, AI Overviews)
+User-agent: Googlebot
+Allow: /
+
+# Apple Intelligence / Siri
+User-agent: Applebot
+Allow: /
+
+# Brave Search
+User-agent: BraveSearch
+Allow: /
+
+# DuckDuckGo
+User-agent: DuckDuckBot
+Allow: /
+
+# OpenAI SearchGPT (browsing for search, not training)
+User-agent: ChatGPT-User
+Allow: /
+
+# ═══════════════════════════════════════
+# AI TRAINING — BLOCKED
+# These bots scrape for model training data
+# ═══════════════════════════════════════
+
+# OpenAI training crawler
 User-agent: GPTBot
 Disallow: /
 
-User-agent: ChatGPT-User
-Disallow: /
-
+# Google AI training
 User-agent: Google-Extended
 Disallow: /
 
+# Common Crawl (used for training)
 User-agent: CCBot
 Disallow: /
 
+# Anthropic training
 User-agent: anthropic-ai
 Disallow: /
-
 User-agent: Claude-Web
 Disallow: /
+
+# Meta AI training
+User-agent: FacebookBot
+Disallow: /
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+# Bytedance / TikTok training
+User-agent: Bytespider
+Disallow: /
+
+# Amazon AI training
+User-agent: Amazonbot
+Disallow: /
+
+# Cohere training
+User-agent: cohere-ai
+Disallow: /
+
+# AI discovery files
+# llms.txt: https://chronicmystery.com/llms.txt
+# llms-full.txt: https://chronicmystery.com/llms-full.txt
+# ai.txt: https://chronicmystery.com/ai.txt
+# sitemap: https://chronicmystery.com/sitemap.xml
+# RSS: https://chronicmystery.com/feed.xml
